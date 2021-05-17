@@ -1,0 +1,135 @@
+@
+$Cargadores
+$Cargador Para Laptops Asus
+$59.00
+$Cargador Marca Asus 
+Punta fina 19V 3.42A 4.0*1.35
+65 Wats
+$assets/img/producto166-m.png
+$+assets/img/producto166-1.png
++assets/img/producto166-2.png
++assets/img/producto166-3.png
+@
+$Cargadores
+$Cargador Acer Aspire
+$49.00
+$Marca	Acer Aspire
+Modelo	19v 3.42a
+Potencia	65 W
+$assets/img/producto167-m.png
+$+assets/img/producto167-1.png
++assets/img/producto167-2.png
++assets/img/producto167-3.png
+@
+$Cargadores
+$Cargador Laptop Hp Aguja 
+$75.00
+$HP 18.5V 3.5A 
+ower: 65W
+Diametro Externo: 4.8mm
+$assets/img/producto168-m.png
+$+assets/img/producto168-1.png
++assets/img/producto168-2.png
++assets/img/producto168-3.png
+@
+$Cargadores
+$Cargador Hp Azul 
+$35.00
+$Marca	HP
+Hp Azul (celeste) 19.5v 3.33a 65w
+Modelo	Envy Punta Celeste
+Potencia	65 W
+$assets/img/producto169-m.png
+$+assets/img/producto169-1.png
++assets/img/producto169-2.png
++assets/img/producto169-3.png
+@
+$Cargadores
+$Cargador Marca Lenovo Punta Usb 
+$50.00
+$Marca	Lenovo
+Modelo	AF06
+Potencia	65 W
+$assets/img/producto170-m.png
+$+assets/img/producto170-1.png
++assets/img/producto170-2.png
++assets/img/producto170-3.png
+@
+$Cargadores
+$Cargador Marca Lenovo Punta dela 
+$50.00
+$Marca	Lenovo
+Modelo	Punta Fina
+Potencia	65 W
+$assets/img/producto171-m.png
+$+assets/img/producto171-1.png
++assets/img/producto171-2.png
++assets/img/producto171-3.png
+@
+$Cargadores
+$Cargador Samsung Carga Rapido Tipo V8
+$50.00
+$Color Blanco
+Función de carga rapida 4.5 Amp. fast charging
+Compatible con todo tipo de smartphone o tablet del mercado Samsung, etc.
+Entrada (Input): 220V
+Salida (Output): 9.0V 1.67A or 5.0V 4.5Amp
+$assets/img/producto172-m.png
+$+assets/img/producto172-1.png
++assets/img/producto172-2.png
++assets/img/producto172-3.png
+@
+$Cargadores
+$cargador huawei tipo c
+$39.00
+$Cargador Huawei Tipo C en Caja sellado
+Longitud del cable de aprox. 1.2 m 
+Cable USB 2.0 a USB tipo-C 
+Salida: 9V/ 2 AMP
+Color Blanco
+Transferencia entre sus dispositivos rápido 
+$assets/img/producto173-m.png
+$+assets/img/producto173-1.png
++assets/img/producto173-2.png
++assets/img/producto173-3.png
+@
+$Cargadores
+$cargador huawei v8
+$54.00
+$Marca: Huawei
+Modelo: HW-059200CHQ
+Color: Blanco
+Incluye cable Micro USB
+$assets/img/producto174-m.png
+$+assets/img/producto174-1.png
++assets/img/producto174-2.png
++assets/img/producto174-3.png
+@
+$Cargadores
+$cargador motorola tipo c
+$64.00
+$Estilo : Solo - Tamaño : cable de 1 ft (3,3 ft ) – 
+Color : Negro
+Con USB 
+hasta a 27W.
+15V / 1.
+Entrada - 100-240V ~ 50 / 60Hz 0.
+Salida 5A: 5V / 3A, 9V / 3A, 15V / 1.
+$assets/img/producto175-m.png
+$+assets/img/producto175-1.png
++assets/img/producto175-2.png
++assets/img/producto175-3.png
+@
+$Cargadores
+$cargar motorola v8
+$64.00
+$Marca : MotorolaEstilo : Solo - Tamaño : cable de 1 ft (3,3 ft ) – 
+Color : Negro .
+hasta a 27W.
+15V / 1.
+Entrada - 100-240V ~ 50 / 60Hz 0.
+Salida 5A: 5V / 3A, 9V / 3A, 15V / 1.
+$assets/img/producto176-m.png
+$+assets/img/producto176-1.png
++assets/img/producto176-2.png
++assets/img/producto176-3.png

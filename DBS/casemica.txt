@@ -1,0 +1,538 @@
+@
+$CAT-CEL
+$CASE-iPhone 11 Pro
+$20
+$
+$assets/img/producto51-m.png
+$+assets/img/producto51-1.png
++assets/img/producto51-2.png
++assets/img/producto51-3.png
+@
+$CAT-CEL
+$CASE-iPhone 11 Pro Max
+$23
+$
+$assets/img/producto52-m.png
+$+assets/img/producto52-1.png
++assets/img/producto52-2.png
++assets/img/producto52-3.png
+@
+$CAT-CEL
+$CASE-iPhone 12 Pro Max
+$25
+$
+$assets/img/producto53-m.png
+$+assets/img/producto53-1.png
++assets/img/producto53-2.png
++assets/img/producto53-3.png
+@
+$CAT-CEL
+$CASE-iPhone XS
+$15
+$
+$assets/img/producto54-m.png
+$+assets/img/producto54-1.png
++assets/img/producto54-2.png
++assets/img/producto54-3.png
+@
+$CAT-CEL
+$CASE-iPhone XS Max
+$18
+$
+$assets/img/producto55-m.png
+$+assets/img/producto55-1.png
++assets/img/producto55-2.png
++assets/img/producto55-3.png
+@
+$CAT-CEL
+$CASE-Samsung Galaxy Note 20
+$25
+$
+$assets/img/producto56-m.png
+$+assets/img/producto56-1.png
++assets/img/producto56-2.png
++assets/img/producto56-3.png
+@
+$CAT-CEL
+$CASE-Samsung Galaxy A71 5G
+$22
+$
+$assets/img/producto57-m.png
+$+assets/img/producto57-1.png
++assets/img/producto57-2.png
++assets/img/producto57-3.png
+@
+$CAT-CEL
+$CASE-Samsung Galaxy S20+
+$24
+$
+$assets/img/producto58-m.png
+$+assets/img/producto58-1.png
++assets/img/producto58-2.png
++assets/img/producto58-3.png
+@
+$CAT-CEL
+$CASE-Samsung Galaxy M30s
+$23
+$
+$assets/img/producto59-m.png
+$+assets/img/producto59-1.png
++assets/img/producto59-2.png
++assets/img/producto59-3.png
+@
+$CAT-CEL
+$CASE-Samsung Galaxy S21 Ultra 5G
+$20
+$
+$assets/img/producto60-m.png
+$+assets/img/producto60-1.png
++assets/img/producto60-2.png
++assets/img/producto60-3.png
+@
+$CAT-CEL
+$CASE-Moto G9 Plus
+$19
+$
+$assets/img/producto61-m.png
+$+assets/img/producto61-1.png
++assets/img/producto61-2.png
++assets/img/producto61-3.png
+@
+$CAT-CEL
+$CASE-Motorola One Fusion
+$15
+$
+$assets/img/producto62-m.png
+$+assets/img/producto62-1.png
++assets/img/producto62-2.png
++assets/img/producto62-3.png
+@
+$CAT-CEL
+$CASE-Moto G8 Power Lite
+$15
+$
+$assets/img/producto63-m.png
+$+assets/img/producto63-1.png
++assets/img/producto63-2.png
++assets/img/producto63-3.png
+@
+$CAT-CEL
+$CASE-Motorola One Macro
+$16
+$
+$assets/img/producto64-m.png
+$+assets/img/producto64-1.png
++assets/img/producto64-2.png
++assets/img/producto64-3.png
+@
+$CAT-CEL
+$CASE-Motorola Moto G Pro
+$20
+$
+$assets/img/producto65-m.png
+$+assets/img/producto65-1.png
++assets/img/producto65-2.png
++assets/img/producto65-3.png
+@
+$CAT-CEL
+$CASE-Huawei Mate 30 Pro
+$25
+$
+$assets/img/producto66-m.png
+$+assets/img/producto66-1.png
++assets/img/producto66-2.png
++assets/img/producto66-3.png
+@
+$CAT-CEL
+$CASE-Huawei Mate 40 Pro+
+$29
+$
+$assets/img/producto67-m.png
+$+assets/img/producto67-1.png
++assets/img/producto67-2.png
++assets/img/producto67-3.png
+@
+$CAT-CEL
+$CASE-Huawei P Smart 2021
+$33
+$
+$assets/img/producto68-m.png
+$+assets/img/producto68-1.png
++assets/img/producto68-2.png
++assets/img/producto68-3.png
+@
+$CAT-CEL
+$CASE-Huawei P40
+$30
+$
+$assets/img/producto69-m.png
+$+assets/img/producto69-1.png
++assets/img/producto69-2.png
++assets/img/producto69-3.png
+@
+$CAT-CEL
+$CASE-Huawei P40 Lite
+$29
+$
+$assets/img/producto70-m.png
+$+assets/img/producto70-1.png
++assets/img/producto70-2.png
++assets/img/producto70-3.png
+@
+$CAT-CEL
+$CASE-Xiaomi Mi 9T Pro
+$19
+$
+$assets/img/producto71-m.png
+$+assets/img/producto71-1.png
++assets/img/producto71-2.png
++assets/img/producto71-3.png
+@
+$CAT-CEL
+$CASE-Xiaomi Mi 10 Lite 5G
+$20
+$
+$assets/img/producto72-m.png
+$+assets/img/producto72-1.png
++assets/img/producto72-2.png
++assets/img/producto72-3.png
+@
+$CAT-CEL
+$CASE-Xiaomi Mi Note 10
+$24
+$
+$assets/img/producto73-m.png
+$+assets/img/producto73-1.png
++assets/img/producto73-2.png
++assets/img/producto73-3.png
+@
+$CAT-CEL
+$CASE-Xiaomi Redmi Note 8T
+$22
+$
+$assets/img/producto74-m.png
+$+assets/img/producto74-1.png
++assets/img/producto74-2.png
++assets/img/producto74-3.png
+@
+$CAT-CEL
+$CASE-Xiaomi Redmi Note 9S
+$25
+$
+$assets/img/producto75-m.png
+$+assets/img/producto75-1.png
++assets/img/producto75-2.png
++assets/img/producto75-3.png
+@
+$CAT-CEL
+$CASE-LG Velvet
+$22
+$
+$assets/img/producto76-m.png
+$+assets/img/producto76-1.png
++assets/img/producto76-2.png
++assets/img/producto76-3.png
+@
+$CAT-CEL
+$CASE-LG G8X ThinQ DualScreen
+$30
+$
+$assets/img/producto77-m.png
+$+assets/img/producto77-1.png
++assets/img/producto77-2.png
++assets/img/producto77-3.png
+@
+$CAT-CEL
+$CASE-LG K62
+$25
+$
+$assets/img/producto78-m.png
+$+assets/img/producto78-1.png
++assets/img/producto78-2.png
++assets/img/producto78-3.png
+@
+$CAT-CEL
+$CASE-LG K52
+$22
+$
+$assets/img/producto79-m.png
+$+assets/img/producto79-1.png
++assets/img/producto79-2.png
++assets/img/producto79-3.png
+@
+$CAT-CEL
+$CASE-LG K42
+$19
+$
+$assets/img/producto80-m.png
+$+assets/img/producto80-1.png
+@
+$CAT-CEL
+$GLASS-iPhone 11 Pro
+$10
+$
+$assets/img/producto81-m.png
+$+assets/img/producto81-1.png
++assets/img/producto81-2.png
++assets/img/producto81-3.png
+@
+$CAT-CEL
+$GLASS-iPhone 11 Pro Max
+$13
+$
+$assets/img/producto82-m.png
+$+assets/img/producto82-1.png
++assets/img/producto82-2.png
++assets/img/producto82-3.png
+@
+$CAT-CEL
+$GLASS-iPhone 12 Pro Max
+$15
+$
+$assets/img/producto83-m.png
+$+assets/img/producto83-1.png
++assets/img/producto83-2.png
++assets/img/producto83-3.png
+@
+$CAT-CEL
+$GLASS-iPhone XS
+$10
+$
+$assets/img/producto84-m.png
+$+assets/img/producto84-1.png
++assets/img/producto84-2.png
++assets/img/producto84-3.png
+@
+$CAT-CEL
+$GLASS-iPhone XS Max
+$13
+$
+$assets/img/producto85-m.png
+$+assets/img/producto85-1.png
++assets/img/producto85-2.png
++assets/img/producto85-3.png
+@
+$CAT-CEL
+$GLASS-Samsung Galaxy Note 20
+$14
+$
+$assets/img/producto86-m.png
+$+assets/img/producto86-1.png
++assets/img/producto86-2.png
++assets/img/producto86-3.png
+@
+$CAT-CEL
+$GLASS-Samsung Galaxy A71 5G
+$12
+$
+$assets/img/producto87-m.png
+$+assets/img/producto87-1.png
++assets/img/producto87-2.png
++assets/img/producto87-3.png
+@
+$CAT-CEL
+$GLASS-Samsung Galaxy S20+
+$17
+$
+$assets/img/producto88-m.png
+$+assets/img/producto88-1.png
++assets/img/producto88-2.png
++assets/img/producto88-3.png
+@
+$CAT-CEL
+$GLASS-Samsung Galaxy M30s
+$14
+$
+$assets/img/producto89-m.png
+$+assets/img/producto89-1.png
++assets/img/producto89-2.png
++assets/img/producto89-3.png
+@
+$CAT-CEL
+$GLASS-Samsung Galaxy S21 Ultra 5G
+$14
+$
+$assets/img/producto90-m.png
+$+assets/img/producto90-1.png
++assets/img/producto90-2.png
++assets/img/producto90-3.png
+@
+$CAT-CEL
+$GLASS-Moto G9 Plus
+$13
+$
+$assets/img/producto91-m.png
+$+assets/img/producto91-1.png
++assets/img/producto91-2.png
++assets/img/producto91-3.png
+@
+$CAT-CEL
+$GLASS-Motorola One Fusion
+$10
+$
+$assets/img/producto92-m.png
+$+assets/img/producto92-1.png
++assets/img/producto92-2.png
++assets/img/producto92-3.png
+@
+$CAT-CEL
+$GLASS-Moto G8 Power Lite
+$12
+$
+$assets/img/producto93-m.png
+$+assets/img/producto93-1.png
++assets/img/producto93-2.png
++assets/img/producto93-3.png
+@
+$CAT-CEL
+$GLASS-Motorola One Macro
+$14
+$
+$assets/img/producto94-m.png
+$+assets/img/producto94-1.png
++assets/img/producto94-2.png
++assets/img/producto94-3.png
+@
+$CAT-CEL
+$GLASS-Motorola Moto G Pro
+$17
+$
+$assets/img/producto95-m.png
+$+assets/img/producto95-1.png
++assets/img/producto95-2.png
++assets/img/producto95-3.png
+@
+$CAT-CEL
+$GLASS-Huawei Mate 30 Pro
+$16
+$
+$assets/img/producto96-m.png
+$+assets/img/producto96-1.png
++assets/img/producto96-2.png
++assets/img/producto96-3.png
+@
+$CAT-CEL
+$GLASS-Huawei Mate 40 Pro+
+$17
+$
+$assets/img/producto97-m.png
+$+assets/img/producto97-1.png
++assets/img/producto97-2.png
++assets/img/producto97-3.png
+@
+$CAT-CEL
+$GLASS-Huawei P Smart 2021
+$21
+$
+$assets/img/producto98-m.png
+$+assets/img/producto98-1.png
++assets/img/producto98-2.png
++assets/img/producto98-3.png
+@
+$CAT-CEL
+$GLASS-Huawei P40
+$20
+$
+$assets/img/producto99-m.png
+$+assets/img/producto99-1.png
++assets/img/producto99-2.png
++assets/img/producto99-3.png
+@
+$CAT-CEL
+$GLASS-Huawei P40 Lite
+$20
+$
+$assets/img/producto100-m.png
+$+assets/img/producto100-1.png
++assets/img/producto100-2.png
++assets/img/producto100-3.png
+@
+$CAT-CEL
+$GLASS-Xiaomi Mi 9T Pro
+$13
+$
+$assets/img/producto101-m.png
+$+assets/img/producto101-1.png
++assets/img/producto101-2.png
++assets/img/producto101-3.png
+@
+$CAT-CEL
+$GLASS-Xiaomi Mi 10 Lite 5G
+$12
+$
+$assets/img/producto102-m.png
+$+assets/img/producto102-1.png
++assets/img/producto102-2.png
++assets/img/producto102-3.png
+@
+$CAT-CEL
+$GLASS-Xiaomi Mi Note 10
+$18
+$
+$assets/img/producto103-m.png
+$+assets/img/producto103-1.png
++assets/img/producto103-2.png
++assets/img/producto103-3.png
+@
+$CAT-CEL
+$GLASS-Xiaomi Redmi Note 8T
+$15
+$
+$assets/img/producto104-m.png
+$+assets/img/producto104-1.png
++assets/img/producto104-2.png
++assets/img/producto104-3.png
+@
+$CAT-CEL
+$GLASS-Xiaomi Redmi Note 9S
+$18
+$
+$assets/img/producto105-m.png
+$+assets/img/producto105-1.png
++assets/img/producto105-2.png
++assets/img/producto105-3.png
+@
+$CAT-CEL
+$GLASS-LG Velvet
+$17
+$
+$assets/img/producto106-m.png
+$+assets/img/producto106-1.png
++assets/img/producto106-2.png
++assets/img/producto106-3.png
+@
+$CAT-CEL
+$GLASS-LG G8X ThinQ DualScreen
+$23
+$
+$assets/img/producto107-m.png
+$+assets/img/producto107-1.png
++assets/img/producto107-2.png
++assets/img/producto107-3.png
+@
+$CAT-CEL
+$GLASS-LG K62
+$12
+$
+$assets/img/producto108-m.png
+$+assets/img/producto108-1.png
++assets/img/producto108-2.png
++assets/img/producto108-3.png
+@
+$CAT-CEL
+$GLASS-LG K52
+$18
+$
+$assets/img/producto109-m.png
+$+assets/img/producto109-1.png
++assets/img/producto109-2.png
++assets/img/producto109-3.png
+@
+$CAT-CEL
+$GLASS-LG K42
+$15
+$
+$assets/img/producto110-m.png
+$+assets/img/producto110-1.png
++assets/img/producto110-2.png
++assets/img/producto110-3.png

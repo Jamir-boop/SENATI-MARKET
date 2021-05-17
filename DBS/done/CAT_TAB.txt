@@ -1,0 +1,110 @@
+@
+$CAT_TAB
+$Galaxy Tab S7 Plus 12.4 128 GB Negro
+$3699.00
+$Sistema Operativo: Android
+Cámara Frontal: 8MP
+Memoria RAM: 6GB
+Modelo: Tab S7 PLUS
+Procesador: Octa Core 3.09GHz,2.4GHz,1.8GHz
+Tipo de pantalla: Super AMOLED 2800 x 1752 (WQXGA+)
+Batería:10090 mAh
+Color: Negro
+$assets/img/producto156-m.png
+$+assets/img/producto156-1.png
++assets/img/producto156-2.png
+@
+$CAT_TAB
+$Tab M10 Plus FHD 2da Gen
+$1299.00
+$Procesador: MTK P22T Tab Processor ( 2.30GHz )
+Sistema Operativo: Android 9.0
+Pantalla: 10,3"IPS 1920x1200
+Memoria: 4.0GB -- LPDDR4X Soldado 
+Almacenamiento: 64GB
+Bluetooth: Bluetooth versión 5.0
+Cámara: Cámara posterior con enfoque automático de 8,0 MP + Cámara frontal con enfoque fijo de 5,0 MP
+$assets/img/producto157-m.png
+$+assets/img/producto157-1.png
++assets/img/producto157-2.png
+@
+$CAT_TAB
+$Tablet 10 1 2Gb 32Gb Fhd Negra
+$399.00
+$Procesador MTK8167A
+Sistema operativo ANDROID 10
+Tamaño de la pantalla 10.1"
+Memoria ram 2GB
+Disco duro 32GB
+Velocidad del procesador 1.5 GHz
+Velocidad máxima del procesador -
+Núcleos del procesador 4 núcleos
+Pantalla touch Si
+Camara web Integrada
+Puertos externos 01 MICRO USB
+Batería 5000 mah
+$assets/img/producto158-m.png
+$+assets/img/producto158-1.png
+@
+$CAT_TAB
+$TABLET HUAWEI T5 10 32GB 3GB
+$699.00
+$Marca: huawei
+Formato: TABLET
+Procesador: Kirin 659
+Sistema operativo: EMUI 8
+Tamano de la pantalla: 10,1 pulgadas
+Memoria ram: 3GB
+Disco duro: 32GB
+Velocidad del procesador: 2.36GHz + 1.7GHz
+Nucleos del procesador: Octacore
+Pantalla touch: SÍ
+Camara web: 2MP+5MP
+Unidad optica: NO
+Bateria: 5100 mAh
+Sonido: 2 Speaker
+Conectividad: WIFI / Bluetooth
+Medidas del producto: 24.3 cm x 16.4 cm x 0.78 cm
+Modelo del producto: T5 10 + FLIP COVER
+Tipo de producto: Tablet
+Wifi: SÍ
+Bluetooth: Sí
+Gps: Sí
+Memoria interna: 32 GB
+Memoria expandible: 256 GB
+Resolucion de pantalla: IPS 10.1" 1920x1200
+Camara frontal: 2MP
+Camara posterior: 5MP
+Puerto usb: 1
+Alto: 24.3
+Largo: 16.4
+Ancho: 0.78 cm
+Color: Negro
+Memoria rom: 32 GB
+$assets/img/producto159-m.png
+$+assets/img/producto159-1.png
+@
+$CAT_TAB
+$Tablet Ipad Apple 8TH Generación
+$1489.00
+$Procesador: Chip A12 Bionic con arquitectura de 64 bits | Neural Engine
+Tamaño de la pantalla	10 pulgadas
+Memoria RAM	3GB
+Memoria expandible	NO
+Memoria externa incluida	NO
+Memoria interna	32GB
+Cámara frontal	1.2MP
+Cámara posterior	8MP
+Conectividad	WiFi
+Conexión Bluetooth	Sí
+Entradas HDMI	No incluye
+Entradas USB	Lightning
+Sistema operativo	IOS
+Tipo de pantalla	LED
+Alto	25.6cm
+Ancho	17.4cm
+Profundidad	0.75cm
+Marca	Apple
+Tipo	Tablets
+$assets/img/producto160-m.png
+$+assets/img/producto160-1.png

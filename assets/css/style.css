@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+:root{
+    --color_botones: #FC427B;
+    --color_texto: #2C3A47;
+    --fondo_botones_dark : #354858;
+    --blanco: #fff;
+}
+
+*{
+	font-family: 'Mukta', sans-serif !important;
+}
+
+*:focus{
+    outline: none;
+}
+
+#load-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+    animation: 500ms;
+}
+
+
+/* ======================================= Bloque 1 ======================================= */
+.cabecera{
+    padding: 20px;
+    
+    display: grid;
+    grid-template-columns: auto 0.8fr auto;
+    grid-gap: 50px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.buscar form{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.buscar h2{
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border: 1.5px solid #999;
+    padding-left: 20px;
+    border-right: transparent;
+    transition: all 500ms ease;
+
+}
+
+.buscar form input[type="search"]{
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border: 1.5px solid #999;
+    padding-left: 20px;
+    border-right: transparent;
+    transition: all 500ms ease;
+}
+
+.buscar form button{
+    width: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 1px solid var(--color_botones);
+    background-color: var(--color_botones);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-left: transparent;
+
+    position: relative;
+}
+
+.buscar form button img{
+    width: 18px;
+    position: relative;
+    left: -3px;
+}
+
+
+.icon{
+    width: 20px;
+}
+
+
+.botones{
+    display: grid;
+    grid-template-columns: auto auto 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.botones a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #2C3A47   #FC427B */
+
+.botones_usuario{
+    height: 40px;
+    border: 2px solid var(--color_botones);
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color_botones);
+    border-radius: 50px;
+    transition: all 500ms;
+    font-weight: 600;
+}
+
+.botones_usuario:hover{
+    background-color: var(--color_botones);
+    color: white;
+}
+
+
+
+
+
+.barra_navegacion{
+    padding: 20px 40px;
+}
+
+.barra_navegacion ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra_navegacion ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color_texto);
+    font-size: 15px;
+}
+
+
+
+.contenedor_barra_navegacion{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+/* ======================================================================================== */
+
+
+
+
+
+
+/* ==================================== Mas categorias ==================================== */
+.mas_categorias{
+    width: 400px;
+    height: 96.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    overflow-y: scroll;
+    padding: 15px;
+    transition: all 600ms ease;
+}
+
+.mas_categorias ul li{
+    padding: 20px;
+}
+
+.mas_categorias ul li a{
+    text-decoration: none;
+    color: var(--color_texto);
+}
+
+.ocultar_extra{
+    left: -450px !important;
+}
+/* ======================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .cabecera{
+        grid-template-columns: 1fr auto;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .buscar{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .botones{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .botones_usuario{
+        display: none !important;
+    }
+
+    .botones_extra{
+        width: 40px;
+    }
+
+    .barra_navegacion{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+    
+}
+
+
+
+@media screen and (max-width: 500px){
+    
+}

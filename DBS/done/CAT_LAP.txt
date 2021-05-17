@@ -1,0 +1,610 @@
+@
+$CAT_LAP
+$Lenovo Ideapad 330-15ARR 
+$2399.00
+$Marca 	LENOVO
+Tamaño de Pantalla: 14
+Tipo de Pantalla: LED backlight
+Definición de Pantalla: HD
+Resolución de Pantalla: 1366x768 px
+Procesador: Intel Core i5 1035G4
+Velocidad del disco duro: 5400 RPM
+Memoria RAM: 8 GB
+Velocidad de memoria RAM: 2666MHz
+Memoria RAM máxima soportada: Hasta 12 GB
+Tipo de ranuras para memoria: SD
+Almacenamiento: 1 TB
+Tipo de almacenamiento: HDD
+Sistema Operativo: Windows 10 Home
+Tipo de gráficos: Integrada
+Modelo de tarjeta gráfica: Intel Iris Plus Graphics
+Tasa de refresco: 60Hz 	
+Entradas HDMI: 1
+Entradas USB 2.0: 1
+Entradas USB 3.1: 2
+Wifi integrado: Sí
+Bluetooth: Sí
+Cantidad de parlantes: 2
+Tipo de Batería: Li-Polymer
+Duración de la batería: Hasta 5.5 horas
+Tipo de carga: Normal
+Tipo adaptador alimentación: AC adapter
+Consumo: 65W
+Alto: 1.99cm
+Ancho: 32.71cm
+Profundidad: 24.1cm
+Incluye lápiz táctil: No
+$assets/img/producto01-m.png
+$+assets/img/producto01-1.png
+$+assets/img/producto01-2.png
+$+assets/img/producto01-3.png
+$+assets/img/producto01-4.png
+@
+$CAT_LAP
+$Yoga Slim 7 
+$4299.00
+$Marca 	LENOVO
+Procesador: Intel Core i5-1135G7 Processor ( 2,40GHz 8MB )
+Sistema Operativo: Windows 10 Home Single Language 64
+Pantalla: 39,6 cm (15,6")"FHD, IPS, AntiGlare, LED Backlight, Narrow, 100%sRGB, Non-Touch 1920x1080
+Memoria: 16.0GB DDR4-3200 DDR4 Onboard 3200MHz
+Almacenamiento: 512GB SSD, M.2 2280, PCIe Gen3x4 NVMe, TLC
+Adaptador de Corriente: 65W
+Tarjeta Gráfica: Gráficos Intel® Iris® Xe
+Batería: Polímero de Litio, 4 celdas
+Bluetooth: Bluetooth versión 5.0
+Cámara: Cámara Windows Hello híbrida RGB + IR HD sin micrófono
+Teclado: 6-row Backlit Latin American Spanish
+Dispositivo de Puntero: ClickPad
+Conectividad: Intel Wi-Fi 6 AX201 2x2ax
+$assets/img/producto02-m.png
+$+assets/img/producto02-1.png
++assets/img/producto02-2.png
++assets/img/producto02-3.png
++assets/img/producto02-4.png
+@
+$CAT_LAP
+$Lenovo Yoga Book-Pantalla 
+$3200.00
+$Procesador: Intel® Atom™ x 5-Z8550 (caché de 2 M, Quad Core, hasta 2,4 GHz)
+Sistema operativo: ANDROID 6.0
+Sonido: Dolby Audio™ Premium
+RAM: LPDDR3 de 4 GB
+ROM: 64 GB
+Ranura para tarjetas: microSD™, admite hasta 128 GB
+Batería: Polímero de iones de litio
+Capacidad: 8500 mAh
+Tiempo en espera: Más de 70 días
+Uso general: 13 horas
+Pantalla: IPS Full HD de 10,1" (1920 x 1200)
+Profundidad de color: 16,7 millones
+Gama de colores: 70%
+Brillo: 400 nits
+Material: Metal
+Cámara-Trasera-Frontal: 8 MP con enfoque automático - 2 MP con enfoque fijo
+Sensor de vibración
+Sensor G
+Sensor de luz ambiental
+Sensor Hall
+GPS
+WLAN
+WiFi 802.11 a/b/g/n/ac,
+Doble canal (2,4 GHz y 5 GHz)
+$assets/img/producto03-m.png
+$+assets/img/producto03-1.png
++assets/img/producto03-2.png
++assets/img/producto03-3.png
++assets/img/producto03-4.png
+@
+$CAT_LAP
+$Lenovo ideapad 530S-14IIB
+$4500.00
+$Procesador: Intel Core i5-1135G7 Processor ( 2,40GHz 8MB )
+Sistema Operativo: Windows 10 Home Single Language 64
+Pantalla: 39,6 cm (15,6")"FHD, TN, AntiGlare, LED Backlight, Narrow, 45%NTSC, Non-Touch, 60Hz, 3.2mm 1920x1080
+Memoria: 16.0GB DDR4-3200 DDR4 Onboard 3200MHz
+Almacenamiento: 256GB SSD, M.2 2242, PCIe Gen3x4 NVMe, TLC
+Adaptador de Corriente: 65W
+Tarjeta Gráfica: Gráficos Intel® Iris® Xe 
+Batería: Polímero de Litio, 4 celdas
+Bluetooth: Bluetooth versión 5.0 o superior
+Cámara: HD de 720P (obturador de privacidad, cámara protuberante) con micrófono doble
+Teclado: Tamaño completo Latin American Spanish
+Dispositivo de Puntero: ClickPad
+Conectividad: Intel® Wireless-AC 9560 2x2ac
+$assets/img/producto04-m.png
+$+assets/img/producto04-1.png
++assets/img/producto04-2.png
++assets/img/producto04-3.png
++assets/img/producto04-4.png
+@
+$CAT_LAP
+$Lenovo Ideapad Y520-15IKBN
+$4490.00
+$Procesador: Intel® Core™ i7 hasta 7.a generación
+Sistema Operativo: Windows 10 Home
+Bateria: Duración de la batería de hasta cuatro horas con la batería estándar de 45Whr
+Memoria: Hasta memoria DDR4 de 16 GB
+Pantalla: FHD antirreflejo de 15.6" (1920 x 1080) con tecnología IPS
+Almacenamiento: Hasta 512 GB de almacenamiento en SSD PCIe o 2 TB de almacenamiento disco duro
+Redes: 802.11 AC 2x2 WiFi + Bluetooth®
+Gráficos: Hasta NVIDIA GTX-1050Ti en gráficos
+Puertos: 2 puertos USB 3.0, USB 2.0, HDMI, USB tipo C, RJ45, 
+lector de tarjeta: 4 en 1 
+conector para audio 
+conector para micrófono
+$assets/img/producto05-m.png
+$+assets/img/producto05-1.png
++assets/img/producto05-2.png
++assets/img/producto05-3.png
++assets/img/producto05-4.png
+@
+$CAT_LAP
+$HP ENVY Laptop
+$4300.00
+$SISTEMA OPERATIVO: Windows 10 Home 64 [11]
+FAMILIA DEL PROCESADOR: Intel® Core™ i5 de 11.ª generación
+PROCESADOR: Intel® Core™ i5-1135G7 (hasta 4,2 GHz con tecnología Intel® Turbo Boost, 8 MB de caché L3 y 4 núcleos)
+MEMORIA: 8 GB de SDRAM DDR4-2666 (incorporada) Incorporado
+DISCO DURO: Unidad de estado sólido PCIe® NVMe™ M.2 de 256 GB
+SERVICIO EN LA NUBE: Dropbox [1]
+PANTALLA: 13.3" diagonal FHD display
+GRÁFICOS: Integrada
+GRÁFICOS: Gráficos Intel® Iris® X?
+$assets/img/producto06-m.png
+$+assets/img/producto06-1.png,
++assets/img/producto06-2.png
+@
+$CAT_LAP
+$HP Pavilion 
+$4200
+$Marca:	HP
+Modelo:	HP Pavilion 14-ce2006la
+Procesador: Intel Core i5
+Memoria RAM: 8GB
+Disco Duro: 256GB
+Tarjeta gráfica: Gráficas Intel® UHD 620(
+Sistema operativo: Windows 10
+Velocidad del procesador: 1600
+Memoria caché: 6 MB
+Tipo de memoria RAM: DDR4
+Tipo de disco duro: SSD
+Tamaño de pantalla: 14
+Pantalla(tipo):	WLED
+Pantalla: touch	Sí
+Resolución de la pantalla: 1920 x 1080
+Cámara Web: Sí
+Unidad óptica: No
+Lector de tarjeta de memoria: Sí
+Puertos HDMI: 1
+Puertos USB: 3
+Wi-Fi: Sí
+Conectividad Bluetooth:	Sí
+Parlantes: B&O con dos altavoces
+Tipo de batería: Batería de litio-ion de 3 celdas
+Dimensiones (cm): 32.69 x 22.53 x 1.78 cm
+Color: Malva ciruela
+$assets/img/producto07-m.png
+$+assets/img/producto07-1.png
++assets/img/producto07-2.png
++assets/img/producto07-3.png
+@
+$CAT_LAP
+$HP ProBook 440 G7
+$3750.00
+$Marca   HP
+Memoria RAM Tamaño instalado 8 GB
+SITEMA Edición Windows 10 Pro
+Tipo Windows 10 Pro
+Pantalla Tamaño en diagonal 14 pulgada
+Procesador Fabricante  Intel
+Número de procesador I5-10210U
+Tipo Core i5
+1 año de garantía
+Capacidad del disco duro
+512 GB
+Tipo ordenador portátil
+$assets/img/producto08-m.png
+$+assets/img/producto08-1.png
++assets/img/producto08-2.png
+@
+$CAT_LAP
+$HP ZBook Studio G5
+$7700.00
+$Marca	HP
+Modelo: ZBook 15 Studio G5
+Procesador: Intel® Xeon® E 2176M vPro™ con (frecuencia de 2.7 GHz hasta 4.4 GHz con Intel® Turbo Boost Technology, 12 MB cache, 6 núcleos)
+Memoria RAM: 16 GB DDR4 2666 MHz ampliable
+Disco Duro: sólido SSD 512 GB PCIe NVMe TLC
+Pantalla: Full HD IPS eDP de 15,6" + PSR antirreflectante con retroiluminación LED y sensor de luz ambiental, 400 cd/m² (1920 x 1080)
+Unidad óptica: No incluye.
+Tarjeta de video: NVIDIA® Quadro® P1000 4 GB DDR5, 128 bit, CUDA 640, Memory Bandwidth (GB/sec) 80 GB/s	
+WAN : Wi-FI Intel Dual Band Wireless-AC 9560 802.11ac (2x2) Wi-Fi and Bluetooth 5.0 Combo
+Audio Bang & Olufsen HD. Altavoces estéreo integrados y micrófono (matriz de doble micrófono cuando está equipado con cámara web ). Botón para silenciar el volumen, teclas de función para subir y bajar el volumen. Entrada combinada de micrófono / salida de auriculares estéreo.
+Cámara web de 720p HD
+Puertos y Ranuras	
+Lado izquierdo: 1 USB 3.0; 1 USB 3.0 (de carga) 
+Lado derecho: 1 HDMI 2.0; 1 combo de auriculares/micrófono; 1 conector de alimentación; 2 USB 3.1 Type-C™ Thunderbolt™ 3 (DisplayPort™ 1.3)
+S.O.	Windows 10 Pro multilenguaje
+Batería	6 celdas de larga duración HP. 96 Wh	
+Teclado en inglés configurable al español.
+$assets/img/producto09-m.png
+$+assets/img/producto09-1.png
++assets/img/producto09-2.png
+@
+$CAT_LAP
+$OMEN HP 15
+$8100.00
+$Marca:	HP
+Modelo:	15-en0002la
+Procesador: AMD Ryzen 7
+Memoria RAM: 16GB
+Disco Duro: 512GB
+Tarjeta gráfica: NVIDIA GeForce RTX 2060
+Categoría: Laptops
+Sistema operativo: Windows 10
+Memoria caché: 4MB
+Tipo de memoria RAM: DDR4
+Tipo de disco duro: SSD
+Tamaño de pantalla: 15.6
+Pantalla (tipo): WLED
+Pantalla touch: No
+Resolución de la pantalla: 1920 x 1080
+Cámara Web: Sí
+Lector de tarjeta de memoria: 1 lector de tarjetas SD multiformato
+Puertos HDMI: 1
+Puertos USB: 4
+Wi-Fi: Sí
+Conectividad Bluetooth: Sí
+Parlantes: Audio by Bang & Olufsen; DTS:X Ultra
+Tipo de batería: Iones de litio de 6 celdas y 70,9 Wh
+Dimensiones (cm): 35.79 x 23.97 x 2.25 cm
+Color: Aluminio
+$assets/img/producto10-m.png
+$+assets/img/producto10-1.png
++assets/img/producto10-2.png
++assets/img/producto10-3.png
+@
+$CAT_LAP
+$ACER(Swift 3 - AMD Ryzen)
+$2459.00
+$Sistema Operativo: 
+Windows 10 home
+Procesador:
+Intel®Core™ i5(i5-1035G1)
+1GHz
+Núcleo del Procesador:Quad-core (4 Core™)
+64-bit
+Pantalla y Graficos:
+Intel®
+Accesibilidad de Memoria Gráfica:Compartido
+39.6cm (15.6")
+LCD
+ComfyView (Mate)
+Full HD
+LED
+1920 x 1080
+Memoria:
+Memoria Estándar:4GB
+Tecnología de la Memoria:DDR4 SDRAM
+Lector de tarjeta memoria:No
+Almacenamiento:
+Configuración del SSD:1 x 512GB
+Capacidad Total de la Unidad de Estado Sólido (SSD):512GB
+Interfaz de Unidad de Estado Sólido:PCI Express
+Tipo de Unidad Óptica:No
+Bateria: 
+Batería de ión-litio
+$assets/img/producto11-m.png
+$+assets/img/producto11-1.png
++assets/img/producto11-2.png
+@
+$CAT_LAP
+$ACER(SF714-52T-73ZW)
+$3799.00
+$Sistema Operativo:
+Windows 10 Home
+Procesador:
+Intel®
+Core™ i5
+i5-9300H
+2.40GHz
+Núcleo del Procesador:Quad-core (4 Core™)
+64-bit      
+Pantalla y Graficos:
+NVIDIA®
+4GB
+GDDR5
+Accesibilidad de Memoria Gráfica:Dedicado
+39.6cm (15.6")
+LCD
+ComfyView (Mate)
+Tecnología conmutación en el mismo plano (In-plane Switching, IPS)
+Full HD
+LED
+1920 x 1080
+Memoria:
+Memoria Estándar:4GB
+Tecnología de la Memoria:DDR4 SDRAM
+Número de Ranuras de Memoria (Total):2
+Lector de tarjeta memoria:No
+Almacenamiento:
+Disco Mecánico:1TB
+Interfaz de Disco Duro:Serie ATA
+Tipo de Unidad Óptica:No
+Baterias:
+Número de Celdas:4-Celdas
+Composición de Batería:Ion Litio (Li-Ion)
+Duración útil de Batería (máx.):8Hora(s)
+$assets/img/producto12-m.png
+$+assets/img/producto12-1.png
++assets/img/producto12-2.png
+@
+$CAT_LAP
+$ACER(SF514-54T-71VR)
+$5259.00
+$Sisteema Operativo:
+Windows 10 Home
+Procesador:
+Intel®
+Core™ i7
+1.30GHz
+Núcleo del Procesador:Quad-core (4 Core™)
+64-bit
+Pantalla y Graficos:
+Intel®
+Iris Plus Graphics G7
+LPDDR4
+35.6cm (14")
+LCD
+CineCrystal (Resplandor)
+Tecnología conmutación en el mismo plano (In-plane Switching, IPS)
+Full HD
+LED
+Pantalla Táctil:Sí
+Pantalla Multi-táctil:Sí
+1920 x 1080
+Memoria:
+Memoria Estándar:8GB
+Tecnología de la Memoria:LPDDR4
+Lector de tarjeta memoria:No
+Almacenamiento:
+Configuración del SSD:1 x 512GB
+Capacidad Total de la Unidad de Estado Sólido (SSD):512GB
+Tipo de Unidad Óptica:No
+Baterias:
+Número de Celdas:4-Celdas
+Composición de Batería:Ion Litio (Li-Ion)
+Duración útil de Batería (máx.):12Hora(s)
+$assets/img/producto13-m.png
+$+assets/img/producto13-1.png
++assets/img/producto13-2.png
++assets/img/producto13-3.png
+@
+$CAT_LAP
+$ACER(A515-55-56G2)
+$2459.00
+$Sistema Operativo:
+Windows 10 home
+Procesador:
+Intel®
+Core™ i5
+i5-1035G1
+1GHz
+Núcleo del Procesador:Quad-core (4 Core™)
+64-bit
+Pantalla y Graficos:
+Intel®
+Accesibilidad de Memoria Gráfica:Compartido
+39.6cm (15.6")
+LCD
+ComfyView (Mate)
+Full HD
+LED
+1920 x 1080
+Memoria:
+Memoria Estándar:4GB
+Tecnología de la Memoria:DDR4 SDRAM
+Lector de tarjeta memoria:No
+Almacenamiento:
+Configuración del SSD:1 x 512GB
+Capacidad Total de la Unidad de Estado Sólido (SSD):512GB
+Interfaz de Unidad de Estado Sólido:PCI Express
+Tipo de Unidad Óptica:No
+Bateria:
+Batería de ión-litio
+$assets/img/producto14-m.png
+$+assets/img/producto14-1.png
++assets/img/producto14-2.png
+@
+$CAT_LAP
+$ACER(AN515-54-59UV)
+$3799.00
+$Sistema Operativo:
+Windows 10 Home
+Procesador:
+Intel®
+Core™ i5
+i5-9300H
+2.40GHz
+Núcleo del Procesador:Quad-core (4 Core™)
+64-bit      
+Pantalla y Graficos:
+NVIDIA®
+4GB
+GDDR5
+Accesibilidad de Memoria Gráfica:Dedicado
+39.6cm (15.6")
+LCD
+ComfyView (Mate)
+Tecnología conmutación en el mismo plano (In-plane Switching, IPS)
+Full HD
+LED
+1920 x 1080
+Memoria:
+Memoria Estándar:4GB
+Tecnología de la Memoria:DDR4 SDRAM
+Número de Ranuras de Memoria (Total):2
+Lector de tarjeta memoria:No
+Almacenamiento:
+Disco Mecánico:1TB
+Interfaz de Disco Duro:Serie ATA
+Tipo de Unidad Óptica:No
+Baterias:
+Número de Celdas:4-Celdas
+Composición de Batería:Ion Litio (Li-Ion)
+Duración útil de Batería (máx.):8Hora(s)
+$assets/img/producto15-m.png
+$+assets/img/producto15-1.png
++assets/img/producto15-2.png
+@
+$CAT_LAP
+$asus vivobook pro 15 n552
+$4449.00
+$Modelo	Vivobook X512Da-Bts2020Rl
+Color	Plateado
+Procesador	AMD Ryzen 5
+Memoria RAM	8GB
+Sistema Operativo	Windows 10
+Tipo de Pantalla	Full HD (1920 x 1080)
+Resolución de Pantalla	Full HD (1920 x 1080)
+Wi-Fi	Sí
+Cámara Web	 Sí
+Garantía	12 meses
+Especificaciones
+Velocidad Del Procesador	2.1 Ghz
+Medidas	40 x 30 x 20 cm
+Características	512GB SSD
+Tamaño De Pantalla	15.6 Pulgadas
+$assets/img/producto16-m.png
+$+assets/img/producto16-1.png
++assets/img/producto16-2.png
++assets/img/producto16-3.png
++assets/img/producto16-4.png
+@
+$CAT_LAP
+$VivoBook Flip 14 TP412
+$2799.00
+$Marca: ASUS
+Modelo: VivoBook Flip 14 TP412UA-EC089T
+Tipo de Pantalla: LED
+Definición de Pantalla: FHD
+Resolución de Pantalla: 1920x1080 px
+Velocidad del disco duro: 5400 RPM
+Memoria RAM: 4 GB
+Velocidad de memoria RAM: 2133 MHz
+Memoria RAM máxima soportada: Hasta 12 GB
+Tipo de ranuras para memoria: SD, MMC
+Almacenamiento: 256 GB
+Tipo de gráficos: Integrada
+Wifi integrado: Sí
+Bluetooth: v4.2
+Micrófono integrado: Sí
+Cantidad de parlantes: 2
+Lector de huella digital: Sí
+Tipo de Batería: Batería de 3 celdas de 42 Wh
+Consumo: 45 W
+Alto: 1.76 cm
+Ancho: 32.7 cm
+Profundidad: 22.5 cm
+Incluye lápiz táctil: Sí
+$assets/img/producto17-m.png
+$+assets/img/producto17-1.png
++assets/img/producto17-2.png
++assets/img/producto17-3.png
++assets/img/producto17-4.png
+@
+$CAT_LAP
+$ASUS VivoBook Flip 14 TP410
+$2999.00
+$Asus VivoBook Flip 14:
+Procesador Intel® Core™ i5-7200U (2 Núcleos, 3M Cache, 2.5GHz hasta 3.1GHz)
+Memoria RAM 8GB (8GB [EN PLACA]) DDR4 2400MHz
+Almacenamiento 1TB 5400rpm SATA
+Display 14.0" LED Retroiluminado / Borde Estrecho / Ultra Slim / 250nits / Full HD (1920x1080/16:9) / Glare / NTSC45% / Multitáctil / IPS
+Controlador gráfico Intel® HD Graphics 620                         
+Conectividad
+802.11ac (Dual band)
+Bluetooth® 4.1
+Cámara de portátil VGA (640x480)
+Micrófono: Sí
+Batería 42Wh, 3 Celdas, Ion de Lítio
+Conexiones
+2 x USB 2.0
+1 x USB 3.0
+1 x USB-C™ 3.1 (GEN1)
+1 x Salida Auriculares/Entrada Micrófono 3.5mm (combo)
+1 x HDMI
+1 x Lector de Tarjetas
+1 x Entrada de Corriente
+Lector SD/SDXC
+Sistema operativo Windows® 10 Original (64Bits)
+Dimensiones (Ancho x Profundidad x Altura)  327 x 226 x 19,2 mm
+$assets/img/producto18-m.png
+$+assets/img/producto18-1.png
++assets/img/producto18-2.png
++assets/img/producto18-3.png
++assets/img/producto18-4.png
+@
+$CAT_LAP
+$ASUS TUF Gaming FX505
+$5399.00
+$Procesador: AMD® Ryzen™ 7 4800H
+Sistema Operativo: Windows 10 Home - ASUS recomienda Windows 10 Pro para empresa.
+Memoria: 16GB DDR4 3200MHz SDRAM, 2 x SO-DIMM socket for expansion, total up to 32 GB SDRAM, Dual-channel
+Pantalla: 15.6" (16:9) LED-backlit FHD (1920x1080) 144Hz Anti-Glare IPS-level Panel with 45% NTSC
+Gráficos: NVIDIA® GeForce® GTX 1660TI , with 6GB GDDR6 VRAM
+Almacenamiento: 512GB PCIe® Gen3 SSD
+Redes:
+Wi-Fi
+Integrated Wi-Fi 5 (802.11 ac (2x2))
+Bluetooth
+Bluetooth® 5.0 The Version of BT may change as OS upgrades
+Interfaz:
+1 x COMBO audio jack
+2 x Type-A USB 3.2 (Gen 1)
+1 x Type-C USB 3.2 (Gen 2) with display supportDP1.4
+1 x Type-A USB2.0
+1 x HDMI, HDMI support 2.0b
+Batería: 48 Wh lithium-polymer battery Battery
+Output: 20 V DC, 7.5 A, 150 W / 9 A , 180 W
+Input: 100 -240 V AC, 50/60 Hz universal
+$assets/img/producto19-m.png
+$+assets/img/producto19-1.png
++assets/img/producto19-2.png
++assets/img/producto19-3.png
++assets/img/producto19-4.png
+@
+$CAT_LAP
+$ASUS LAPTOP GAMER ROG STRIX G16 G712LU CORE 
+$6299.00
+$Marca:	ASUS
+Modelo:	G712LU-EV035T
+Procesador: Intel Core i7
+Memoria RAM: 16GB
+Disco Duro: 1TB
+Tarjeta gráfica: NVIDIA® GeForce® GTX 1660Ti
+Sistema operativo: Windows 10
+Velocidad del procesador: 2600
+Memoria caché: 12MB
+Tipo de memoria RAM: DDR4
+Tipo de disco duro: SSD
+Tamaño de pantalla: 17.3
+Pantalla (tipo): LED
+Pantalla touch: No
+Resolución de la pantalla: 1920 x 1080
+Cámara Web: No
+Unidad óptica: No
+Lector de tarjeta de memoria: No
+Puertos HDMI: 1
+Puertos USB: 4
+Wi-Fi: Sí
+Conectividad Bluetooth: Sí
+Parlantes: Sí
+Tipo de batería: Litio-ion de 4 celdas
+Dimensiones (cm): 39.9 x 29.3 x 2.2 cm
+$assets/img/producto20-m.png
+$+assets/img/producto20-1.png
++assets/img/producto20-2.png
++assets/img/producto20-3.png
++assets/img/producto20-4.png

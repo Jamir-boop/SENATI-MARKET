@@ -1,0 +1,367 @@
+/* ============================================ Slider ============================================ */
+
+.pantalla{
+    height: 600px;
+    position: relative;
+    transition: all 500ms;
+}
+
+.contenedor_carrusel{
+    height: 600px;
+    overflow: hidden;
+    transition: all 500ms;
+}
+
+
+
+.contenedor_diapositivas{
+    width: 400%;
+    height: 600px;    
+    display: flex;
+    transition: all 500ms;
+}
+
+
+.diapositiva{
+    width: 100%;
+}
+
+
+
+.boton_izquierda, .boton_derecha{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+
+.boton_izquierda{
+    top: 45%;
+    left: 20px;
+}
+
+.boton_izquierda:hover{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+}
+
+.boton_derecha{
+    top: 45%;
+    right: 20px;
+}
+
+.boton_derecha:hover{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+}
+
+.boton_derecha img{
+    transform: rotate(180deg);
+}
+
+/* ================================================================================================ */
+
+
+
+/* =========================================== Seccion 1 =========================================== */
+
+.bloque_seccion{
+    padding: 80px 0px;
+}
+
+.bloque_seccion .wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bloque_seccion .wrap .titulo_seccion{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color_botones);
+    margin-bottom: 50px;
+}
+
+
+
+
+.contenedor_productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    transition: all 500ms;
+}
+
+.producto{
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+    transition: all 500ms;
+}
+
+.producto:hover{
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor_img_prod{
+    width: 100%;
+    height: 122px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    overflow: hidden;
+}
+
+.contenedor_img_prod img{
+    width: 70%;
+}
+
+.boton_agregar{
+    display: block;
+    background-color: var(--color_botones);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 12px;
+    font-size: 15px;
+    transition: all 600ms;
+}
+
+.boton_agregar:hover{
+    background-color: #d3164f;
+}
+
+
+
+
+.informacion_producto .nombre_prod{
+    color: var(--color_texto);
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 3px;
+    text-transform: capitalize;
+}
+
+
+.informacion_producto .extra_prod{
+    color: #3c3c3c;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.informacion_producto .precio_prod{
+    color: #d3164f;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+.informacion_producto .precio_desc{
+    font-size: 15px;
+    color: #3c3c3c;
+    text-decoration: line-through;
+}
+
+.envio_prod{
+    display: flex;
+    margin-top: 20px;
+}
+
+.envio_prod img{
+    margin-right: 10px;
+}
+/* ================================================================================================= */
+
+
+
+
+/* =========================================== Dark mode =========================================== */
+body, 
+.cabecera, 
+.barra_navegacion, 
+.boton_izquierda, 
+.boton_derecha{
+    transition: background 500ms ease;
+}
+
+.barra_navegacion ul li a{
+    transition: color 500ms ease;
+}
+
+
+
+
+
+body.dark{
+    background-color: var(--color_texto) !important;
+}
+
+body.dark .cabecera{
+    background-color: var(--fondo_botones_dark) !important;
+}
+
+body.dark .barra_navegacion{
+    background-color: var(--fondo_botones_dark) !important;
+}
+
+body.dark .barra_navegacion ul li a{
+    color: var(--blanco);
+}
+
+body.dark .boton_izquierda{
+    background-color: var(--fondo_botones_dark) !important;
+}
+
+body.dark .boton_derecha{
+    background-color: var(--fondo_botones_dark) !important;
+}
+
+body.dark .buscar form input[type="search"]{
+    background-color: #3d576b;
+    color: white !important;
+    border-color: var(--color_botones);
+}
+
+body.dark .buscar form input[type="search"]::-webkit-input-placeholder{
+    color: white;
+}
+
+body.dark .mas_categorias{
+    background-color: var(--fondo_botones_dark) !important;
+}
+
+body::-webkit-scrollbar, 
+.mas_categorias::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb, 
+.mas_categorias::-webkit-scrollbar-thumb {
+    background-color: #797979c7;
+    border-radius: 20px;
+}
+
+body.dark .mas_categorias::-webkit-scrollbar-thumb{
+    background-color: #797979c7;
+}
+
+body.dark .mas_categorias ul li a{
+    color: white;
+}
+
+.producto, 
+.producto .nombre_prod{
+    transition: background 500ms ease;
+}
+
+body.dark .producto{
+    background-color: var(--fondo_botones_dark) !important;
+}
+
+body.dark .producto .nombre_prod,
+body.dark .producto .extra_prod, 
+body.dark .producto .precio_desc{
+    color: white;
+}
+
+body.dark .producto .contenedor_img_prod {
+    background-color: white;
+    border-radius: 6px;
+}
+/* ================================================================================================= */
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    /* =========================================== Seccion 1 =========================================== */
+    .bloque_seccion .wrap{
+        width: 90%;
+    }
+
+    .contenedor_productos{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    /* =========================================== Seccion 1 =========================================== */
+    .contenedor_productos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+    /* ============================================ Slider ============================================ */
+
+    .pantalla{
+        height: 400px;
+    }
+    
+    .contenedor_carrusel{
+        height: 400px;
+    }
+    
+    
+    
+    .contenedor_diapositivas{
+        height: 400px;
+    }
+
+
+    .boton_izquierda, .boton_derecha{
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+    /* =========================================== Seccion 1 =========================================== */
+    .contenedor_productos{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    /* =========================================== Seccion 1 =========================================== */
+    .bloque_seccion .wrap{
+        width: 80%;
+    }
+
+    .contenedor_img_prod{
+        width: 100%;
+        height: 200px;
+    }
+
+    .contenedor_productos{
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+
+    .boton_agregar{
+        padding: 12px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+}

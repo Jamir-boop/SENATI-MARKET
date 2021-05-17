@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+*{
+	font-family: 'Mukta', sans-serif !important;
+}
+
+*:focus{
+    outline: none;
+}
+
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+/*     background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center; */
+
+    background: #2C3A47;
+}
+
+#bg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#load-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+    animation: 500ms;
+}
+
+.general{
+    width: 900px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    /* background-color: white; */
+    background-image: url(../img/registro-senati.png);
+    background-position: cover;
+    grid-gap: 30px;
+
+    padding: 50px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    width: 350px;
+}
+
+.formulario{
+    padding: 30px;
+    text-transform: capitalize;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formulario h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: #3c3c3c;
+    /* color: white; */
+}
+
+.formulario .campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #999;
+    padding: 10px 0px 5px 0px;
+
+    position: relative;
+}
+
+.formulario form{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.campo label{
+    margin-bottom: 16px;
+    color: #333;
+
+    position: absolute;
+    font-size: 18px;
+    /* top: 10px; */
+    top: 45px;
+    color: #999;
+    transition: all 200ms;
+
+    cursor: text;
+}
+
+.campo input {
+    padding: 8px;
+    padding-bottom: 0;
+    font-size: 16px;
+    border: transparent;
+    margin-top: 20px;
+    color: #3c3c3c;
+}
+
+
+.colorear_txt{
+    color: #3c3c3c !important;
+}
+
+
+.colorear_borde{
+    border-bottom: 1px solid #3c3c3c;
+}
+
+
+.formulario button{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #FD7272;
+    border: transparent;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: all 500ms;
+}
+
+
+.formulario button:hover{
+    background-color: #e84147;
+}
+
+
+.mover_arriba{
+    top: 10px !important;
+    font-size: 15px !important;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .general{
+        width: 80%;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .general{
+        width: 80%;
+    }
+
+    .banner img{
+        width: 85%;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+    .general{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .banner{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    .general{
+        width: 320px;
+    }
+}

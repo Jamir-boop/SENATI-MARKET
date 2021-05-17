@@ -1,0 +1,776 @@
+@
+$CAT_HOG
+$BEASTCOM Q3(Essential Gaming PC)
+$1900
+$Ordenador Gaming 
+AMD Quadcore 4X 3.70Ghz
+16GB RAM 
+512GB SSD  
+4K Gráficos Radeon R7 
+DVD 
+HDMI 
+USB 3.2 
+WiFi 
+Windows 10 Pro 
+Office 2019
+$assets/img/producto116-m.png
+$+assets/img/producto116-1.png
++assets/img/producto116-2.png
++assets/img/producto116-3.png
+@
+$CAT_HOG
+$HP Elite 8300 
+$655,82
+$Marca: HP
+Dimensiones del paquete: 47.5 x 41 x 16.3 cm; 8.24 kilogramos
+Fabricante del procesador: Intel
+Tipo de procesador: Core i7 3770
+Velocidad del procesador: 3.4 GHz
+Capacidad de la memoria RAM: 32 GB
+Tipo de memoria del ordenador: DDR3 SDRAM
+Capacidad del disco duro: 240 GB
+Descripción del disco duro: SSD
+Interfaz del disco duro	Serial ATA
+Plataforma de Hardware: PC
+Sistema operativo: Windows 10 Professional
+$assets/img/producto117-m.png
+$+assets/img/producto117-1.png
++assets/img/producto117-2.png
++assets/img/producto117-3.png
+@
+$CAT_HOG
+$PC Megaport Ordenador AMD Athlon  
+$1927,86
+$Marca: Megaport
+Modelo de CPU: 68000
+Tamaño de la memoria del ordenador: 8 GB
+Tamaño de memoria RAM instalada: 8 GB
+Coprocesador de gráficos: AMD Radeon Vega 3
+Color: AMD 3000G 1000GB HDD 8Go
+Tipo de RAM de gráficos: DRAM
+Descripción del disco duro: HDD
+Interfaz del disco duro: Serial ATA-600
+Velocidad de CPU: 3500 MHz
+$assets/img/producto118-m.png
+$+assets/img/producto118-1.png
++assets/img/producto118-2.png
+@
+$CAT_HOG
+$MSI Aegis 3 8RG-047EU - Ordenador de sobremesa Gaming 
+$4669,07
+$Marca	MSI
+Series	Aegis 3 7RB-045EU
+Dimensiones del producto	37.6 x 43.3 x 17 cm
+Número de modelo del producto	Aegis 3 7RB-045EU
+Factor de forma	Desktop PC
+Fabricante del procesador	Intel
+Tipo de procesador	Core i5
+Velocidad del procesador	3 GHz
+Número de procesadores	2
+Capacidad de la memoria RAM	8 GB
+Tipo de memoria del ordenador	DDR4 SDRAM
+Velocidad del reloj de la memoria	2400 MHz
+Capacidad del disco duro	1000 GB
+Descripción del disco duro	HDD
+Coprocesador gráfico	Nvidia
+Descripción de la tarjeta gráfica	NVIDIA GeForce GTX 1050Ti 4 GB, GDDR5 Gaming
+Tipo de memoria gráfica	PC2-4200
+Capacidad de la memoria RAM	4000
+Interfaz de la tarjeta gráfica	Integrado
+Tipo de conectividad	Wi-Fi
+Tipo de conexión inalámbrica	802.11ac
+Número de puertos USB 2.0	2
+Número de puertos HDMI	2
+Potencia eléctrica	450 vatios
+Tipo de disco óptico	No aplicable
+Sistema operativo	Windows 10 Home
+$assets/img/producto119-m.png
+$+assets/img/producto119-1.png
++assets/img/producto119-2.png
++assets/img/producto119-3.png
+@
+$CAT_HOG
+$MSI Infinite 8RC-090XEU - Ordenador de sobremesa 
+$3231,63
+$Marca	MSI
+Series	Infinite 8RC-090XEU
+Dimensiones del producto	21 x 45 x 48.8 cm
+Pilas	1 Litio Ion necesaria(s), incluida(s)
+Factor de forma	Desktop PC
+Fabricante del procesador	Intel
+Tipo de procesador	Core i7
+Velocidad del procesador	2.8 GHz
+Número de procesadores	6
+Capacidad de la memoria RAM	16 GB
+Tipo de memoria del ordenador	PC2-4200
+Velocidad del reloj de la memoria	2400 MHz
+Capacidad del disco duro	1000 GB
+Descripción del disco duro	SSHD
+Coprocesador gráfico	Nvidia
+Descripción de la tarjeta gráfica	NVIDIA GeForce GTX 1060
+Tipo de memoria gráfica	PC2-4200
+Capacidad de la memoria RAM	6000
+Interfaz de la tarjeta gráfica	Desconocido
+Tipo de conectividad	Wi-Fi
+Tipo de conexión inalámbrica	801.11ac
+Número de puertos USB 2.0	5
+Número de puertos USB 3.0	2
+Número de puertos HDMI	1
+Potencia eléctrica	350 vatios
+Tipo de disco óptico	No aplicable
+Sistema operativo	Ningún sistema operativo
+Pilas incluidas	Sí
+Contenido de energía de la batería de litio	6 Vatios-hora
+Embalaje de la batería de litio	Baterías integradas en el equipo
+$assets/img/producto120-m.png
+$+assets/img/producto120-1.png
++assets/img/producto120-2.png
++assets/img/producto120-3.png
+@
+$CAT_HOG
+$Monitor HP Z24n G2
+$1549.00 
+$Tamaño de pantalla (diagonal):	60,96 cm (24")
+Área de pantalla (métrica): 51,84 x 32,4 cm
+Relación ancho-alto: 16:10
+Resolución (nativa): WUXGA (1920 x 1200 a 60 Hz)
+Resoluciones admitidas: 1920 x 1200; 1920 x 1080; 1680 x 1050; 1600 x 900; 1440 x 900; 1280 x 1024; 1280 x 800; 1280 x 720; 1024 x 768; 800 x 600; 720 x 480; 640 x 480
+Distancia entre píxeles: 0,27 mm
+Brillo: 300 nits
+Relación de contraste: 1000:1
+Tiempo de respuesta: 5 ms gris a gris
+Frecuencia de escaneo de pantalla (horizontal): 30 a 94 KHz
+Frecuencia de escaneo de pantalla (vertical): 50 a 75 Hz
+Colores de pantalla: NTSC al 75 %, gama de color al 99 % de sRGB (típico)
+Controles en pantalla: Brillo; Contraste; Control de color; Control de entrada; Control de imagen; Alimentación; Menú; Administración; Idioma; Información; Salir; Aceptar
+Funciones de la pantalla: Antirreflejo; Conmutación en plano; Selección de idioma; Retroiluminación LED; Controles en pantalla; Función de rotación; Plug and Play; Programable por el usuario; Baja opacidad
+Montaje VESA: 100 mm x 100 mm (soporte incluido)
+Conector de entrada:1 DVI-D; 1 HDMI 1.4; 1 DisplayPort™ 1.2
+Nota de tipo de entada de visualización	con compatibilidad con HDCP
+Puertos	1 salida de audio analógica; 3 puertos USB 3.0 (descendentes); 1 puerto USB 3.1 Type-C™ (lateral, descendente, capacidad de alimentación hasta 10 W); 1 puerto USB 3.1 Type-C™ (posterior, descendente y ascendente, capacidad de alimentación hasta 15 W);
+Dimensiones mínimas (anch. x prof. x alt.)	53.2 x 4.68 x 35.1 cm
+Medidas del producto con soporte (ancho x prof. x largo)	53.2 x 21.4 x 50.3 cm
+Peso	7,2 kg
+Alimentación	Voltaje de entrada: 100 a 240 VCA
+Consumo de energía	92 W (máximo), 40 W (típico), 0,5 W (en espera)
+$assets/img/producto121-m.png
+$+assets/img/producto121-1.png
++assets/img/producto121-2.png
++assets/img/producto121-3.png
+@
+$CAT_HOG
+$Monitor HP P24v G4
+$499.00
+$Modelo P24v G
+Tamaño Pantalla 23.8"
+Proporción 16:09
+Resolución nativa FHD (1920 x 1080 a 60 Hz)
+Área de pantalla (métrica) 527,04 x 296,46 mm
+Conector 1 VGA; 1 HDMI 1.4 (compatible con HDCP)
+Frecuencia de escaneo de pantalla (horizontal) 30 a 80 kHz
+Frecuencia de escaneo de pantalla (vertical) 50 a 60 Hz
+Funciones de la pantalla Anti reflectante; Modo de luz azul baja
+Alimentación Voltaje de entrada 100 a 240 VCA
+$assets/img/producto122-m.png
+$+assets/img/producto122-1.png
++assets/img/producto122-2.png
++assets/img/producto122-3.png
+@
+$CAT_HOG
+$Monitor L24e-20 23.8 
+$579.00
+$Modelo	Lenovo L24e-20
+Pulgadas	23.8
+Nivel de Definición	FULL HD
+Diseño de pantalla	Plana
+Resolución máxima de imagen	1920 x 1080
+Frecuencia de refresco (Hz)	75 Hz
+Puertos HDMI	1
+Control remoto	No
+Ancho (cm)	54
+Alto con base (cm)	43
+Profundidad con base (cm)	16.5
+Color	Negro
+$assets/img/producto123-m.png
+$+assets/img/producto123-1.png
++assets/img/producto123-2.png
++assets/img/producto123-3.png
+@
+$CAT_HOG
+$Monitor LG LED 21.5" FULL HD 22MN430H
+$469.00
+$IPS Full HD
+AMD FreeSync™
+Dynamic Action Sync
+Black Stabilizer
+Control en pantalla
+Soporte de pared
+Resolución: 1920 X 1080
+AMD FreeSync™
+Imagen más fluida y nítida
+Pantalla Full HD IPS
+Alta definición con colores precisos
+La resolución Full HD en 1080p con IPS ofrece imágenes brillantes que se ven con mayor detalle desde cualquier ángulo de visión.
+$assets/img/producto124-m.png
+$+assets/img/producto124-1.png
++assets/img/producto124-2.png
++assets/img/producto124-3.png
+@
+$CAT_HOG
+$Monitor Acer V246HQL 23.6
+$449.00
+$Modelo	V246HQL
+Tipo de pantalla	LED/FULL HD
+Pulgadas	23.6
+Nivel de Definición	Full HD
+Diseño de pantalla	Plana
+Resolución máxima de imagen	1920 x 1080
+Frecuencia de refresco (Hz)	60Hz
+Wi-Fi	No
+Puertos HDMI	Sí
+Ancho (cm)	56.69
+Alto con base (cm)	42.16
+Alto sin base (cm)	33.57
+Profundidad con base (cm)	20.57
+Peso con base (kg)	3.9
+Color	Negro
+$assets/img/producto125-m.png
+$+assets/img/producto125-1.png
++assets/img/producto125-2.png
++assets/img/producto125-3.png
+@
+$CAT_HOG
+$Impresora Multifuncional PIXMA G7010
+$1300.00
+$Marca: CANON
+Modelo: G7010
+Alto: 23.4 cm
+Ancho: 40.3 cm
+Profundidad: 36.9 cm
+Tecnología de impresión: Inyección
+Capacidad de la Bandeja de Salida (Papel Común)
+Casete de Bandeja Frontal
+Wi-Fi: Sí
+Copias múltiples: Hasta 99 Copias en blanco y negro
+Escáner: Sí
+Fax: Sí
+Formatos aptos: 
+Tamaños de Papel A4, A5, B5, Carta, Legal, 4” x 6” (10cm x 15 cm), 5” x 7” (13 cm x 18 cm), 7” x 10” (17cm x 25cm), 8” x 10” (20 cm x 25 cm) Sobres (DL, COM10), Cuadrado (5”x 5”, 4”x4”, 89 x 89 mm), Tamaño Carta (91 x 55 mm)
+Fotocopiadora: Sí
+Información adicional:
+Características de Impresión AirPrint 
+Google Cloud Print 
+Alto Rendimiento 
+Message In Print app 
+Servicio de Impresión Mopria 
+Impresión de Fotos 
+PIXMA Cloud Link 
+Impresión en Tinta Negra y en Color 
+Impresión sin Bordes 
+Impresión de Tarjetas de Presentación 
+Aplicación Canon PRINT 
+Impresión de Documentos 
+Software/aplicación Easy-PhotoPrint Editor 
+Impresión en Modo Económico 
+Impresión de Tarjetas de Felicitación 
+Alto Rendimiento en Cantidad de Páginas 
+Impresión de Foto de ID 
+Impresión de Etiquetas 
+Aplicación Message In Print11 
+Impresión Fotográfica 
+PIXMA Cloud Link6 
+Corrección de Ojos Rojos
+Impresión de Foto Cuadrada 
+Impresión de Plantillas (Integrada) 
+Corrección Automática de Imágenes
+Impresión Directa Inalámbrica
+PictBridge Inalámbrico
+Impresión Inalámbrica
+Alto rendimiento en cantidad de páginas Hasta 8300 páginas (en blanco y negro) /7700 páginas (en color) (por cada juego de botellas de tinta)
+$assets/img/producto126-m.png
+$+assets/img/producto126-1.png
++assets/img/producto126-2.png
++assets/img/producto126-3.png
+@
+$CAT_HOG
+$IMPRESORA MULTIFUNCIONAL HP INK TANK 315
+$590.00
+$Tecnología de Impresión: Tinta Color.
+Velocidad de impresión: Hasta 8 ppm Negro y hasta 5 ppm Color.
+Escáner: Tipo cama plana, resolución óptica, hasta 1200 x 1200 ppp.
+Número de cartuchos de impresión: 4 (1 cartucho negro, juego de 3 cartuchos de color).
+Impresión manual a doble cara: Si
+Tipos de soportes: Papel normal, papeles fotográficos HP, papel mate para folletos o papel profesional HP, papel mate para presentaciones HP, papel brillante para folletos o papel profesional HP, papeles de inyección de tinta fotográficos, papeles de inyección de tinta mate, papeles de inyección de tinta brillantes.
+Gramaje de soporte admitido: A4: 60 a 90 g/m²; Sobres HP: 75 a 90 g/m²; Tarjetas HP: hasta 200 g/m²; Papel fotográfico HP de 10 x 15 cm: hasta 300 g/m².
+$assets/img/producto127-m.png
+$+assets/img/producto127-1.png
++assets/img/producto127-2.png
++assets/img/producto127-3.png
+@
+$CAT_HOG
+$Impresora HP Neverstop Laser 1000w
+$1110.00
+$Puerto USB 2.0 de alta velocidad; WiFi 802.11b/g/n incorporada
+Capacidad inalámbrica: Sí
+Memoria, máxima: 32 MB
+Capacidad de entrada: Hasta 150 hojas
+Capacidad de entrada estándar (sobres): Hasta 1 sobre
+Capacidad de salida: Hasta 100 hojas
+Tamaños compatibles del material (sistema métrico)
+A6; A5; A4; Carta; Sobre n.º 10; Sobre C5; Sobre DL; B5(JIS); 105 x 148,5 a 215,9 x 297 mm
+Dimensiones máximas (An x Pr x Al, sistema métrico): 380,5 x 465 x 445 mm
+Tipo de fuente de alimentación: Fuente de alimentación interna (integrada)
+Tecnología de impresión: Láser
+Impresión a doble cara: Manual (soporte para controlador suministrado)
+Resolución de impresión (la mejor): Hasta 600 x 600 x 2 dpi
+$assets/img/producto128-m.png
+$+assets/img/producto128-1.png
++assets/img/producto128-2.png
++assets/img/producto128-3.png
+@
+$CAT_HOG
+$IMPRESORA MULTIFUNCIONAL HP SMART TANK 515
+$820.00
+$Tecnología de Impresión: Inyección térmica de tinta HP.
+Velocidad de impresión: Hasta 11 ppm Negro y hasta 5 ppm Color.
+Escáner: Tipo plano; resolución óptica, hasta 1200 ppp.
+Número de cartuchos de impresión: 4 (1 botella negra, juego de 3 botellas de color).
+Impresión a doble cara: Manual (soporte para controlador suministrado)
+Tamaños de soportes de impresión admitidos: A4; B5; A6; Sobre DL, legal.
+Tipos de soporte admitidos: Papel común, Papeles para folletos mate, Papeles para folletos con brillo, Papeles fotográficos, Sobres, Otros papeles especiales de inyección de tinta.
+Gramaje de soportes admitido: Papel normal: 60 a 90 g/m2; Sobres: 75 a 90 g/m2; Tarjetas: hasta 200 g/m2; Papel fotográfico: hasta 300 g/m2.
+$assets/img/producto129-m.png
+$+assets/img/producto129-1.png
++assets/img/producto129-2.png
++assets/img/producto129-3.png
+@
+$CAT_HOG
+$Impresora HP Ink Tank Wireless 415
+$680.00
+$Imprima, copie, escanee, inalámbrica
+Tecnología de Impresión: Tinta
+Velocidad B/N: Hasta 8 ppm
+Velocidad Color: Hasta 5 ppm
+Tipo de Impresión: Color
+Compatibilidad:Botella de tinta original HP GT53 de 90 ml negra 1VV22AA, Botella de tinta original HP GT53XL de 135 ml negro 1VV21AA; X4E40AL Frasco de tinta negra HP GT51XL original (aprox. 6,000 páginas); M0H57AL - Frasco de tinta negra HP GT51 original (aprox. 4,000 páginas); M0H54AL Frasco de tinta cian HP GT52 original; M0H55AL Frasco de tinta magenta HP GT52 original; M0H56AL Frasco de tinta amarilla HP GT52 original (aprox. 8,000 páginas). Promedio basado en ISO/IEC 24711 o metodología de prueba de HP e impresión continua. El rendimiento real varía considerablemente de acuerdo con el contenido de las páginas impresas y de otros factores.
+Wifi: Si
+Capacidad de hojas: 60 hojas
+Ciclo mensual: Hasta 1000 pa´ginas
+Tamaños de soportes de impresión admitidos: A4; B5; A6; Sobre DL
+Impresión móvil (HP Smart APP): Si
+Resolución de impresión: Negro (óptima): Hasta 1.200 x 1.200 ppp de reproducción; Color (óptima): Resolución optimizada de hasta 4800 x 1200 dpi en color (cuando se imprime desde una computadora con papel fotográfico HP y 1200 dpi de entrada)
+Fax: No
+Volumen de páginas mensuales recomendado: 400 a 800
+Impresión automática a doble cara: No
+Impresión sin bordes: Sí, hasta 8,5 x 11 pulgadas (carta Estados Unidos), 210 x 297 mm (A4)
+Tipos de soporte admitidos: Papel normal, papeles fotográficos HP, papel mate para folletos o papel profesional HP, papel mate para presentaciones HP, papel brillante para folletos o papel profesional HP, papeles de inyección de tinta fotográficos, papeles de inyección de tinta mate, papeles de inyección de tinta brillantes
+Formato de archivos escaneados: JPEG, TIFF, PDF, BMP, PNG
+Gramaje de soportes admitido: A4: 60 a 90 g/m²; Sobres HP: 75 a 90 g/m²; Tarjetas HP: hasta 200 g/m²; Papel fotográfico HP de 10 x 15 cm: hasta 300 g/m²
+Tipo de escaneo/tecnología: Cama plana/ (CIS) Sensor de imagen de contacto
+Hardware: Hasta 1200 x 1200 ppp; Óptica: Hasta 1200 x 1200 ppp
+Profundidad de bits/niveles de escala grises: 24 bits/ 25
+$assets/img/producto130-m.png
+$+assets/img/producto130-1.png
++assets/img/producto130-2.png
++assets/img/producto130-3.png
+@
+$CAT_HOG
+$Mouse Logitech G pro hero
+$219.00
+$ESPECIFICACIONES FÍSICAS
+Altura: 116,6 mm
+Anchura: 62,15 mm
+Profundidad: 38,2 mm
+Peso: 85 g, sólo mouse
+Longitud de cable: 2,10 m
+SEGUIMIENTO
+Sensor: HERO™ 25k
+Resolución: 100 – 25.600 dpi
+Sin suavizado/aceleración/filtros
+Aceleración máx.: >40 G1Pruebas realizadas sobre alfombrilla de mouse Logitech G240 para juegos
+Velocidad máx.: >400 ips2Pruebas realizadas sobre alfombrilla de mouse Logitech G240 para juegos
+RESPUESTA
+Formato de datos USB: 16 bits/eje
+Velocidad de respuesta USB: 1000 Hz (1 ms)
+Microprocesador: 32 bits ARM
+DURABILIDAD
+Pies de PTFE: Recorrido de 250 km3 Pruebas realizadas sobre alfombrilla de mouse Logitech G240 para juegos
+OTRAS FUNCIONES
+Memoria integrada: 5 perfiles
+RGB LIGHTSYNC: 1 zona
+Sistema mecánico de tensión de botones
+REQUISITOS
+Windows®7 o posteriores
+macOS 10.11 o posterior
+Chrome OS™
+Puerto USB
+Conexión a Internet para Logitech G HUB (opcional)
+$assets/img/producto131-m.png
+$+assets/img/producto131-1.png
++assets/img/producto131-2.png
++assets/img/producto131-3.png
+@
+$CAT_HOG
+$Mouse Logitech G604 Wireless Gaming
+$269.00
+$ESPECIFICACIONES FÍSICAS
+Altura: 130 mm
+Anchura: 80 mm
+Profundidad: 45 mm
+Peso: 135 g, con batería AA
+SEGUIMIENTO
+Sensor: HERO 25K
+Resolución: 100 – 25.600 dpi
+Sin suavizado/aceleración/filtros
+Aceleración máx.: >40 G1Pruebas realizadas sobre alfombrilla de mouse Logitech G240 para juegos
+Velocidad máx.: >400 ips2Pruebas realizadas sobre alfombrilla de mouse Logitech G240 para juegos
+RESPUESTA
+Formato de datos USB: 16 bits/eje
+Velocidad de respuesta inalámbrica LIGHTSPEED: 1.000 Hz (1 ms)
+Velocidad de respuesta Bluetooth: 88-133 Hz (7,5-11,25 ms)
+Microprocesador: ARM de 32 bits
+DURABILIDAD
+Pies de PTFE: Recorrido de 250 km3Pruebas realizadas sobre alfombrilla de mouse Logitech G240 para juegos
+DURACIÓN DE BATERÍAS4LA DURACIÓN DE LAS BATERÍAS DEPENDE DEL USO Y DE LOS DISPOSITIVOS
+Modo LIGHTSPEED: hasta 240 horas (juego ininterrumpido)
+Modo Bluetooth: hasta 5,5 meses (uso estándar)
+OTRAS CARACTERÍSTICAS
+Botón rueda con desplazamiento superrápido y dos modos
+Memoria integrada
+Sistema mecánico de tensión de botones
+REQUISITOS
+Modo LIGHTSPEED: Puerto USB y Windows® 7 o posteriores, macOS® 10.12 o posteriores, Chrome OS™ o Android™ 3.2 o posteriores
+Modo Bluetooth: Dispositivo con Bluetooth con Windows 8 o posteriores, macOS 10.12 o posteriores, Chrome OS o Android 5.0 o posteriores
+Acceso a Internet para descargar el software Logitech G HUB5Las funciones avanzadas requieren Logitech G HUB, disponible para descargar en logitechG.com/downloads
+$assets/img/producto132-m.png
+$+assets/img/producto132-1.png
++assets/img/producto132-2.png
++assets/img/producto132-3.png
+@
+$CAT_HOG
+$MOUSE INALÁMBRICO LOGITECH PEBBLE M350
+$109.00
+$Dimensiones del mouse
+Altura: 26,5 mm
+Anchura: 59 mm
+Profundidad: 107 mm
+Peso (con baterías): 100 g
+Nano receptor
+Altura: 14,4 mm
+Anchura: 18,7 mm
+Profundidad: 6,1 mm
+Peso: 1,8 g
+REQUISITOS DEL SISTEMA
+Windows | macOS | iPadOS | Chrome OS | Linux® | Certificación Works With Chromebook | Funciona con Surface™
+Receptor
+Requiere: Puerto USB disponible
+Windows 7,8,10 o posterior
+macOS 10.14 o posterior
+Chrome OS, certificación Works With Chromebook
+Linux Kernel 2.6+
+Bluetooth
+Requiere: Tecnología Bluetooth de bajo consumo
+Windows 8,10 o posterior
+macOS 10.14 o posterior
+Chrome OS
+Android™ 7 o posterior
+iPadOS 13.4 o posterior
+ESPECIFICACIONES TÉCNICAS
+Tecnología de sensor: Seguimiento óptico de alta precisión
+Resolución de sensor: 1.000 dpi
+Número de botones: 3
+Botón scroll: Sí - Mecánico
+Botones de desplazamiento: Botón central
+Mouse apto para Unifying: Sí
+Receptor apto para Unifying: No
+Duración de las baterías: 18 meses
+Tipo de batería: Una batería AA preinstalada
+Distancia de funcionamiento inalámbrico: 10 m 4El radio de acción inalámbrico depende de las condiciones del entorno y de los dispositivos.
+Tecnología inalámbrica: Tecnología Bluetooth de bajo consumo
+$assets/img/producto133-m.png
+$+assets/img/producto133-1.png
++assets/img/producto133-2.png
++assets/img/producto133-3.png
+@
+$CAT_HOG
+$M110 SILENT
+$35.00
+$DIMENSIONES
+Altura x Anchura x Profundidad:
+112,96 mm x 61,7 mm x 38,4 mm
+Peso (con baterías): 85 g
+Longitud del cable: 180 cm
+REQUISITOS DEL SISTEMA
+Windows® 10 o posterior, Windows 8, Windows 7
+macOS X 10.5 o posterior
+Chrome OS™
+Linux Kernel 2.6+2
+Conexión USB: Requiere puerto USB disponible.
+ESPECIFICACIONES
+Tipo de conexión: Con cable
+DPI (mín./máx.): 1000±
+Tecnología de seguimiento: Óptica
+Resolución de sensor: 1000 dpi
+Botón rueda: Sí
+Número de botones: 3
+$assets/img/producto134-m.png
+$+assets/img/producto134-1.png
++assets/img/producto134-2.png
++assets/img/producto134-3.png
+@
+$CAT_HOG
+$Mouse Gaming G502 HERO
+$235.00
+$11 Botones Programables
+Sensor: HERO™
+Resolución: 100 – 25.600 dpi
+Aceleración máx.: > 40
+Velocidad máx.: > 400 ips
+Formato de datos USB: 16 bits/eje
+Velocidad de respuesta USB: 1000 Hz (1 ms)
+Microprocesador: 32 bits ARM
+Botones principales: 50 millones de clics
+Pies de PTFE: 250 km
+Memoria integrada: 5 perfiles
+RGB LIGHTSYNC: 1 zona
+Cable trenzado
+$assets/img/producto135-m.png
+$+assets/img/producto135-1.png
++assets/img/producto135-2.png
++assets/img/producto135-3.png
+@
+$CAT_HOG
+$LOGITECH G513 TECLADO GAMING RGB GX BR
+$649.90
+$Marca: LOGITECH
+Longitud: 132 mm
+Anchura: 445 mm
+Altura: 35,5 mm
+Longitud del cable: 0,3 m
+Tipo de conexión: USB 2.0
+Protocolo USB: USB 2.0
+Puertos USB (integrados)Sí, 2.0
+Indicadores luminosos (LED): 2
+Retroiluminación: Sí
+RGB personalizable por tecla
+$assets/img/producto136-m.png
+$+assets/img/producto136-1.png
++assets/img/producto136-2.png
++assets/img/producto136-3.png
+@
+$CAT_HOG
+$Teclado Gamer Mecánico Retroiluminado RGB GK100ES
+$ 99.90
+$Tiempo de vida de 50 millones de pulsaciones
+Retroiluminado
+Switches mecánicos
+Tipo de conexión: Cable USB
+Número de botones: 105
+Número de pulsaciones: Hasta 50 millones de pulsaciones por tecla
+Voltaje soportado: DC-5V/200mA
+Sistemas operativos soportados:  Windows 7/ Windows 8.1/ Windows 10
+Dimensiones de producto: 436mm(L) x 129mm(W) x 37mm(H)
+Longitud de cable: 1.8M
+$assets/img/producto137-m.png
+$+assets/img/producto137-1.png
++assets/img/producto137-2.png
++assets/img/producto137-3.png
+@
+$CAT_HOG
+$Teclado Gamer Strike RGB
+$60.00
+$ Marca: Nibio
+Modelo: K200 - STRIKE
+7 teclas que no entran en conflicto.
+Núcleo impermeable, diseño de triple protección
+Luz RGB de fondo de botón, con luz de colores brillantes
+Diseño de silicona de alto rebote, hasta 10 millones de golpes
+Nueva materia prima de plástico ABS, anti-disturbios anti-caída
+Cable trenzado reforzado con velocidad de transferencia de datos más rápida y capacidad anti-balanceo
+Letras con inscripción láser, duraderas, nunca se desvanecen
+Dimensiones: 44,2 14,6 x 2,5 cm
+$assets/img/producto138-m.png
+$+assets/img/producto138-1.png
++assets/img/producto138-2.png
++assets/img/producto138-3.png
+@
+$CAT_HOG
+$Teclado Gamer CYBERTEL Twister K209
+$50.00
+$Marca: CYBERTEL
+Modelo: Twister K209
+Tipo de Conector: USB
+Tipo de Conexión: Cable
+Tipo de Teclas: Teclado Multimedia e Internet.
+Teclas Iluminadas
+12 Teclas con Funciones Adicionales de Multimedia e Internet.
+Tecla de Activación LED
+Distribución de Teclas 	
+Español – Idioma: Español / Internacional
+Protecciòn 	
+Sistema Antiderrame (Water Proof): Permite la Salida de Líquidos en Caso de Derrame sobre la Superficie del Teclado.
+Sistema Laser Traslucido
+Compatible con Sistemas Operativos Windows
+Retroalimentación Rainbow LED Multicolores: Ideal para Navegar y Jugar en Ambientes Oscuros.
+$assets/img/producto139-m.png
+$+assets/img/producto139-1.png
++assets/img/producto139-2.png
++assets/img/producto139-3.png
+@
+$CAT_HOG
+$Teclado Xtech xtk160s Multimedia Usb
+$34.00
+$ Tipo de teclado:   TECLADD.
+Inalámbrico:   No.
+Marca Producto:   XTECH.
+Tipo de Producto:   Bien Físico.
+Largo del Producto:   2.
+Alto del Producto:   41.
+Ancho del Producto:   13.
+Largo del Paquete:   2.
+Alto del Paquete:   42.
+Ancho del Paquete:   14.
+Peso del Paquete:   0.2.
+Inventario Producto:   5
+$assets/img/producto140-m.png
+$+assets/img/producto140-1.png
++assets/img/producto140-2.png
++assets/img/producto140-3.png
+@
+$CAT_HOG
+$Kit para Gamers: Teclado + Mouse + audífono + Pad Mouse 
+$180.00
+$Descripción:
+Color del artículo: negro.  
+Distribución del teclado: US/UK
+Modelo: AT100
+Interfaz: USB 
+Compatibles: MAC OS
+Dimensiones del teclado: 438*134*"5mm
+Dimensiones del ratón: 110*64¨*38mm
+Sistemas: win XP/Vista/7/8/10
+Ratón de resolución: 1000 dpi
+Longitud del cable: 1.50M 
+$assets/img/producto141-m.png
+$+assets/img/producto141-1.png
+@
+$CAT_HOG
+$KIT 5 EN 1 HALION RACER (HA-830C) GAMING | TECLADO + MOUSE + AURICULAR + PAD MOUSE + PARLANTE | LED-RGB
+$220.00
+$Características
+Marca: Halion
+Producto: KIT 5 en 1
+Modelo: RACER HA-830C
+Teclado
+Color: Negro
+Conector: USB
+Teclas Antiborrado: Si
+Cable: 1.35m
+Mouse
+Conector: USB
+Color: Negro Rubber
+Botones: 4
+Parlantes
+Conector: USB 2.0
+Potencia: 5W*2
+Dimensiones: 11L x 11D x 10.5(Cm)
+Auricular
+Color: Negro / Detalles azul
+Cable: 2.20m
+Frecuencia: 20hz-20KHz.
+Impedancia: 32 Ohms ± 15%
+Sensibilidad: -36db ± 3DB
+$assets/img/producto142-m.png
+$+assets/img/producto142-1.png
+@
+$CAT_HOG
+$Kit Gamer Combo 4 en 1 Trust Teclado + Audífono + Mouse + Pad
+$169.00
+$Teclado de tamaño normal con teclas para juegos de color rojo.
+Escritura cómoda y silenciosa.
+Diseño a prueba de vertidos.
+Teclas de larga duración.
+Cable de 1,50 [m].
+AURICULARES
+Ideal para juegos en línea, música y aplicaciones de chat.
+Diadema ajustable y almohadillas blandas para los oídos.
+Micrófono escamoteable de alta sensibilidad.
+Control de volumen en los tapones para oídos.
+Funciona con todos los PC y ordenadores portátiles.
+Cable de 1,8 [m].
+MOUSE
+6 botones de respuesta.
+Cubierta de goma para un perfecto agarre.
+Rueda de desplazamiento y retroiluminación.
+Botón de selección de velocidad (1000 – 1600 – 2200 – 3000 ppp).
+ALFOMBRILLA PARA MOUSE (MOUSE PAD)
+Superficie de textura consistente que ofrece una precisión óptima.
+Puede utilizarse con todos los sensores y sensibilidades de ratón.
+Superficie de 220 [mm] x 300 [mm].
+Parte inferior antideslizante.
+$assets/img/producto143-m.png
+$+assets/img/producto143-1.png
+@
+$CAT_HOG
+$Kit Gamers Led Poseidon Ha-850c teclado,audifono,mouse,pad mouse
+$170.00
+$TECLADO
+Multimedia / Internet/ Gamers
+Color: Negro, conector USB con detalles rojos
+Teclado retroiluminado (3 colores), Teclas antiborrado
+Longitud de cable 1.5m
+AURICULAR PRO
+Conectores: 3.5mm + USB
+Banda Ajustable
+Micrófono incorporado en brazo giratorio
+Control de Volumen
+Protectores tipo cuero
+Luz led rojo
+Longitud de cable 2m
+MOUSE + PAD MOUSE
+Mouse Óptico USB; Negro / detalles rojos-plata
+Botones gaming profesionales y una rueda scroll
+Conector USB 2.0. Funciona en cualquier superficie (No reflectiva)
+Alta Sensibilidad de 1200, 1600, 2400, 3200 DPI (cambio de resolución en el juego)
+Plug and play, Cable de 1.80 metros, Presentación en Empaque
+Medidas: 136x72x42mm
+Incluye pad Mouse; Almohadilla para mouse, diseño en Halion
+Medidas pad mouse 300x230x3mm
+Alta densidad de confección para un mejor control de mouse
+Superficie resistente a caída de líquidos, alta durabilidad.
+$assets/img/producto144-m.png
+$+assets/img/producto144-1.png
+@
+$CAT_HOG
+$Combo Gamer Teclado, Ratón, Auriculares, Mousepad 4 en 1 T-Dagger T-Tgs002
+$350.00
+$Ratón: 1000/1600/2400/3200 DPI
+Velocidad de sondeo de 125Hz 12G ACC 
+Retroiluminación de 7 colores 
+Teclado de juego de membrana 104 ~ 107 
+teclas Retroiluminación RGB 19 teclas 
+Alfombrilla de ratón: 
+Goma Auriculares: 
+Trompeta Diámetro: f40mm 
+Impedancia: 32O 
+SPL: 108dB ± 3dB SPLat 1KHz 
+Potencia nominal: 20mW 
+Capacidad nominal : 30mW 
+Respuesta de frecuencia: 20Hz-20,000Hz 
+Longitud del cable: 2m ± 0.15 Plug-in Spec./:3.5MM 
+micrófono: 6050 -58dB ± 3dB full way 
+Tamaño: L 200MM * W 175MM * H 87MM 
+GW: 260g
+$assets/img/producto145-m.png
+$+assets/img/producto145-1.png
+@
+$CAT_HOG
+$Kit Gamer 4 en 1 Teclado+Audífono+Mouse+Pad
+$190.00
+$Kit Gamer: Incluye teclado + mouse + audífonos + mouse pad. 
+Características del teclado: Iluminación hasta en 7 colores predeterminados en modo cycling. Hasta 19 teclas con función anti-ghosting que te permitirá realizar varias jugadas de forma simultánea. 
+Características del Mouse: 7 efectos de Iluminación Multicolor. 6 botones. Con recubrimiento de goma anti-deslizante para mayor agarre y de tamaño completo, para mayor comodidad. 
+Características del Audífono: Acolchadas, cubren toda la oreja. USB + 2 x 3.5 mm. 
+características del Mouse Pad: Medidas 287 x 244 x 3 mm.
+$assets/img/producto146-m.png
+$+assets/img/producto146-1.png

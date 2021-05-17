@@ -1,0 +1,664 @@
+@
+$CAT-CEL
+$iPhone 11 Pro
+$4700
+$Super Retina XDR.
+Pantalla OLED Multi‑Touch de 5,8 pulgadas (en diagonal)
+Pantalla HDR.
+Resolución de 2.436 por 1.125 píxeles a 458 p/p.
+Contraste de 2.000.000:1 (típico)
+Pantalla True Tone.
+Gama cromática amplia (P3)
+Respuesta háptica.
+$assets/img/producto21-m.png
+$+assets/img/producto21-1.png
++assets/img/producto21-2.png
+@
+$CAT-CEL
+$iPhone 11 Pro Max
+$6150
+$Pantalla Super Retina XDR de 6.5 pulgadas OLED.
+Resolución 2,688x1,242.
+Densidad de pixeles de 458ppp (pixeles por pulgada)
+Procesador A13 Bionic (seis núcleos de 2.66GHz) y tercera generación del Neural Engine.
+4GB de RAM.
+$assets/img/producto22-m.png
+$+assets/img/producto22-1.png
++assets/img/producto22-2.png
++assets/img/producto22-3.png
+@
+$CAT-CEL
+$iPhone 12 Pro Max
+$7200
+$Pantalla Super Retina XDR
+Pantalla OLED de 6.7 pulgadas (diagonal) sin marco
+Resolución de 2778 x 1284 pixeles a 458 ppi
+Pantalla HDR.
+True Tone.
+Amplia gama de colores (P3)
+Toque con respuesta háptica.
+Relación de contraste 2,000,000:1 (normal)
+Brillo máximo de 800 nits (normal); brillo máximo de 1,200 nits (HDR)
+Revestimiento oleofóbico resistente a huellas dactilares.
+$assets/img/producto23-m.png
+$+assets/img/producto23-1.png
++assets/img/producto23-2.png
+@
+$CAT-CEL
+$iPhone XS
+$3950
+$Pantalla: 5.8 pulgadas (OLED)
+Resolución: 2,436x1,125 pixeles.
+Densidad de pixeles: 458ppp.
+HDR: Dolby Vision y HDR10.
+Procesador: Apple A12 Bionic.
+Sistema operativo: iOS 12.
+Almacenamiento: 64GB, 256GB, 512GB.
+Carga inalámbrica: Sí
+$producto24-m.png
+$+assets/img/producto24-1.png
++assets/img/producto24-2.png
++assets/img/producto24-3.png
+@
+$CAT-CEL
+$iPhone XS Max
+$4150
+$Pantalla: 6.5 pulgadas (OLED) con TrueTone.
+Resolución: 2,688x1,242.
+Densidad de pixeles: 458ppp.
+Procesador: A12 Bionic.
+Sistema operativo: iOS 12.
+Almacenamiento: 64, 256 y 512GB.
+Batería: 3,179mAh.
+Carga inalámbrica: Sí
+$assets/img/producto25-m.png
+$+assets/img/producto25-1.png
++assets/img/producto25-2.png
+@
+$CAT-CEL
+$Samsung Galaxy Note 20
+$3700
+$Sistema operativo: Android 10
+Pantalla: Dynamic AMOLED de 6,7 pulgadas con resolución QHD+
+Procesador: Snapdragon 865+ 3.09GHz / Exynos 990 2.73GHz
+Memoria: 8 GB de RAM 
+Almacenamiento: 128GB/256GB 
+Expansión: sin microSD
+Cámara frontal: 10 MP DualPixel
+Cámaras traseras: principal 12 MP, 
+gran angular de 12 MP y teleobjetivo de 64 MP
+Conectividad: Wi-Fi 6
+Bluetooth: 5.0, 5G y Samsung DeX
+Batería: 4.300 mAh con carga rápida 
+Sonido: Altavoz estéreo sintonizado por AKG
+Dimensiones: 75,2 x 161,6 x 8,3 mm
+Peso: 194 gramos 
+Otros: S-Pen mejorado
+lector de huellas dactilares integrado en la pantalla, 
+certificación IP68 de resistencia al polvo y al agua.
+$assets/img/producto26-m.png
+$+assets/img/producto26-1.png
++assets/img/producto26-2.png
+@
+$CAT-CEL
+$Samsung Galaxy A71 5G
+$1460
+$4G	LTE
+5G	SA/SNA; mmWave
+GPRS	Si
+EDGE	Si
+SIM	nano-SIM / nano-SIM dual
+TAMAÑO	Dimensiones	162.5 x 75.5 x 8.1 mm
+Materiales	Frente de vidrio, cuerpo de plástico
+DISPLAY	Tipo	Super AMOLED touchscreen capacitivo, 16M colores
+Tamaño	6.7 pulgadas, 20:9
+Resolución	1080 x 2400 pixels
+Densidad	393 ppi
+Protección	Gorilla Glass 3
+PLATAFORMA	OS	Android 10
+UI	One UI 2.0
+Procesador	Exynos 980 octa-core 2.2GHz
+GPU	Mali-G76 MP5
+MEMORIA	Interna	6/8GB RAM, 128GB almacenamiento interno
+Slot de tarjeta	microSD, hasta 512GB
+CÁMARA	Principal	Cuádruple, 64 MP (f/1.8, PDAF, wide) + 12 MP (f/2.2, ultrawide) + 5 MP (f/2.4, macro) + 5 MP (f/2.2, profundidad)
+Funciones	autofocus por detección de fase, flash LED, IA, geo-tagging, HDR
+Video	2160p-30fps, 1080p-30/240fps, 1080p-960fps, EIS
+Frontal	32 MP, f/2.2, 1080p, HDR
+CONECTIVIDAD	Wi-Fi	Wi-Fi 802.11 a/b/g/n/ac; Wi-Fi Direct; banda dual
+Bluetooth	v5.0 LE, A2DP
+GPS	GPS con soporte A-GPS, GLONASS, GALILEO, BDS
+USB	USB Type-C 2.0, OTG
+Puerto infrarrojo	No
+SONIDO	Parlante	Altoparlante
+Conector de audio	Conector de audio 3.5 mm
+Notificaciones	Ringtones Polifónico, MP3, WAV; Vibración
+Radio FM	Si
+Reproductor de video MP4/H.264
+Reproductor de audio MP3/eAAC+/WAV/FLAC
+Brújula digital
+Seguridad	Lector de huellas (bajo pantalla)
+Desbloqueo facial
+Resistencia al agua	No
+$assets/img/producto27-m.png
+$+assets/img/producto27-1.png
++assets/img/producto27-2.png
+@
+$CAT-CEL
+$Samsung Galaxy S20+
+$3500
+$SAMSUNG GALAXY S20+
+DIMENSIONES Y PESO: 161,9 x 73,7 x 7,8 mm //186 gramos
+PANTALLA: Dynamic AMOLED 6,7 pulgadas QHD+ 525 ppp, 120 Hz HDR10+
+PROCESADOR: Exynos 990 (7nm, 64 bits) Octa-core (2,73 + 2,6 + 2 GHz)
+MEMORIA RAM: 8/12 GB LPDDR5
+ALMACENAMIENTO INTERNO: 128/512 GB + MicroSD 1 TB
+CÁMARA TRASERA
+Ultra angular: 12 MP, 1,4µm, f/2.2
+Angular: 12 MP, 1,8µm, f/1.8, OIS
+Telefoto: 64 MP, 0,8µm, f/2.0, OIS
+Zoom: óptico híbrido 3x, digital 30x
+Sensor ToF
+CÁMARA DELANTERA: 10 MP (1,22µm), f/2.2
+SISTEMA OPERATIVO: Android 10
+BATERÍA: 4.500 mAh
+CONECTIVIDAD: 5G NSA sub-6 //LTE Cat20 hasta 2 Gbps//WiFi ac 4x4 MIMO
+BIOMETRÍA: Sensor de huellas bajo la pantalla//Reconocimiento facial
+OTROS: Protección IP68
+$assets/img/producto28-m.png
+$+assets/img/producto28-1.png
++assets/img/producto28-2.png
+@
+$CAT-CEL
+$Samsung Galaxy M30s
+$1700
+$PANTALLA: Super AMOLED 6,4 pulgadas
+Resolución FullHD+
+PROCESADOR: Exynos 9611
+RAM: 4 GB / 6 GB
+ALMACENAMIENTO: 64 GB / 128 GB + micro SD hasta 512 GB
+SOFTWARE: Android 9 Pie + Samsung One UI
+CÁMARA TRASERA: 48 MP f/2.0 + 8 MP f/2.2 gran angular + 5 MP f/2.2
+CÁMARA FRONTAL: 16 MP
+BATERÍA: 6.000 mAh con carga rápida 15W
+Dual SIM
+tecnología Game Booster 
+lector de huellas trasero
+USB-C
+$assets/img/producto29-m.png
+$+assets/img/producto29-1.png
++assets/img/producto29-2.png
++assets/img/producto29-3.png
+@
+$CAT-CEL
+$Samsung Galaxy S21 Ultra 5G
+$5300
+$SAMSUNG GALAXY S21 ULTRA
+PANTALLA: 
+6,8” Dynamic AMOLED 2x
+120 Hz
+WQHD+
+PROCESADOR: Exynos 2100
+RAM: 12 / 16 GB
+ALMACENAMIENTO: 128 / 256 / 512 GB
+CÁMARA TRASERA: 108 MP f/1.0
+Ultra gran angular 12 MP f/2.2
+Tele 10 MP f/2.4
+Tele 10 MP f/4.9
+Láser AF ToF
+CÁMARA FRONTAL: 40 MP f/2.2
+BATERÍA: 5.000 mAh
+Carga rápida 25 W
+Carga inalámbrica 15W
+Wireless PowerShare
+SISTEMA OPERATIVO: Android 11 + One UI 3.0
+CONECTIVIDAD: 5G
+WiFi 6 y 6E
+UBW tracking
+DIMENSIONES: 165,1 x 75,6 x 8,9 mm 228
+Altavoces estéreo AKG, IP68, compatibilidad con S Pen
+$assets/img/producto30-m.png
+$+assets/img/producto30-1.png
++assets/img/producto30-2.png
++assets/img/producto30-3.png
+@
+$CAT-CEL
+$Moto G9 Plus
+$1199
+$Pantalla
+LCD 6,8"
+Full HD+ 2.400 x 1.080, 386 ppp
+HDR10
+Dimensiones
+170 x 78,1 x 9,7 mm
+Procesador
+Snapdragon 730G
+RAM
+4 GB
+Almacenamiento
+128 GB
+Cámara frontal
+16 MP f/2.0
+Cámara trasera
+Ultra angular: 8 MP (1/4.0"), f/2.2
+Macro: 2 MP f/2.2
+Batería
+5000 mAh
+Carga rápida 30W
+Sistema operativo
+Android 10
+Conectividad
+4G
+Wi-Fi ac
+Bluetooth 5.0
+NFC
+Otros
+Lector de huellas en un lateral
+$assets/img/producto31-m.png
+$+assets/img/producto31-1.png
++assets/img/producto31-2.png
++assets/img/producto31-3.png
+@
+$CAT-CEL
+$Motorola One Fusion
+$849
+$Cámara posterior	48MP + 8MP + 5MP + 2MP
+Cámara frontal	8MP
+Memoria interna	128GB
+Batería	5000 mAh
+Memoria RAM	4GB
+Modelo	One Fusion
+Dimensiones (cm)	16.49 x 7.58 x 0.94 cm
+Sistema operativo	Android 10
+Tamaño de pantalla (pulgadas)	6.5
+Velocidad CPU	2.2 GHz, 1.7 GHz
+Conectividad	4G
+Sistema operativo	Android > a 5.0
+Procesador	Qualcomm
+Memoria expandible a	512GB
+Resolución de la pantalla	1600 x 720
+Cámara posterior	Más de 10MP
+Flash	Sí
+Color	Azul
+Ranura USB	Sí
+Pantalla (tipo)	LCD
+Tamaño de pantalla (pulgadas)	Más de 5.4''
+Reproduce formato(s) de video	Sí
+Garantía	Sí
+$assets/img/producto32-m.png
+$+assets/img/producto32-1.png
++assets/img/producto32-2.png
++assets/img/producto32-3.png
+@
+$CAT-CEL
+$Moto G8 Power Lite
+$749
+$Pantalla
+LCD 6.5 pulgadas
+Resolución HD+
+Dimensiones y peso
+164,94 x 75,76 x 9,2 mm
+Procesador
+MediaTek Helio P35
+RAM
+4 GB
+Almacenamiento
+64 GB + MicroSD hasta 256 GB
+Cámara frontal
+8 MP f/2.0
+Cámara trasera
+16 MP f/2.0
+Batería
+5000 mAh
+Carga 10W
+Sistema operativo
+Android 9 Pie
+Conectividad
+Dual SIM 4G
+Wi-Fi 4
+Bluetooth 4.2
+micro-USB Minijack
+Otros
+Lector de huellas trasero
+$assets/img/producto33-m.png
+$+assets/img/producto33-1.png
++assets/img/producto33-2.png
++assets/img/producto33-3.png
+@
+$CAT-CEL
+$Motorola One Macro
+$769
+$Cámara posterior	13MP + 2MP + 2MP
+Cámara frontal	8MP
+Memoria interna	64GB
+Batería	4000 mAh
+Memoria RAM	4GB
+Modelo	One Macro
+Dimensiones (cm)	7.54 x 15.76 x 0.9 cm
+Sistema operativo	Android 9
+Tamaño de pantalla (pulgadas)	6.2
+Velocidad CPU	Octa-Core 2.0 GHz
+Conectividad	4G LTE
+Sistema operativo	Android > a 5.0
+Memoria expandible a	512 GB
+Resolución de la pantalla	1520 x 720 px
+Cámara posterior	Más de 10MP
+Enfoque automático	Sí
+Color	Azul
+Pantalla (tipo)	HD+
+Tamaño de pantalla (pulgadas)	Más de 5.4''
+Reproduce formato(s) de video	
+$assets/img/producto34-m.png
+$+assets/img/producto34-1.png
++assets/img/producto34-2.png
++assets/img/producto34-3.png
+@
+$CAT-CEL
+$Motorola Moto G Pro
+$1259
+$Alto	12
+Ancho	10
+Cámara frontal	16MP
+Cámara principal	Sobre 40MP
+Batería	4000
+Carga rápida	Sí
+Conectividad	WiFi
+Conexión Bluetooth	Sí
+Garantía del proveedor	6 meses
+GPS integrado	Sí
+Lector de huella	Sí
+Marca y modelo del procesador	Qualcomm
+Memoria interna	128GB
+Memoria RAM	4GB
+Sistema operativo	Android
+Tamaño de la pantalla	6.4 pulgadas
+Tipo	Smartphones
+Tipo de pantalla	LCD
+Velocidad del procesador	2.0
+Accesorios que incluye	Cargador de pared y manual
+Resistente al agua	IPX0 (Sin protección especial)
+$assets/img/producto35-m.png
+$+assets/img/producto35-1.png
++assets/img/producto35-2.png
++assets/img/producto35-3.png
+@
+$CAT-CEL
+$Huawei Mate 30 Pro
+$3799
+$Los bordes de la pantalla ultracurveados ofrecen un área más amplia para las interacciones que también reemplazan los botones físicos para diseño perfecto.
+La batería se actualiza a 4.500 mAh(Valor Típico) 4, que puede soportar fácilmente tus necesidades de un día. Con o sin cable, en casa o en tu automóvil, podrás disfrutar de una carga muy rápida y estar listo para el próximo desafío.
+Permite grabar videos con poca luz, cámara ultra lenta y ultra gran angular Time-lapse.
+$assets/img/producto36-m.png
+$+assets/img/producto36-1.png
++assets/img/producto36-2.png
+@
+$CAT-CEL
+$Huawei Mate 40 Pro+
+$3809
+$Pantalla OLED de 6.76 pulgadas a resolución Full HD+
+Cámara quintuple, con lentes de 50MP, 20MP, 12MP y 8MP, más un lente TOF 3D para información de profundidad, complementada con estabilización óptica de imagen, zoom óptico 10x, y óptica Leica.
+La cámara frontal es dual, y consta de un lente de 13 megapixels junto con un lente TOF 3D.
+Parlantes estéreo, lector de huellas bajo pantalla, batería de 4400 mAh con carga rápida inalámbrica y convencional, resistencia al polvo y agua, y corre EMUI 11 basado en Android 10, sin los servicios de Google.
+$assets/img/producto37-m.png
+$+assets/img/producto37-1.png
++assets/img/producto37-2.png
+@
+$CAT-CEL
+$Huawei P Smart 2021
+$16413
+$PANTALLA  LCD 6,67 pulgadas
+Ratio 20:9
+FullHD+ a 2.400 x 1.080 píxeles
+PROCESADOR  Kirin 710A
+VERSIONES  4GB/128GB
+MicroSD hasta 512GB 
+CÁMARA FRONTAL  8 megapíxeles f/2.0
+CÁMARAS TRASERAS  48 megapíxeles f/1.8
+8 megapíxeles f/2.4 súper gran angular
+2 megapíxeles f/2.4 bokeh
+2 megapíxeles f/2.4 macro
+BATERÍA  5.000 mAh
+Carga rápida de 22.5W
+SISTEMA OPERATIVO  Android 10
+EMUI 10.1  
+CONECTIVIDAD  4G
+WiFi 4
+Bluetooth 5.1
+USB tipo C
+Conector para auriculares
+DIMENSIONES Y PESO  165,65 x 76,88 x 9,26 milímetros
+206 gramos
+$assets/img/producto38-m.png
+$+assets/img/producto38-1.png
+@
+$CAT-CEL
+$Huawei P40
+$16413
+$Pantalla: 6.51 pulgadas, 90Hz.
+Resolución: 2,340x1,080 pixeles.
+Procesador: Kirin 990 5G+GPU MALI 676.
+RAM: 6GB/8GB.
+Almacenamiento: 128GB/256GB.
+Batería: 3,800mAh (no extraíble)
+Sistema operativo: Android 10 (EMUI 10.1)
+Carga rápida: 22.5 vatios.
+$assets/img/producto39-m.png
+$+assets/img/producto39-1.png
++assets/img/producto39-2.png
+@
+$CAT-CEL
+$Huawei P40 Lite
+$1119
+$Tamaño de pantalla: 6.4 pulgadas*Con un diseño de esquinas redondeadas en la pantalla, la longitud diagonal de la pantalla es de 6.4 pulgadas cuando se mide de acuerdo con el rectángulo estándar (el área visible real es ligeramente más pequeña).
+Huawei Kirin 810
+EMUI10.0.1(Basado en Android10.0) 
+Soporte de memoria externa:Tarjeta SD NM, hasta 256 GB
+Cámara trasera:48 MP (lente Gran Angular, apertura f/1.8) + 8 MP (lente Ultra Gran Angular) + 2 MP (lente Macro) + 2 MP (lente Bokeh)
+Batería: 4.200mAh
+$assets/img/producto40-m.png
+$+assets/img/producto40-1.png
+@
+$CAT-CEL
+$Xiaomi Mi 9T Pro
+$1999
+$Pantalla: 6.39 pulgadas, 2,340x1,080 pixeles, 403ppp
+Procesador: Snapdragon 855
+Almacenamiento: 64GB/128GB, no expandible
+RAM: 6GB
+Cámara principal: regular de 48 megapixeles f/1.75, telefoto de 8 megapixeles f/2.4, gran angular de 13 megapixeles f/2.4
+Cámara frontal: 20 megapixeles, f/2.2
+Batería: 4,000mAh
+Carga rápida: Compatible con 27 vatios; el cargador incluido es de 18 vatios
+Posee NFC certificado para pagos con Google Play
+$assets/img/producto41-m.png
+$+assets/img/producto41-1.png
++assets/img/producto41-3.png
+@
+$CAT-CEL
+$Xiaomi Mi 10 Lite 5G
+$1698
+$Dimensiones y peso 163,71 x 74,77 x 7,88 mm
+192 gramos
+Pantalla AMOLED de 6,57 pulgadas
+Resolución FullHD+ (2.400 x 1.080 píxeles)
+Notch en forma de gota
+Gorilla GLass 5
+HDR10+
+Procesador Snapdragon 765G
+Ram 6 GB LPDDR4X
+$assets/img/producto42-m.png
+$+assets/img/producto42-1.png
++assets/img/producto42-2
+@
+$CAT-CEL
+$Xiaomi Mi Note 10
+$2500
+$Dimensiones y peso 157,8 × 74,2 × 9,67 mm, 208 gramos
+Pantalla AMOLED 6,47 pulgadas con notch
+FullHD+3D
+Contraste 400.000:1 (min)
+NTSC: DCI-P3
+Procesador Snapdragon 730G 8nm
+Ram 6 GB LPDDR4
+Almacenamiento 128 GB UFS 2.1
+Cámaras traseras 108 MP (1/1,33”) f/1.69, 7P, 82° - AF, Super Pixel, OIS
+12 MP telefoto 2x, f/2.0, 6P
+5 MP telefoto 5x, f/2.0 - OIS
+20 MP ultra gran angular 117º, f/2.2
+2 MP macro
+Cámara frontal	32 MP f/2.0, Super Pixel
+Sistema operativo Android 9 Pie + MIUI 11
+Conectividad Dual 4G, bandas GSM B2/B3/B5/B8, WCDMA B1/B2/B4/B5/B6/B8/B19, FDD-LTE B1/B2/B3/B4/B5/B7/B8/B18/B19/B20/B26/B28, TDD-LTE B38/B40, NFC
+Batería	5.260 mAh
+$assets/img/producto43-m.png
+$+assets/img/producto43-1.png
++assets/img/producto43-2.png
+@
+$CAT-CEL
+$Xiaomi Redmi Note 8T
+$699
+$Sistema operativo Android 9.0
+Procesador: Qualcomm Snapdragon 665.
+Cámara principal: 48 Mpx.
+Pantalla: 6,3''
+Tipo de batería: 4000 mAh.
+Memoria interna: 128 GB.
+RAM: 4 GB.
+Cámara principal: 48 Mpx
+Cámara frontal: 13 Mpx
+Flash
+$assets/img/producto44-m.png
+$+assets/img/producto44-1.png
++assets/img/producto44-2.png
+@
+$CAT-CEL
+$Xiaomi Redmi Note 9S
+$1019
+$Rendimiento: Procesador: Snapdragon 720G. ...
+Pantalla: Dimension: 6,67 pulgadas. ...
+Cámaras: Principal de 48 Mpx. ...
+Otros: jack de auriculares, doble SIM y micro SD independientes, puerto infrarrojos, sensor de huellas lateral.
+Dimensiones: 165,7 x 76,6 x 8,8 mm.
+Peso: 209 gramos.
+$assets/img/producto45-m.png
+$+assets/img/producto45-1.png
++assets/img/producto45-2.png
+@
+$CAT-CEL
+$LG Velvet
+$2000
+$PANTALLA: OLED 6,8"
+20.5:9
+Cinema FullVision display.
+DIMENSIONES: 167.1 x 74,1 x 7.85 mm
+PROCESADOR: Snapdragon 765G
+RAM: 6 GB
+ALMACENAMIENTO: 128 GB
+CÁMARA FRONTAL: 16 MP
+CÁMARA TRASERA: 48 MP
+8 MP gran angular
+5 MP bokeh
+BATERÍA: 4.300 mAh
+SISTEMA OPERATIVO: Android
+CONECTIVIDAD: 5G SA/NSA
+Wi-Fi
+Bluetooth
+USB-C
+Altavoces estéreo
+Compatible con LG Dual Screen y Stylus Pen
+IP68
+$assets/img/producto46-m.png
+$+assets/img/producto46-1.png
+@
+$CAT-CEL
+$LG G8X ThinQ DualScreen
+$2500
+$DIMENSIONES: 159,3 x 75,8 x 8,4 mm
+PANTALLA: 6,4" OLED FullVision
+FHD+ (2.340 X 1.080 px, 403 ppp)
+19,5:9
+PROCESADOR: Snapdragon 855
+MEMORIA RAM: 6 GB
+ALMACENAMIENTO: 128 GB (hasta 2 TB con microSD)
+SISTEMA OPERATIVO: Android 9 Pie + capa LG
+CÁMARAS TRASERAS
+12 MP f/1.8 (1,4 µm) 78º +
+13 MP f/2.4 (1 µm) súper gran angular 136º
+CÁMARAS FRONTALES
+32 MP f/1.9 (0.8µm) 79º
+BATERÍA:4.000 mAh + carga rápida (QC 3.0)
+Lector de huellas en pantalla 
+sonido estéreo
+radio FM
+CONECTIVIDAD: Wi-Fi 802.11/Bluetooth 5.0 /USB Tipo-C (USB 3.1 Compatible)
+$assets/img/producto47-m.png
+$+assets/img/producto47-1.png
+@
+$CAT-CEL
+$LG K62
+$1400
+$PANTALLA: LCD 6,6 pulgadas (20:9)
+Resolución HD+
+PROCESADOR: Ocho núcleos a 2,3 GHz
+RAM: 4 GB
+ALMACENAMIENTO: 128 GB + microSD hasta 2 TB
+SOFTWARE: Android 10 + Q OS
+CÁMARA TRASERA: 48 MP
+5 MP Gran angular (115°)
+2 MP Macro
+2 MP Profundidad
+CÁMARA FRONTAL: 28 MP
+BATERÍA: 4.000 mAh
+CONECTIVIDAD: 4G, WiFi, Bluettooth 5.0, NFC, USB-C, jack 3,5 mm
+Lector de huellas lateral
+Botón de Google Assistant
+DIMENSIONES: 165 x 76,7 x 8,4 mm
+$assets/img/producto48-m.png
+$+assets/img/producto48-1.png
+@
+$CAT-CEL
+$LG K52
+$900
+$PANTALLA:LCD 6,6 pulgadas (20:9)
+Resolución HD+
+PROCESADOR: Ocho núcleos a 2,3 GHz
+RAM: 4 GB
+ALMACENAMIENTO: 64 GB + microSD hasta 2 TB
+SOFTWARE:Android 10 + Q OS
+CÁMARA TRASERA: 48 MP
+5 MP Gran angular (115°)
+2 MP Macro
+2 MP Profundidad
+CÁMARA FRONTAL: 13 MP
+BATERÍA: 4.000 mAh
+CONECTIVIDAD: 4G, WiFi, Bluettooth 5.0, NFC, USB-C, jack 3,5 mm
+Lector de huellas lateral
+Botón de Google Assistant
+DIMENSIONES: 165 x 76,7 x 8,4 mm
+$assets/img/producto49-m.png
+$+assets/img/producto49-1.png
+@
+$CAT-CEL
+$LG K42
+$630
+$Pantalla: 6.6 pulgadas.
+Tecnología: LCD
+Resolución: HD+ 1520 x 720 píxeles.
+Procesador: MediaTek Helio P22.
+3 GB de memoria RAM.
+64 GB.
+Ampliable con microSD: Sí, hasta 2 TB.
+Cámaras:
+Sensor principal de 13 Mpx f/1.8.
+Gran angular de 5 Mpx f/2.2.
+Sensor Macro de 2 Mpx.
+Sensor de profundidad de 2 Mpx.
+Cámara frontal:
+8 Mpx.
+Dimensiones: 165,0 x 76,7 x 8,4 mm
+Batería: 4000 mAh.
+Conectividad: 4G, GPS, GLONASS, microUSB, Bluetooth 5.1, NFC…
+Sensor de huellas lateral.
+Sistema operativo: Android 10 con LG UX 9.0.
+$assets/img/producto50-m.png
+$+assets/img/producto50-1.png

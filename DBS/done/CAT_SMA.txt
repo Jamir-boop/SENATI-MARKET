@@ -1,0 +1,122 @@
+@
+$SmartWatch
+$Smartwatch Apple Watch Series 6
+$2800.00
+$pantalla retina 40Mm, 
+llamadas manos libres, 
+Marca: APPLE
+Pantalla Retina LTPO OLED siempre encendida
+Corona digital con retroalimentación háptica
+Genere su propio ECG
+Detección de caídas + Emergencia SOS
+Monitor de frecuencia cardíaca con notificaciones
+Llamadas manos libres + Integración Siri
+GPS incorporado + brújula
+Tecnología inalámbrica Wi-Fi y Bluetooth
+Resistente al agua hasta 164 '
+Ver sistema operativo
+watchOS 6
+Capacidad de almacenamiento: 32 GB
+Sensores: Accelerometer, Altimeter, Barometer, Compass, Gyroscope, Heart Rate, Light Sensor
+Rastreador de actividad: Si
+Micrófono: Si
+Altavoz incorporado: Si
+Vibración: Si
+$assets/img/producto161-m.png
+$+assets/img/producto161-1.png
++assets/img/producto161-2.png
++assets/img/producto161-3.png
+@
+$SmartWatch
+$Smartwatch Amazfit GTR Negro
+$700.00
+$Características:
+Pantalla de alta resolución, cuya densidad de píxeles (348 x 442) es tan alta que alcanza los 341 PPI
+Elegante pantalla cuadrada de 1.65' que muestra más contenido.
+Nuevas interfaces con accesos rápidos editables
+Interfaz Modular Digital: Se muestra en el centro
+Interfaz Modular Analógica: con siete módulos personalizables para elegir entre 17 opciones
+Resistencia al agua (5 ATM) y seguimiento para natación profesional
+12 Modos De Ejercicio Convencionales (correr al aire libre, cinta de correr, caminar, ciclismo al aire libre, bicicleta estática, natación en aguas abiertas, natación en piscina, entrenador elíptico, escalar, carrera de montaña, esquí, ejercicio)
+Increíble batería de 14 días a pesar del cuerpo delgado del reloj
+Sensor óptico de seguimiento Biológico Biotracker™ PPG de frecuencia cardiaca
+Motor de datos biológicos basados en la IA de Realbeats
+Conectividad con la aplicación Zepp App (anteriormente como Amazfit App)
+Especificaciones:
+Material del cuerpo: Aleación de aluminio de grado aeronáutico + polímero + silicona (correa)
+Pantalla: Cristal templado Corning Gorilla 3 AMOLED 1.65' + revestimiento antihuellas
+Resolución: 348 x 442 - 341 PPI - 100% NTSC
+Pantalla Táctil: Sí
+Grado de impermeabilidad y resistencia al polvo: 5 ATM
+Sensores: Óptico Bio Tracker PPG Bio Tracking, aceleración de 6 ejes, geomagnético de 3 ejes, presión de ire y luz de ambiente
+Conexión: Bluetooth 5.0
+Batería: 220mAh
+Tiempo de carga: 2h
+Método de carga: Magnético (2 pines POGO)
+Duración de la batería: 14-46 días
+Longitud de la correa: 12cm (largo) - 8.7cm (corto)
+Ancho de la correa: 2cm
+Dimensiones: 4.3 x 3.6 x 0.9cm
+$assets/img/producto162-m.png
+$+assets/img/producto162-1.png
+@
+$SmartWatch
+$El Smartwatch Leotec MultiSport COOL
+$190.00
+$es un dispositivo inteligente que une la resistencia (tanto a golpes, como a polvo como al agua), las mejores prestaciones, la versatilidad multisport y una medi- cio´n fiable de tus para´metros de salud…
+Con una estupenda pantalla de 1.4'' completamen- te ta´ctil y a color, adema´s, dispone de un bonito acabado, con correas de silicona fa´cilmente inter- cambiables y de disen~o moderno y atractivo.
+Marca	LEOTEC
+Bluetooth	Sí
+Largo (cm)	24.6
+Sistema operativo	-
+Alto (cm)	3.3
+Batería	Batería recargable de 170mAh
+Peso (kg)	0.125
+Procesador	Chipset NRF52832
+Ancho (cm)	0.95
+Incluye	Cable cargador y guia rapida
+Modelo	Cool
+Color	Rosado
+Compatibilidad	Android/iOS
+$assets/img/producto163-m.png
+$+assets/img/producto163-1.png
++assets/img/producto163-2.png
+@
+$SmartWatch
+$Watch Fit B09 Negro
+$350.00
+$Marca: Huawei
+Modelo: B09 Black
+Color: Negro
+Tipo de pantalla: Amoled HD
+Tamaño de pantalla: 1.64''
+Material: Fibra de polímero
+Android 5.0 o posterior, iOS 9.0 o posterior
+Resistencia al agua de 5 ATM
+Conectividad
+2.4 Ghz, BT 5.0, BLE
+Su algoritmo de ritmo cardiaco y sus sensores innovadores con IA, HUAWEI WATCH FIT se adapta a todas tus rutinas de ejercicio. Los niveles muy bajos de saturación de oxígeno en la sangre (SpO2) pueden inducir problemas de salud. Ponte tu HUAWEI WATCH FIT y empieza a detectar tus niveles de SpO2 con un solo toque.
+Dimensiones: 4.6 × 3.0 × 1.07 cm
+Memoria: 4 GB
+$assets/img/producto164-m.png
+$+assets/img/producto164-1.png
++assets/img/producto164-2.png
++assets/img/producto164-3.png
+@
+$SmartWatch
+$Smart Watch Realme Negro
+$260.00
+$Modelo	Realme Smart Wacth S
+Conexión Wi Fi	No
+Tipo de pantalla	OLED
+Bluetooth	Sí
+Resistente al Agua	Sí
+Tipo de producto	Smartwatch
+Tamaño de la pantalla	1.3"
+Marca	Realme
+Color	Negro
+$assets/img/producto165-m.png
+$+assets/img/producto165-1.png
++assets/img/producto165-2.png
+
+
