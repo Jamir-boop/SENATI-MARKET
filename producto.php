@@ -18,6 +18,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="assets/js/actualizarProducto.js"></script>
         <?php require_once('assets/php/conexion.php'); ?>
+        <?php require_once('assets/php/get_last_row.php'); ?>
+        <?php require_once('assets/php/generador_pk.php'); ?>
     </head>
     <body>
         <!-- LOADING SCR -->
@@ -55,12 +57,8 @@
                         <?php
                             $estado = "display: none;";
 
-                            try{
-                                //INSTANCIA
-                                $objeto = new conexion();
-
-                                //Guardo objeto que retorna el metodo conectar
-                                $conexion = $objeto->conectar();
+                            try{                                //Guardo objeto que retorna el metodo conectar
+                                $conexion = conexion::conectar();
 
                                 $sql = 'SELECT COUNT(codigoCompra) FROM `carrito` WHERE `estadoCompra` = 1';
 
@@ -78,7 +76,7 @@
                         <span class="badge" style="<?php //echo $estado; ?>">
                             <?php echo $result[0]; ?>
                         </span>
-                        <?php $objeto->desconectar(); ?>
+                        <?php conexion::desconectar(); ?>
 
                     </a>
 
@@ -134,7 +132,7 @@
                 <ul>
                     <?php
                         //INSTANCIA
-                        $conexion = $objeto->conectar();
+                        $conexion = conexion::conectar();
                         $sql = 'SELECT `categoriaProd` FROM producto GROUP BY `categoriaProd` LIMIT 8';
 
                         // Se hace la peticion SQL
@@ -148,7 +146,7 @@
                         <li><a href="index.php?cat=<?php echo $row['categoriaProd'] ?>"><?php echo $row['categoriaProd'] ?></a></li>
                     <?php
                             }
-                            $objeto->desconectar();
+                            conexion::desconectar();
                         }
                     ?>
                         <li><a href="#" class="mas">Más categorías</a></li>
@@ -169,7 +167,7 @@
                 <?php
                     $sql = 'SELECT `imgSecProd` FROM producto WHERE `codigoProd`= :cod;';
 
-                    $conexion = $objeto->conectar();
+                    conexion::conectar();
                     $query = $conexion->prepare($sql);
                     $query->bindValue(":cod", $codigo_producto);
                     $query->execute();
@@ -180,7 +178,7 @@
                     <img alt="" src="<?php echo $img;?>" id="imagenSec">
                 <?php
                     }
-                    $objeto->desconectar();
+                    conexion::desconectar();
                 ?>
                 <!-- ======================================================== -->
             </section>
@@ -192,7 +190,7 @@
 
             <?php
                 $sql = 'SELECT * FROM producto WHERE `codigoProd`= :cod;';
-                $conexion = $objeto->conectar();
+                $conexion = conexion::conectar();
                 $query = $conexion->prepare($sql);
                 $query->bindValue(":cod", $codigo_producto);
                 $query->execute();
@@ -229,7 +227,7 @@
 
                         <div class="botonera">
                             <!-- <input value="Unidades:" readonly></input><input type="number" name="unidades" value="1"/> -->
-                            <a href="producto.php?producto=<?php echo $codigo_producto;?>&btn_agregar=yas&unidades=1" id="btn_agregar" >Agregar al carrito</a>
+                            <a href="producto.php?producto=<?php echo $codigo_producto;?>&btn_agregar&unidades=1" id="btn_agregar" >Agregar al carrito</a>
                             <!-- <a href="#">Comprar</a> -->
                             <?php
                             if(isset($_GET["btn_agregar"])){
@@ -249,7 +247,7 @@
                 </section>
                 <?php
                     }
-                $objeto->desconectar();
+                conexion::desconectar();
                 ?>
 
                 <!-- =================================================================================== -->
@@ -275,17 +273,29 @@
                     }
             -->
             <?php
+            // ========================= AGREGAR AL CARRITO =========================
             if(isset($_GET["btn_agregar"])) {
+                //ultima fila del carrito
+                $ultima_fila = new get_last_row("carrito", "codigoCompra");
+                $ultima_fila = $ultima_fila->last_row();
+                $codigo_compra = new generador_pk($ultima_fila);
+                $codigo_compra = $codigo_compra->generar();
+
+                //pidiendo codigo de cliente
+                $codigo_cliente = new pedir_datos("cliente", "CLI00001", "codigoCliente");
+                $codigo_cliente = $codigo_cliente->get_datos();
+
+                // producto
                 $cantidad = $_GET["unidades"];
                 $codigo_producto = $_GET["producto"];
                 
                 $sql = "INSERT INTO `carrito`(codigoCompra, codigoCliente, codigoProd, cantidadProd) 
                         VALUES (:codigoCompra, :codigoCliente, :codigoProd, :cantidadProd)";
 
-                $conexion = $objeto->conectar();
+                $conexion = conexion::conectar();
                 $query = $conexion->prepare($sql);
-                $query->bindValue(":codigoCompra", $codigo_producto);
-                $query->bindValue(":codigoCliente", $codigo_producto);
+                $query->bindValue(":codigoCompra", $codigo_compra);
+                $query->bindValue(":codigoCliente", $codigo_cliente[0][0]);
                 $query->bindValue(":codigoProd", $codigo_producto);
                 $query->bindValue(":cantidadProd", $cantidad);
 
@@ -308,7 +318,7 @@
             <?php
                 try{
                     //INSTANCIA
-                    $conexion = $objeto->conectar();
+                    $conexion = conexion::conectar();
                     $sql = "SELECT * FROM producto GROUP BY `categoriaProd`";
 
                     // Se hace la peticion SQL
@@ -322,7 +332,7 @@
             <?php
               }
                 //cerrando
-                $objeto->desconectar();
+                conexion::desconectar();
 
                 }catch (Exception $e){die($e->getMessage());}
             ?>

@@ -12,14 +12,13 @@ class get_last_row{
     public function last_row(){
         $sql="SELECT `".$this->columna."` FROM `".$this->tabla."` ORDER BY `".$this->columna."` DESC LIMIT 1;";
 
-        $obj = new conexion();
-        $con = $obj->conectar();
+        $con = conexion::conectar();
         $query = $con->prepare($sql);
         $query->execute();
         $result = $query->fetch();
-        $obj->desconectar();
+        conexion::desconectar();
 
-        return $result[0];
+        return $result;
     }
 
     public function get_columna(){
@@ -36,5 +35,6 @@ class get_last_row{
             case "carrito";
                 return "COM";
         }
+        return "columna indefinida";
     }
 }
