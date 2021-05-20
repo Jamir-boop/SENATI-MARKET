@@ -13,7 +13,7 @@
     $codigo_producto = "PRO00028";
     $sql = 'SELECT `imgSecProd` FROM producto WHERE `codigoProd`= :cod;';
 
-    $objeto = new Conexion();
+    $objeto = new conexion();
     $conexion = $objeto->conectar();
     $query = $conexion->prepare($sql);
     $query->bindValue(":cod", $codigo_producto);

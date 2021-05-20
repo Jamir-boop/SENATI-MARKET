@@ -11,7 +11,7 @@
         <link type="text/css" rel="stylesheet" href="assets/css/reset.css" />
         <link type="text/css" rel="stylesheet" href="assets/css/formulario.css" />
 
-        <?php require_once('assets/php/Conexion.php'); ?>
+        <?php require_once('assets/php/conexion.php'); ?>
         <?php require_once('assets/php/generador_pk.php'); ?>
         <?php require_once('assets/php/get_last_row.php'); ?>
 
@@ -85,7 +85,7 @@
 
                 try {
                     //INSTANCIA
-                    $objeto = new Conexion();
+                    $objeto = new conexion();
 
                     //Guardo objeto que retorna el metodo conectar
                     $conexion = $objeto->conectar();

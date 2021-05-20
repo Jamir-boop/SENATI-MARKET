@@ -12,7 +12,7 @@ class get_last_row{
     public function last_row(){
         $sql="SELECT `".$this->columna."` FROM `".$this->tabla."` ORDER BY `".$this->columna."` DESC LIMIT 1;";
 
-        $obj = new Conexion();
+        $obj = new conexion();
         $con = $obj->conectar();
         $query = $con->prepare($sql);
         $query->execute();

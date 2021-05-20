@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="assets/css/contenido_index.css" />
         <link rel="stylesheet" href="assets/css/notificacion.css" />
 
-        <?php require_once('assets/php/Conexion.php'); ?>
+        <?php require_once('assets/php/conexion.php'); ?>
 
         <script>
             localStorage.setItem("dark-mode", "true");
@@ -57,7 +57,7 @@
 
                             try{
                                 //INSTANCIA
-                                $objeto = new Conexion();
+                                $objeto = new conexion();
 
                                 //Guardo objeto que retorna el metodo conectar
                                 $conexion = $objeto->conectar();

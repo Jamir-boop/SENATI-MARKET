@@ -6,7 +6,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <?php require_once('assets/php/Conexion.php'); ?>
+        <?php require_once('assets/php/conexion.php'); ?>
 
         <title>Eliminar</title>
     </head>
@@ -23,7 +23,7 @@
         try{
             $sql = "UPDATE `carrito` SET `estadoCompra`='0' WHERE `codigoProd`= :codigo ;";
 
-            $objeto = new Conexion();
+            $objeto = new conexion();
             $conexion = $objeto->conectar();
             $query = $conexion->prepare($sql);
             $query->bindValue(":codigo", $codigo_producto);

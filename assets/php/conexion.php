@@ -1,5 +1,5 @@
 <?php
-class Conexion{
+class conexion{
 		//CREAR VARIABLES GLOBALES
 		private static $_basedatos = "senatimarketdbs";
 		private static $_servidor = "localhost";

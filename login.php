@@ -10,7 +10,7 @@
         <link type="text/css" rel="stylesheet" href="assets/css/reset.css" />
         <link type="text/css" rel="stylesheet" href="assets/css/formulario.css" />
 
-        <?php require_once('assets/php/Conexion.php'); ?>
+        <?php require_once('assets/php/conexion.php'); ?>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
@@ -73,7 +73,7 @@
                 $pass = $_POST["claveCliente"];
 
                 //INSTANCIA
-                $objeto = new Conexion();
+                $objeto = new conexion();
 
                 //Guardo objeto que retorna el metodo conectar
                 $conexion = $objeto->conectar();

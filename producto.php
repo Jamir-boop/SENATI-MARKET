@@ -17,7 +17,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="assets/js/actualizarProducto.js"></script>
-        <?php require_once('assets/php/Conexion.php'); ?>
+        <?php require_once('assets/php/conexion.php'); ?>
     </head>
     <body>
         <!-- LOADING SCR -->
@@ -57,7 +57,7 @@
 
                             try{
                                 //INSTANCIA
-                                $objeto = new Conexion();
+                                $objeto = new conexion();
 
                                 //Guardo objeto que retorna el metodo conectar
                                 $conexion = $objeto->conectar();
