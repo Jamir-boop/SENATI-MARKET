@@ -18,8 +18,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="assets/js/actualizarProducto.js"></script>
         <?php require_once('assets/php/conexion.php'); ?>
-        <?php require_once('assets/php/get_last_row.php'); ?>
         <?php require_once('assets/php/generador_pk.php'); ?>
+        <?php require_once('assets/php/pedir_datos.php'); ?>
     </head>
     <body>
         <!-- LOADING SCR -->
@@ -253,35 +253,17 @@
                 <!-- =================================================================================== -->
             </div>
         </div>
-            <!--
-                if(request.getParameter("btn_agregar") != null){
-                    String cantidadProd = request.getParameter("unidades");
-                    try{
-
-                        Class.forName("com.mysql.jdbc.Driver");
-                        connection = DriverManager.getConnection("jdbc:mysql://localhost/pathfindingdbs?user=root&password");
-
-                        state = connection.createStatement();
-                        state.executeUpdate("insert into carrito values  ('"+nombre+"','"+cantidadProd+"')");
-
-                        //redirecciona
-                        request.getRequestDispatcher("index.jsp").forward(request, response);
-
-                        }catch (Exception e){
-                            out.println(e);
-                        }
-                    }
-            -->
             <?php
             // ========================= AGREGAR AL CARRITO =========================
             if(isset($_GET["btn_agregar"])) {
                 //ultima fila del carrito
-                $ultima_fila = new get_last_row("carrito", "codigoCompra");
+                $ultima_fila = new pedir_datos("carrito");
                 $ultima_fila = $ultima_fila->last_row();
                 $codigo_compra = new generador_pk($ultima_fila);
                 $codigo_compra = $codigo_compra->generar();
 
                 //pidiendo codigo de cliente
+                //TODO: agregar cliente desde la sesion
                 $codigo_cliente = new pedir_datos("cliente", "CLI00001", "codigoCliente");
                 $codigo_cliente = $codigo_cliente->get_datos();
 

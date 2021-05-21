@@ -13,7 +13,7 @@
 
         <?php require_once('assets/php/conexion.php'); ?>
         <?php require_once('assets/php/generador_pk.php'); ?>
-        <?php require_once('assets/php/get_last_row.php'); ?>
+        <?php require_once('assets/php/pedir_datos.php'); ?>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
@@ -73,7 +73,7 @@
                 $fecha = date("Y-m-d");
 
                 // se obtiene ultima fila y se genera al ultimo cliente
-                $ultima_fila = new get_last_row("cliente", "codigoCliente");
+                $ultima_fila = new pedir_datos("cliente");
                 $ultima_fila = $ultima_fila->last_row();
                 $codigo = new generador_pk($ultima_fila);
                 $codigo = $codigo->generar();
@@ -88,7 +88,7 @@
                     $objeto = new conexion();
 
                     //Guardo objeto que retorna el metodo conectar
-                    $conexion = $objeto->conectar();
+                    $conexion = conexion::conectar();
 
                     // Se hace la peticion SQL
                     $sql = "INSERT INTO cliente (codigoCliente, nombreCliente, correoCliente, claveCliente, fechaCliente)
@@ -102,7 +102,8 @@
                     $query->bindValue(":fecha", $fecha);
                     $rs = $query->execute();
 
-                    if($rs) {
+                    if($rs){
+                        conexion::desconectar();
                         header("Location: index.php");
                     }else{
                         echo "<script>alert('se produjo un error');</script>";

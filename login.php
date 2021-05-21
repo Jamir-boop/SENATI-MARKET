@@ -91,7 +91,7 @@
                 }else{
                     echo "<script src='assets/js/loginFailed.js'></script>";
                 }
-                    //CREACION DE COOKIES
+                    //TODO CREACION DE COOKIES
 //                    Cookie usuario_activo = new Cookie("correoCliente", request.getParameter("correoCliente"));
 //                    response.addCookie( usuario_activo );
             }
