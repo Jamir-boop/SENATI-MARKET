@@ -23,155 +23,33 @@
         
     </head>
     <body>
-        <!-- ==================================== Bloque 1 ==================================== -->
-        <div class="contenedor_barra_navegacion">
-            <header class="cabecera">
-                <article class="contenedor_logo flex">
-                    <img src="assets/img/logo2.png" id="logotpf" alt="logo de la tienda" width="250px"/>
-                </article>
-                <article class="buscar">
-                    <form action="" method="GET">
-                        <input type="search" placeholder="Buscar"/>
-                        <button type="submit"><img src="assets/img/search.svg" alt="buscar" class="icon"/></button>
-                    </form>
-                </article>
+        <?php include('assets/php/barra_nav.php')?>
 
+                <!-- GENERANDO ARRAY DE INDICES DE PRODUCTOS PEDIDOS -->
+                <?php
+                    if(isset($_COOKIE['cliente'])) {
+                        $correo_cliente = ($_COOKIE['cliente']);
 
-                <article class="botones flex">
-                    <a href="#" class="botones_extra"><img src="assets/img/luna.svg" alt="modo nocturno" class="icon noche"></a>
+                        $sql = "SELECT `codigoCliente`, `nombreCliente` FROM cliente WHERE correoCliente='" . $correo_cliente . "'";
 
-                    <!-- OCULTANDO NOTIFICACION DE CANTIDAD DE PRODUCTOS EN EL CARRITO SI ES CERO -->
-
-                    <a href="carrito.php" class="botones_extra" id="notificacion">
-                        <img src="assets/img/carrito.svg" alt="carrito de compra" class="icon">
-
-                        <?php
-                            $estado = "display: none;";
-
-                            try{
-                                $conexion = conexion::conectar();
-
-                                $sql = 'SELECT COUNT(codigoCompra) FROM `carrito` WHERE `estadoCompra` = 1';
-
-                                // Se hace la peticion SQL
-                                $query = $conexion->prepare($sql);
-                                $query->execute();
-                                $result = $query->fetch();
-
-                                if($result[0] != "0"){
-                                    $estado = "";
-                                }
-                            }catch (Exception $e) {die($e->getMessage());}
-                        ?>
-
-                        <span class="badge" style="<?php //echo $estado; ?>">
-                            <?php echo $result[0]; ?>
-                        </span>
-                        <?php conexion::desconectar(); ?>
-
-                    </a>
-
-<!--                    // REVISAR COOKIES-->
-<!--                    String ocultar = "display: none;";-->
-<!--                    String registerState = "";-->
-<!---->
-<!--                    String sesion = request.getParameter("sesion");-->
-<!--                    -->
-<!--                    Cookie cookie = null;-->
-<!--                    Cookie[] cookies = null;-->
-<!--                    String nombreCliente = null;-->
-<!--                    String direccionCorreo = null;-->
-<!--                    -->
-<!--                    try{-->
-<!--                        if(sesion != null){-->
-<!--                            cookies = request.getCookies();-->
-<!--                            cookie = cookies[1];-->
-<!--                            cookie.setMaxAge(0);-->
-<!--                            response.addCookie(cookie);-->
-<!--                        }-->
-<!--                    }catch (Exception e) {}-->
-<!---->
-<!---->
-<!--                    try{-->
-<!--                -->
-<!--                    cookies = request.getCookies();-->
-<!--                    cookie = cookies[1];-->
-<!--                    -->
-<!--                    nombreCliente = cookie.getName();-->
-<!--                    direccionCorreo = cookie.getValue();-->
-<!--                    -->
-<!--                    if(nombreCliente != null){-->
-<!--                        registerState = "display: none;";-->
-<!--                        ocultar = "";-->
-<!--                    }-->
-<!--                    }catch(Exception e){}-->
-
-                    <a href="index.php?sesion=true&reload=true" class="botones_usuario" style="">cerrar sesión</a>
-
-                    <a href="login.php" class="botones_usuario" style="">iniciar sesión</a>
-                    <a href="register.php" class="botones_usuario" style="">registrarse</a>
-
-                    <div style="<?php //espacio para ocultar?> display: none;">
-                        <img class="botones_usuario" src="https://img.icons8.com/cute-clipart/64/000000/add-user-male.png" style="margin-left: 24%;" alt="imagen de sesion"/>
-                        <p style="color: #fc427b;"><?php //espacio para ocultar?>/p>
-                    </div>
-                </article>
-            </header>
-
-
-            <nav class="barra_navegacion">
-                <ul>
-                    <?php
-                        //INSTANCIA
                         $conexion = conexion::conectar();
-                        $sql = 'SELECT `categoriaProd` FROM producto GROUP BY `categoriaProd` LIMIT 8';
+                        $query = $conexion->prepare($sql);
+                        $query->execute();
+                        $result_cliente = $query->fetchAll();
+
+                        $cliente = $result_cliente[0][0];
+
+                        $conexion = conexion::conectar();
+
+                        $sql = "SELECT `codigoProd`, `cantidadProd` FROM carrito WHERE codigoCliente='" . $cliente . "' AND estadoCompra='1'";
 
                         // Se hace la peticion SQL
                         $query = $conexion->prepare($sql);
                         $query->execute();
-                        $result = $query->fetchAll();
+                        $result_pedido = $query->fetchAll();
 
-                        if($result){
-                            foreach($result as $row){
-                    ?>
-                        <li><a href="index.php?cat=<?php echo $row['categoriaProd'] ?>"><?php echo $row['categoriaProd'] ?></a></li>
-                    <?php
-                            }
-                            conexion::desconectar();
-                        }
-                    ?>
-                        <li><a href="#" class="mas">Más categorías</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- ================================================================================== -->
+                        conexion::desconectar();
 
-
-
-
-                <!-- GENERANDO ARRAY DE INDICES DE PRODUCTOS PEDIDOS -->
-                <?php
-                    //todo establecer cliente
-                    $cliente = 'CLI00001';
-
-                    $productos = array();
-                    $cantidad = array();
-
-                    $conexion = conexion::conectar();
-
-                    $sql = "SELECT `codigoProd`, `cantidadProd` FROM carrito WHERE codigoCliente='".$cliente."' AND estadoCompra='1'";
-
-                    // Se hace la peticion SQL
-                    $query = $conexion->prepare($sql);
-                    $query->execute();
-                    $result_pedido = $query->fetchAll();
-
-                    foreach ($result_pedido as $row){
-                        array_push($productos, $row[0]);
-                        array_push($cantidad, $row[1]);
-                    }
-
-                    conexion::desconectar();
                 ?>
 
                 <!-- MUESTRA DE  PRODUCTOS PEDIDOS-->
@@ -185,6 +63,7 @@
                         foreach($result_pedido as $row){
                             $sql = "SELECT imgMainProd, nombreProd, precioProd from producto where codigoProd='".$row[0]."'";
 
+                            $conexion = conexion::conectar();
                             $query = $conexion->prepare($sql);
                             $query->execute();
                             $result = $query->fetchAll();
@@ -221,7 +100,27 @@
                     <h3 class="total">total: </h3>
 
                     <p class="num_total">s/.<?php echo $total ?></p>
-                    <a href="carrito.php?pagar=true">Pagar</a>
+                    <a href="carrito.php?pagar">Pagar</a>
+                    <?php
+                        if(isset($_GET['pagar'])){
+
+                            $conexion = conexion::conectar();
+
+                            $sql = "UPDATE carrito SET estadoCompra='0' WHERE codigoCliente='" . $cliente."';";
+
+                            $query = $conexion->prepare($sql);
+                            $query->execute();
+                            $rs = $query->fetchAll();
+                            conexion::desconectar();
+                            ?>
+                            <br><br>
+                            <p style="color: #A6E22D;font-size: 20px; font-weight: 700;">Pago exitoso a nombre de <?php echo $result_cliente[0][1]; ?></p>
+                            <?php
+                            if($rs){
+                                header("Location: carrito.php?reload");
+                            }
+                        }
+                    ?>
                     <!--
                     try{
                         String pagar = request.getParameter("pagar");
@@ -241,50 +140,28 @@
 
                     }
                     catch (Exception e){out.println(e);}
-
                     -->
+
+            <?php }else{
+                      echo "<label class='inicie-sesion'>INICIE SESIÓN PARA ACCEDER A SU CARRITO</label>";
+                    } ?>
                 </div>
             </div>
         </div>
 
-
-
-
-
-
-
-        <!-- ================================ Más categorias ================================ -->
-        <div class="mas_categorias ocultar_extra">
-            <ul>
-            <?php
-                try{
-                    //INSTANCIA
-                    $conexion = conexion::conectar();
-                    $sql = "SELECT * FROM producto GROUP BY `categoriaProd`";
-
-                    // Se hace la peticion SQL
-                    $query = $conexion->prepare($sql);
-                    $query->execute();
-                    $result = $query->fetchAll();
-
-                    foreach ($result as $fila){
-            ?>
-            <li><a href="index.php?cat=<?php echo $fila['categoriaProd'];?>"><?php echo $fila['categoriaProd'];?></a></li>
-            <?php
-              }
-                //cerrando
-                conexion::desconectar();
-
-                }catch (Exception $e){die($e->getMessage());}
-            ?>
-
-            </ul>
-        </div>
-        <!-- ================================================================================ -->
-
+        <?php include('assets/php/mas_categorias.php'); ?>
 
 
         <script src="assets/js/mas_categorias.js"></script>
         <script src="assets/js/darkmode.js"></script>
+
+        <script>
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+
+            if(urlParams.has('reload')){
+                location.replace("index.php");
+            }
+        </script>
     </body>
 </html>

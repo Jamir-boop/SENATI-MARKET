@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="assets/img/icono.ico">
+
     <meta charset="UTF-8">
     <title>TEST</title>
 </head>
 <body style="background: #262626; color: #FFF; font-size: 2rem;">
 <?php
-    foreach (glob("assets/php/*.php") as $archivo){
-        include_once($archivo);
-    }
+    include_once("assets/php/conexion.php");
+        $correo_cliente = ($_COOKIE['cliente']);
 
-    $cliente = 'CLI00001';
+        $sql = "SELECT `codigoCliente` FROM cliente WHERE correoCliente='" . $correo_cliente . "'";
 
-    $productos = array();
-    $cantidad = array();
+        $conexion = conexion::conectar();
+        $query = $conexion->prepare($sql);
+        $query->execute();
+        $result_pedido = $query->fetch();
 
-    $conexion = conexion::conectar();
-
-    $sql = "SELECT `codigoProd`, `cantidadProd` FROM carrito WHERE codigoCliente='".$cliente."' AND estadoCompra='1'";
-
-    // Se hace la peticion SQL
-    $query = $conexion->prepare($sql);
-    $query->execute();
-    $result = $query->fetchAll();
-//    echo json_encode($result);
-    echo sizeOf($result);
-
-    foreach ($result as $row){
-        echo $row[0]."<br>";
-        echo $row[1]."<br>";
-
-        echo "multiplicacion".$row[0]*$row[1];
-    }
+        echo $result_pedido[0];
 ?>
 
 </body>

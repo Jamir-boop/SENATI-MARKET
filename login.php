@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="icon" href="assets/img/icono.ico">
+
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -86,14 +88,16 @@
                 $result = $query->fetch();
 
                 if($result){
+                    // CREACION DE COOKIES
+                    $cookie_name = "cliente";
+                    $cookie_value = $correo;
+                    setcookie($cookie_name, $cookie_value, time()+(3600*24*2), "/");
+
                     //redirecciona
                     header("Location: index.php");
                 }else{
                     echo "<script src='assets/js/loginFailed.js'></script>";
                 }
-                    //TODO CREACION DE COOKIES
-//                    Cookie usuario_activo = new Cookie("correoCliente", request.getParameter("correoCliente"));
-//                    response.addCookie( usuario_activo );
             }
         ?>
     </body>

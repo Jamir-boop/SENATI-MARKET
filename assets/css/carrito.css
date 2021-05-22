@@ -146,7 +146,13 @@ body.dark .num_total{
     color: white;
 }
 
-
+.inicie-sesion{
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 4rem;
+}
 
 
 

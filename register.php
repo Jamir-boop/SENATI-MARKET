@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="icon" href="assets/img/icono.ico">
+
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
