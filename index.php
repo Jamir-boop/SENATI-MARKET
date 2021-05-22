@@ -57,10 +57,8 @@
 
                             try{
                                 //INSTANCIA
-                                $objeto = new conexion();
-
                                 //Guardo objeto que retorna el metodo conectar
-                                $conexion = $objeto->conectar();
+                                $conexion = conexion::conectar();
 
                                 $sql = 'SELECT COUNT(codigoCompra) FROM `carrito` WHERE `estadoCompra` = 1';
 
@@ -78,7 +76,7 @@
                         <span class="badge" style="<?php //echo $estado; ?>">
                             <?php echo $result[0]; ?>
                         </span>
-                        <?php $objeto->desconectar(); ?>
+                        <?php conexion::desconectar(); ?>
 
                     </a>
 
@@ -134,7 +132,7 @@
                 <ul>
                     <?php
                         //INSTANCIA
-                        $conexion = $objeto->conectar();
+                        $conexion = conexion::conectar();
                         $sql = 'SELECT `categoriaProd` FROM producto GROUP BY `categoriaProd` LIMIT 8';
 
                         // Se hace la peticion SQL
@@ -148,7 +146,7 @@
                         <li><a href="index.php?cat=<?php echo $row['categoriaProd'] ?>"><?php echo $row['categoriaProd'] ?></a></li>
                     <?php
                             }
-                            $objeto->desconectar();
+                            conexion::desconectar();
                         }
                     ?>
                         <li><a href="#" class="mas">Más categorías</a></li>
@@ -211,7 +209,7 @@
                     <?php
                         try{
                             //INSTANCIA
-                            $conexion = $objeto->conectar();
+                            $conexion = conexion::conectar();
                             $sql = "SELECT * FROM producto WHERE `categoriaProd`='".$categoria_selector."';";
 
                             // Se hace la peticion SQL
@@ -246,6 +244,7 @@
                     <?php
 
                             }
+                            conexion::desconectar();
                         }catch(Exception $e){die($e->getMessage());}
                     ?>
                     <!-- ============================================================ -->
@@ -263,7 +262,7 @@
                     <?php
                         try{
                             //INSTANCIA
-                            $conexion = $objeto->conectar();
+                            $conexion = conexion::conectar();
                             $sql = "SELECT * FROM producto WHERE `categoriaProd`='Laptops' LIMIT 10;";
 
                             // Se hace la peticion SQL
@@ -298,7 +297,7 @@
                         </div>
                     <?php
                             }
-                            $objeto->desconectar();
+                            conexion::desconectar();
                         }catch (Exception $e){die($e->getMessage());}
                     ?>
                     <!-- ============================================================ -->
@@ -314,7 +313,7 @@
                     <?php
                         try{
                             //INSTANCIA
-                            $conexion = $objeto->conectar();
+                            $conexion = conexion::conectar();
                             $sql = "SELECT * FROM producto WHERE `categoriaProd`='Hogar' LIMIT 10;";
 
                             // Se hace la peticion SQL
@@ -349,7 +348,7 @@
                         </div>
                     <?php
                             }
-                            $objeto->desconectar();
+                            conexion::desconectar();
                         }catch (Exception $e){die($e->getMessage());}
                     ?>
                     <!-- ============================================================ -->
@@ -367,7 +366,7 @@
             <?php
                 try{
                     //INSTANCIA
-                    $conexion = $objeto->conectar();
+                    $conexion = conexion::conectar();
                     $sql = "SELECT * FROM producto GROUP BY `categoriaProd`";
 
                     // Se hace la peticion SQL
@@ -381,7 +380,7 @@
             <?php
               }                      
                 //cerrando
-                $objeto->desconectar();
+                conexion::desconectar();
                         
                 }catch (Exception $e){die($e->getMessage());}
             ?>
