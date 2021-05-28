@@ -98,6 +98,7 @@
                             <a href="producto.php?producto=<?php echo $codigo_producto;?>&btn_agregar&unidades=1" id="btn_agregar" >Agregar al carrito</a>
                             <!-- <a href="#">Comprar</a> -->
                             <?php
+                            //todo preguntar si el producto ya fue agregado al carrito
                             if(isset($_GET["btn_agregar"])){
                                 $item = $_GET["btn_agregar"];
                                 ?>
@@ -130,29 +131,39 @@
                 $codigo_compra = new generador_pk($ultima_fila);
                 $codigo_compra = $codigo_compra->generar();
 
-                //pidiendo codigo de cliente
-                //TODO: agregar cliente desde la sesion
-                $codigo_cliente = new pedir_datos("cliente", "CLI00001", "codigoCliente");
-                $codigo_cliente = $codigo_cliente->get_datos();
+                    //pidiendo codigo de cliente
+                    if(isset($_COOKIE['cliente'])){
+                        $correo_cliente = ($_COOKIE['cliente']);
 
-                // producto
-                $cantidad = $_GET["unidades"];
-                $codigo_producto = $_GET["producto"];
-                
-                $sql = "INSERT INTO `carrito`(codigoCompra, codigoCliente, codigoProd, cantidadProd) 
-                        VALUES (:codigoCompra, :codigoCliente, :codigoProd, :cantidadProd)";
+                        $sql = "SELECT `codigoCliente` FROM cliente WHERE correoCliente='" . $correo_cliente . "'";
 
-                $conexion = conexion::conectar();
-                $query = $conexion->prepare($sql);
-                $query->bindValue(":codigoCompra", $codigo_compra);
-                $query->bindValue(":codigoCliente", $codigo_cliente[0][0]);
-                $query->bindValue(":codigoProd", $codigo_producto);
-                $query->bindValue(":cantidadProd", $cantidad);
+                        $conexion = conexion::conectar();
+                        $query = $conexion->prepare($sql);
+                        $query->execute();
+                        $codigo_cliente = $query->fetchAll();
+                        conexion::desconectar();
 
-                $rs = $query->execute();
-                if(!$rs){
-                    echo "<script>alert('se produjo un error');</script>";
-                }
+                        // agregando producto al carrito
+                        $cantidad = $_GET["unidades"];
+
+                        $sql = "INSERT INTO `carrito`(codigoCompra, codigoCliente, codigoProd, cantidadProd) 
+                                VALUES (:codigoCompra, :codigoCliente, :codigoProd, :cantidadProd)";
+
+                        $conexion = conexion::conectar();
+                        $query = $conexion->prepare($sql);
+                        $query->bindValue(":codigoCompra", $codigo_compra);
+                        $query->bindValue(":codigoCliente", $codigo_cliente[0][0]);
+                        $query->bindValue(":codigoProd", $codigo_producto);
+                        $query->bindValue(":cantidadProd", $cantidad);
+
+                        $rs = $query->execute();
+                        if(!$rs){
+                            echo "<script>alert('se produjo un error');</script>";
+                    }
+                    }else{
+                        echo "<script>alert('Debe Iniciar Sesion Para Agregar Productos Al Carrito');</script>";
+                        header('Location: producto.php');
+                    }
             }
             ?>
 

@@ -47,7 +47,7 @@
                         <?php
                             $estado = "display: none;";
 
-                            try{
+                            if(isset($correo_cliente)){
                                 $sql = "SELECT `codigoCliente` FROM `cliente` WHERE `correoCliente`= '".$correo_cliente."'";
 
                                 $conexion = conexion::conectar();
@@ -66,7 +66,7 @@
                                 if($result[0] != "0"){
                                     $estado = "";
                                 }
-                            }catch (Exception $e) {die($e->getMessage());}
+                            }
                         ?>
 
                         <span class="badge" style="<?php echo $estado; ?>">

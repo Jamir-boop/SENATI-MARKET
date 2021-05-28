@@ -9,16 +9,28 @@
 <body style="background: #262626; color: #FFF; font-size: 2rem;">
 <?php
     include_once("assets/php/conexion.php");
-        $correo_cliente = ($_COOKIE['cliente']);
+    include_once("assets/php/pedir_datos.php");
 
-        $sql = "SELECT `codigoCliente` FROM cliente WHERE correoCliente='" . $correo_cliente . "'";
 
-        $conexion = conexion::conectar();
-        $query = $conexion->prepare($sql);
-        $query->execute();
-        $result_pedido = $query->fetch();
+    $sql = "SELECT `codigoProd`, `cantidadProd` FROM carrito WHERE codigoCliente='CLI00001' AND estadoCompra='1'";
 
-        echo $result_pedido[0];
+    $conexion = conexion::conectar();
+    $query = $conexion->prepare($sql);
+    $query->execute();
+    $result_pedido = $query->fetchAll();
+
+    $br = "<br>";
+
+    $prod = array("PRO00003", "34");
+
+
+    for($i=0; $i<sizeof($prod); $i++){
+        echo $prod[$i];
+    }
+
+    foreach ($prod as $sal){
+       echo $sal;
+    }
 ?>
 
 </body>

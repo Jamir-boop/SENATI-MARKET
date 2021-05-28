@@ -102,44 +102,62 @@
                     <p class="num_total">s/.<?php echo $total ?></p>
                     <a href="carrito.php?pagar">Pagar</a>
                     <?php
+                        $producto_insuficiente = array();
                         if(isset($_GET['pagar'])){
+                            foreach ($result_pedido as $fila_r_pedido){
+                                $unidades_actual = new pedir_datos("producto", $fila_r_pedido[0], "unidadesProd");
+                                $unidades_actual = $unidades_actual->get_datos();
 
-                            $conexion = conexion::conectar();
+                                if($unidades_actual[0][0] > $fila_r_pedido[1]) {
+                                    $unidades_actual = $unidades_actual[0][0] - $fila_r_pedido[1];
 
-                            $sql = "UPDATE carrito SET estadoCompra='0' WHERE codigoCliente='" . $cliente."';";
+                                    //actualizar unidades
+                                    $conexion = conexion::conectar();
+                                    $sql = "UPDATE producto SET unidadesProd='".$unidades_actual."' WHERE codigoProd='".$fila_r_pedido[0]."';";
+                                    $query = $conexion->prepare($sql);
+                                    $query->execute();
+                                    $rs = $query->fetchAll();
+                                    conexion::desconectar();
 
-                            $query = $conexion->prepare($sql);
-                            $query->execute();
-                            $rs = $query->fetchAll();
-                            conexion::desconectar();
-                            ?>
-                            <br><br>
-                            <p style="color: #A6E22D;font-size: 20px; font-weight: 700;">Pago exitoso a nombre de <?php echo $result_cliente[0][1]; ?></p>
-                            <?php
-                            if($rs){
-                                header("Location: carrito.php?reload");
+                                    //actualizar carrito
+                                    $conexion = conexion::conectar();
+                                    $sql = "UPDATE carrito SET estadoCompra='0' WHERE codigoCliente='" . $cliente ."' AND codigoProd='".$fila_r_pedido[0]."';";
+                                    $query = $conexion->prepare($sql);
+                                    $query->execute();
+                                    $rs = $query->fetchAll();
+                                    conexion::desconectar();
+                                    $nombre_producto = new pedir_datos("producto", $fila_r_pedido[0], "nombreProd");
+                                    $nombre_producto = $nombre_producto->get_datos();
+
+                                    ?>
+                                    <br><p style="color: #A6E22D;font-size: 15px; font-weight: 700;">
+                                        Pago exitoso <?php echo $nombre_producto[0][0]; ?>
+                                    </p>
+                                    <br>
+                                    <a href="#">Imprimir recibo</a>
+                                    <?php
+                                }else{
+                                    array_push($producto_insuficiente, $fila_r_pedido[0]);
+                                }
+
+                            }
+                        }
+                        //check si hay productos fuera de stock
+                        if(!empty($producto_insuficiente)){
+                            echo '<script type="text/javascript">alert("Producto fuera de stock")</script>';
+
+                            foreach($producto_insuficiente as $aviso){
+                                $nombre_producto = new pedir_datos("producto", $aviso, "nombreProd");
+                                $nombre_producto = $nombre_producto->get_datos();
+
+                                echo "<br><p style='color: #fc427b;font-size: 15px; font-weight: 700;'>El producto ".$nombre_producto[0][0]. "se encuentra fuera de stock.</p>";
                             }
                         }
                     ?>
-                    <!--
-                    try{
-                        String pagar = request.getParameter("pagar");
-                        if (pagar != null){
-                            if(direccionCorreo != null){
-                                %>
-                                <br><br>
-                                <p style="color: #A6E22D;font-size: 20px; font-weight: 700;">Pago exitoso <%=direccionCorreo%></p>
-                                <%
 
-                            }else{
-                                %>
-                                <br><br>
-                                <p style="color: #fc427b;font-size: 20px; font-weight: 700;;">Para pagar debe registrarse e iniciar sesión</p>
-                                <%}
-                        }
+                    <!-- en caso de necesitar
 
-                    }
-                    catch (Exception e){out.println(e);}
+                        <p style="color: #fc427b;font-size: 20px; font-weight: 700;;">Para pagar debe registrarse e iniciar sesión</p>
                     -->
 
             <?php }else{
