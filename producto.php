@@ -103,13 +103,13 @@
                 <!-- ========================== Bloque de imagenes de muestra ========================== -->
                 <section class="contenedor_precio">
                     <div class="precio">
-                        <h2 class="titulo_producto"><?php echo $row["nombreProd"];?></h2>
-                        <h4 class="precio_producto">S/.<?php echo $row["precioProd"];?></h4>
+                        <h2 class="titulo_producto"><?=$row["nombreProd"];?></h2>
+                        <h4 class="precio_producto">S/.<?=$row["precioProd"];?></h4>
                         <hr>
 
                         <div class="botonera">
                             <!-- <input value="Unidades:" readonly></input><input type="number" name="unidades" value="1"/> -->
-                            <a href="producto.php?producto=<?php echo $codigo_producto;?>&btn_agregar&unidades=1" id="btn_agregar" >Agregar al carrito</a>
+                            <a href="producto.php?producto=<?=$codigo_producto;?>&btn_agregar&unidades=1" id="btn_agregar" >Agregar al carrito</a>
                             <!-- <a href="#">Comprar</a> -->
                             <?php
                             $sql = "SELECT estadoCompra FROM carrito WHERE codigoProd='".$codigo_producto."' AND codigoCliente='".$codigo_cliente[0][0]."';";
@@ -119,6 +119,7 @@
                             $check_producto = $query->fetch();
                             conexion::desconectar();
 
+                            if(isset($check_producto)){
                             if ($check_producto[0] == 1) {
                             ?>
                                 <a href="delete.php?codigo1=<?php echo $codigo_producto;?>">Eliminar del carrito</a>
@@ -126,7 +127,7 @@
                                     // alert("Ya añadió el producto al carrito");
                                     document.getElementById("btn_agregar").style.display = "none";
                                 </script>
-                            <?php } ?>
+                            <?php }} ?>
                         </div>
                     </div>
                 </section>
