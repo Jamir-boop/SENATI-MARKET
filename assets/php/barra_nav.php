@@ -37,7 +37,7 @@
                 </article>
                 <article class="buscar">
                     <form action="" method="GET">
-                        <input type="search" placeholder="Buscar"/>
+                        <input type="search" name="query_busqueda" placeholder="Buscar"/>
                         <button type="submit"><img src="assets/img/search.svg" alt="buscar" class="icon"/></button>
                     </form>
                 </article>
