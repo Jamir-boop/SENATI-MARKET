@@ -112,7 +112,7 @@
                             <a href="producto.php?producto=<?php echo $codigo_producto;?>&btn_agregar&unidades=1" id="btn_agregar" >Agregar al carrito</a>
                             <!-- <a href="#">Comprar</a> -->
                             <?php
-                            $sql = "SELECT estadoCompra FROM carrito WHERE codigoProd='".$codigo_producto."' AND codigoCliente='".$codigo_cliente[0][0]."';";
+                            $sql = "SELECT estadoCompra FROM carrito WHERE codigoProd='". $codigo_producto."' AND codigoCliente='".$codigo_cliente[0][0]."';";
                             $conexion = conexion::conectar();
                             $query = $conexion->prepare($sql);
                             $query->execute();
