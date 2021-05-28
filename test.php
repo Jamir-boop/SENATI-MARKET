@@ -10,26 +10,27 @@
 <?php
     include_once("assets/php/conexion.php");
     include_once("assets/php/pedir_datos.php");
-
-
-    $sql = "SELECT `codigoProd`, `cantidadProd` FROM carrito WHERE codigoCliente='CLI00001' AND estadoCompra='1'";
-
+    $sql = "SELECT estadoCompra FROM carrito WHERE codigoProd='PRO00100' AND codigoCliente='CLI00001';";
     $conexion = conexion::conectar();
     $query = $conexion->prepare($sql);
     $query->execute();
-    $result_pedido = $query->fetchAll();
+    $check_producto = $query->fetch();
+    conexion::desconectar();
 
-    $br = "<br>";
-
-    $prod = array("PRO00003", "34");
+    echo $check_producto[0];
 
 
-    for($i=0; $i<sizeof($prod); $i++){
-        echo $prod[$i];
-    }
+    if ($check_producto[0] == 1) {
+?>
+        <a href="delete.php?codigo1=#">Eliminar del carrito</a>
+        <script>
+            // alert("Ya añadió el producto al carrito");
+            document.getElementById("btn_agregar").style.display = "none";
+        </script>
 
-    foreach ($prod as $sal){
-       echo $sal;
+<?php
+        }else{
+        echo "no hay";
     }
 ?>
 

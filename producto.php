@@ -22,7 +22,21 @@
         <?php require_once('assets/php/pedir_datos.php'); ?>
     </head>
     <body>
-        <?php include('assets/php/barra_nav.php')?>
+        <?php include('assets/php/barra_nav.php');
+            //revisar cookie
+            if(isset($_COOKIE['cliente'])){
+                $correo_cliente = ($_COOKIE['cliente']);
+
+                $sql = "SELECT `codigoCliente` FROM cliente WHERE correoCliente='" . $correo_cliente . "'";
+
+                $conexion = conexion::conectar();
+                $query = $conexion->prepare($sql);
+                $query->execute();
+                $codigo_cliente = $query->fetchAll();
+                conexion::desconectar();
+            }
+
+        ?>
 
 
         <div class="wrap">
@@ -98,19 +112,21 @@
                             <a href="producto.php?producto=<?php echo $codigo_producto;?>&btn_agregar&unidades=1" id="btn_agregar" >Agregar al carrito</a>
                             <!-- <a href="#">Comprar</a> -->
                             <?php
-                            //todo preguntar si el producto ya fue agregado al carrito
-                            if(isset($_GET["btn_agregar"])){
-                                $item = $_GET["btn_agregar"];
-                                ?>
+                            $sql = "SELECT estadoCompra FROM carrito WHERE codigoProd='".$codigo_producto."' AND codigoCliente='".$codigo_cliente[0][0]."';";
+                            $conexion = conexion::conectar();
+                            $query = $conexion->prepare($sql);
+                            $query->execute();
+                            $check_producto = $query->fetch();
+                            conexion::desconectar();
+
+                            if ($check_producto[0] == 1) {
+                            ?>
                                 <a href="delete.php?codigo1=<?php echo $codigo_producto;?>">Eliminar del carrito</a>
                                 <script>
                                     // alert("Ya añadió el producto al carrito");
                                     document.getElementById("btn_agregar").style.display = "none";
                                 </script>
-
-                                <?php
-                                }
-                            ?>
+                            <?php } ?>
                         </div>
                     </div>
                 </section>
@@ -133,16 +149,6 @@
 
                     //pidiendo codigo de cliente
                     if(isset($_COOKIE['cliente'])){
-                        $correo_cliente = ($_COOKIE['cliente']);
-
-                        $sql = "SELECT `codigoCliente` FROM cliente WHERE correoCliente='" . $correo_cliente . "'";
-
-                        $conexion = conexion::conectar();
-                        $query = $conexion->prepare($sql);
-                        $query->execute();
-                        $codigo_cliente = $query->fetchAll();
-                        conexion::desconectar();
-
                         // agregando producto al carrito
                         $cantidad = $_GET["unidades"];
 
@@ -155,11 +161,10 @@
                         $query->bindValue(":codigoCliente", $codigo_cliente[0][0]);
                         $query->bindValue(":codigoProd", $codigo_producto);
                         $query->bindValue(":cantidadProd", $cantidad);
-
                         $rs = $query->execute();
                         if(!$rs){
                             echo "<script>alert('se produjo un error');</script>";
-                    }
+                        }
                     }else{
                         echo "<script>alert('Debe Iniciar Sesion Para Agregar Productos Al Carrito');</script>";
                         header('Location: producto.php');
@@ -168,7 +173,6 @@
             ?>
 
         <?php include('assets/php/mas_categorias.php'); ?>
-
         <script src="assets/js/mas_categorias.js"></script>
         <script src="assets/js/darkmode.js"></script>
     </body>

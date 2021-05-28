@@ -26,7 +26,14 @@
         <div class="contenedor_barra_navegacion">
             <header class="cabecera">
                 <article class="contenedor_logo flex">
+
                     <img src="assets/img/logo2.png" id="logotpf" alt="logo de la tienda" width="250px"/>
+                    <script>
+                        document.getElementById( "logotpf" ).onclick=function(){
+                            window.location.href = "index.php";
+                            console.log("click");
+                        };
+                    </script>
                 </article>
                 <article class="buscar">
                     <form action="" method="GET">

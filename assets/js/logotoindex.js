@@ -1,5 +1,4 @@
-$(document).ready(function() {
-    $('#logoCambiar').click(function() {
-        window.location.href = "index.jsp";
-    });
-});
+document.getElementById( "logotpf" ).onclick = function() {
+    window.location.href = "index.php";
+    console.log("click");
+};
