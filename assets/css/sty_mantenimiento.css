@@ -13,5 +13,30 @@
 }
 body {
     background-color: var(--color_texto);
-    
+    color: var(--blanco);
 }
+a {
+    color: var(--blanco);
+    font-size: 20px;
+    text-decoration: none;
+    background-color: var(--color_botones);
+    padding: 10px;
+    border-radius: 20%;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.contenedor_botones {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: center;
+}
+.crud {
+    background-color: rgb(255, 204, 0);
+}
+/* .img_crud {
+    padding-left: 700px;
+    padding-top: 140px;
+} */
