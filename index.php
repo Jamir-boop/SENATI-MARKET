@@ -14,8 +14,6 @@
         <link rel="stylesheet" href="assets/css/contenido_index.css" />
         <link rel="stylesheet" href="assets/css/notificacion.css" />
 
-        <?php require_once('assets/php/conexion.php'); ?>
-
         <script>
             localStorage.setItem("dark-mode", "true");
         </script>
@@ -23,6 +21,7 @@
 
     </head>
     <body>
+        <?php require_once('assets/php/conexion.php'); ?>
         <?php include('assets/php/barra_nav.php')?>
 
 
