@@ -36,7 +36,7 @@
                     </script>
                 </article>
                 <article class="buscar">
-                    <form action="" method="GET">
+                    <form action="index.php" method="GET">
                         <input type="search" name="query_busqueda" placeholder="Buscar"/>
                         <button type="submit" name="buscar"><img src="assets/img/search.svg" alt="buscar" class="icon"/></button>
                     </form>

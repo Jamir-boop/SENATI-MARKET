@@ -53,6 +53,7 @@
         <?php
             $cat = "";
             $catt = "display: none;";
+            $cattt = "display: none;";
             $categoria_selector = "";
 
             if(isset($_GET["cat"])){
@@ -63,15 +64,16 @@
             if (isset($_GET["buscar"])) {
                 $cat = "display: none;";
                 $catt = "";
+                $cattt = "";
             }
         ?>
         <script>
             document.getElementById("catDefault").style.display = "none";
         </script>
 
-        <section class="bloque_seccion" id="catSelection" style="<?= $catt; ?>">
+        <section class="bloque_seccion" id="catSelection" style="<?= $cattt; ?>">
             <div class="wrap">
-                <h2 class="titulo_seccion"><?= $categoria_selector; ?></h2>
+                <h2 class="titulo_seccion">Buscar</h2>
 
                 <div class="contenedor_productos">
                     <!-- ========================= Producto ========================= -->
