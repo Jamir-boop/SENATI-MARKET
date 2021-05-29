@@ -109,6 +109,101 @@
 
                         <div class="botonera">
                             <!-- <input value="Unidades:" readonly></input><input type="number" name="unidades" value="1"/> -->
+
+
+                            <!--  Widget de stock para todos los productos  -->
+                            <style>
+                                #titulo_w_unidades{
+                                    font-size: 20px; 
+                                    color: white; 
+                                    font-weight: bold;
+                                }
+
+                                .boton_unidades{
+                                    display: flex;
+                                    margin: 10px 0px;
+                                }
+
+                                .boton_disminuir_cant, 
+                                .boton_aumentar_cant{
+                                    width: 20px;
+                                    padding: 10px;
+                                    background-color: #FF3A7A;
+                                    color:  white;
+
+                                    border-radius: 5px;
+
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor:  pointer;
+                                    font-weight: 600;
+                                }
+
+                                .cantidad_cant{
+                                    min-width: 20px;
+                                    margin: 0px 5px;
+                                    padding: 10px;
+                                    background-color: white;
+                                
+                                    border-radius: 5px;
+
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-weight: 600;
+                                }
+                            </style>
+
+                            <h3 id="titulo_w_unidades"> UNIDADES: </h3>
+
+                            <?php  $id_producto = isset($_GET['producto']) ? $_GET['producto'] : 0;  ?>
+                            <?php
+                                $sql = "SELECT unidadesProd FROM producto WHERE codigoProd = '$id_producto'";
+
+                                $connect = conexion::conectar();
+                                $query = $connect->prepare($sql);
+                                $query->execute();
+
+                                $cantidad_stock_producto = $query->fetch();
+                                $cantidad_stock_producto = (int) $cantidad_stock_producto[0];
+                            ?>
+
+
+                            <div class="boton_unidades">
+                                <div class="boton_disminuir_cant">-</div>
+                                <div class="cantidad_cant">0</div>
+                                <div class="boton_aumentar_cant">+</div>
+                            </div>
+
+
+                            <script>
+                                let cantidad_stock = <?= $cantidad_stock_producto ?>;
+
+                                const disminuir_btn = document.querySelector('.boton_disminuir_cant');
+                                const aumentar_btn = document.querySelector('.boton_aumentar_cant');
+                                let num_cantidad_stock = document.querySelector('.cantidad_cant');
+                            
+
+                                disminuir_btn.addEventListener('click', () => {
+                                    if(num_cantidad_stock.innerHTML <= 0){
+                                        num_cantidad_stock.innerHTML = 0;
+                                    }else{
+                                        num_cantidad_stock.innerHTML = parseInt(num_cantidad_stock.innerHTML) - 1;
+                                    }
+                                });
+
+                                aumentar_btn.addEventListener('click', () => {
+                                    if(num_cantidad_stock.innerHTML >= cantidad_stock){
+                                        num_cantidad_stock.innerHTML = cantidad_stock;
+                                    }else{
+                                        num_cantidad_stock.innerHTML = parseInt(num_cantidad_stock.innerHTML) + 1;
+                                    }
+                                });
+                            </script>
+                            <!--  ........................................  -->
+
+
                             <a href="producto.php?producto=<?=$codigo_producto;?>&btn_agregar&unidades=1" id="btn_agregar" >Agregar al carrito</a>
                             <!-- <a href="#">Comprar</a> -->
                             <?php
@@ -118,6 +213,8 @@
                             $query->execute();
                             $check_producto = $query->fetch();
                             conexion::desconectar();
+
+
 
                             if(isset($check_producto)){
                             if ($check_producto[0] == 1) {
