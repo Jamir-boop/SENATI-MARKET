@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+:root{
+    --color_botones: #FC427B;
+    --color_texto: #2C3A47;
+    --fondo_botones_dark : #354858;
+    --blanco: #fff;
+}
+
+*{
+	font-family: 'Mukta', sans-serif !important;
+}
+body {
+    background-color: var(--color_texto);
+    
+}
