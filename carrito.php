@@ -55,7 +55,7 @@
                 <!-- MUESTRA DE  PRODUCTOS PEDIDOS-->
         <div class="wrap">
             <div class="contenedor_productos_comprados">
-                <div class="producto_comprado">
+                <div class="producto_comprado" style="grid-row-gap: 30px !important;">
                     <?php
                         $total_pedido = 0;
                         $total = 0;

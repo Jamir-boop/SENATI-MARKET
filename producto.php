@@ -141,17 +141,23 @@
                                 }
 
                                 .cantidad_cant{
-                                    min-width: 20px;
-                                    margin: 0px 5px;
-                                    padding: 10px;
-                                    background-color: white;
+                                    font-size: 20px !important;
+                                    width: 20px !important;
+                                    margin: 0px 5px !important;
+                                    padding: 10px !important;
+                                    background-color: white !important;
+                                    color: black !important;
+                                    padding-left: 10px !important;
                                 
-                                    border-radius: 5px;
+                                    border-radius: 5px !important;
 
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    font-weight: 600;
+                                    display: flex !important;
+                                    justify-content: center !important;
+                                    align-items: center !important;
+                                    font-weight: 600 !important;
+                                    text-align: center !important;
+
+
                                 }
                             </style>
 
@@ -172,7 +178,7 @@
 
                             <div class="boton_unidades">
                                 <div class="boton_disminuir_cant">-</div>
-                                <div class="cantidad_cant">0</div>
+                                <input type="text" name="unidades" class="cantidad_cant" value="0">
                                 <div class="boton_aumentar_cant">+</div>
                             </div>
 
@@ -187,17 +193,17 @@
 
                                 disminuir_btn.addEventListener('click', () => {
                                     if(num_cantidad_stock.innerHTML <= 0){
-                                        num_cantidad_stock.innerHTML = 0;
+                                        num_cantidad_stock.value = 0;
                                     }else{
-                                        num_cantidad_stock.innerHTML = parseInt(num_cantidad_stock.innerHTML) - 1;
+                                        num_cantidad_stock.value = parseInt(num_cantidad_stock.value) - 1;
                                     }
                                 });
 
                                 aumentar_btn.addEventListener('click', () => {
-                                    if(num_cantidad_stock.innerHTML >= cantidad_stock){
-                                        num_cantidad_stock.innerHTML = cantidad_stock;
+                                    if(num_cantidad_stock.value >= cantidad_stock){
+                                        num_cantidad_stock.value = cantidad_stock;
                                     }else{
-                                        num_cantidad_stock.innerHTML = parseInt(num_cantidad_stock.innerHTML) + 1;
+                                        num_cantidad_stock.value = parseInt(num_cantidad_stock.value) + 1;
                                     }
                                 });
                             </script>
