@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="stylesheet" href="assets/css/contenido_index.css" />
         <link rel="stylesheet" href="assets/css/notificacion.css" />
+        <link rel="stylesheet" href="assets/css/style_footer.css" />
 
         <script>
             localStorage.setItem("dark-mode", "true");
@@ -73,7 +74,7 @@
 
         <section class="bloque_seccion" id="catSelection" style="<?= $cattt; ?>">
             <div class="wrap">
-                <h2 class="titulo_seccion">Buscar</h2>
+                <h2 class="titulo_seccion">Resultados para '<?=$_GET["query_busqueda"]; ?>'</h2>
 
                 <div class="contenedor_productos">
                     <!-- ========================= Producto ========================= -->
@@ -115,7 +116,6 @@
                             <a href="producto.php?producto=<?= $roww['codigoProd']; ?>" class="boton_agregar">ver</a>
                         </div>
                     <?php
-
                             }
                             conexion::desconectar();
                         }
@@ -284,6 +284,7 @@
 
 
         <?php include('assets/php/mas_categorias.php'); ?>
+        <?php include('assets/php/footer.php'); ?>
 
         
         <script>

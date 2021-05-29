@@ -55,23 +55,23 @@
                 <!-- MUESTRA DE  PRODUCTOS PEDIDOS-->
         <div class="wrap">
             <div class="contenedor_productos_comprados">
-                <div class="producto_comprado" style="grid-row-gap: 30px !important;">
-                    <?php
-                        $total_pedido = 0;
-                        $total = 0;
+                <?php
+                    $total_pedido = 0;
+                    $total = 0;
 
-                        foreach($result_pedido as $row){
-                            $sql = "SELECT imgMainProd, nombreProd, precioProd from producto where codigoProd='".$row[0]."'";
+                    foreach($result_pedido as $row){
+                        $sql = "SELECT imgMainProd, nombreProd, precioProd from producto where codigoProd='".$row[0]."'";
 
-                            $conexion = conexion::conectar();
-                            $query = $conexion->prepare($sql);
-                            $query->execute();
-                            $result = $query->fetchAll();
+                        $conexion = conexion::conectar();
+                        $query = $conexion->prepare($sql);
+                        $query->execute();
+                        $result = $query->fetchAll();
 
-                            foreach($result as $row_producto){
-                                $total_pedido = ($row_producto['precioProd'] * $row[1]);
-                                $total += $total_pedido;
-                    ?>
+                        foreach($result as $row_producto){
+                            $total_pedido = ($row_producto['precioProd'] * $row[1]);
+                            $total += $total_pedido;
+                ?>
+                <div class="producto_comprado" style="grid-row-gap: 30px !important;" onclick="document.location = 'producto.php?producto=<?=$row[0]?>';">
                     <div class="ctn_prod_com">
                         <img alt="" src="<?php echo $row_producto['imgMainProd']?>" />
                     </div>
@@ -87,13 +87,14 @@
                          <!-- <a href="delete.php?codigo=">Eliminar unidad</a> -->
                     </div>
 
+                </div>
                     <?php
                             }
                             conexion::desconectar();
                         }
                     ?>
-                </div>
             </div>
+
             <!-- TOTAL -->
             <div class="contenedor_precio_total">
                 <div class="precio_total">
