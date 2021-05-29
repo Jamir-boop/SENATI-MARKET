@@ -33,10 +33,12 @@
                 <a class="<?= $result[$i]['Tables_in_senatimarketdbs']; ?>" href="mantenimiento_index.php?tabla=<?= $result[$i]['Tables_in_senatimarketdbs']; ?>"><?= $result[$i]['Tables_in_senatimarketdbs']; ?></a><br>
             </div>
             <?php
-        } ?> <div>
+        } ?>
+            <div>
                 <img class="img_crud" src="../assets/css/crudmantenimiento.jpg" alt="">
+            </div>
         </div>
-        </div>
+    </div>
         <?php
         if(isset($_GET['tabla'])) {
             $tabla = $_GET['tabla'];
