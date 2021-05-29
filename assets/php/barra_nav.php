@@ -38,7 +38,7 @@
                 <article class="buscar">
                     <form action="" method="GET">
                         <input type="search" name="query_busqueda" placeholder="Buscar"/>
-                        <button type="submit"><img src="assets/img/search.svg" alt="buscar" class="icon"/></button>
+                        <button type="submit" name="buscar"><img src="assets/img/search.svg" alt="buscar" class="icon"/></button>
                     </form>
                 </article>
 
@@ -76,21 +76,21 @@
                             }
                         ?>
 
-                        <span class="badge" style="<?php echo $estado; ?>">
-                            <?php echo $result[0]; ?>
+                        <span class="badge" style="<?= $estado; ?>">
+                            <?= $result[0]; ?>
                         </span>
                         <?php conexion::desconectar(); ?>
 
                     </a>
 
-                    <a href="index.php?sesion&reload" class="botones_usuario" style="<?php echo $ocultar; ?>">cerrar sesión</a>
+                    <a href="index.php?sesion&reload" class="botones_usuario" style="<?= $ocultar; ?>">cerrar sesión</a>
 
-                    <a href="login.php" class="botones_usuario" style="<?php echo $register_state; ?>">iniciar sesión</a>
-                    <a href="register.php" class="botones_usuario" style="<?php echo $register_state; ?>">registrarse</a>
+                    <a href="login.php" class="botones_usuario" style="<?= $register_state; ?>">iniciar sesión</a>
+                    <a href="register.php" class="botones_usuario" style="<?= $register_state; ?>">registrarse</a>
 
-                    <div style="<?php echo $ocultar; ?>">
+                    <div style="<?= $ocultar; ?>">
                         <img class="botones_usuario" src="assets/img/sesion_male.png" style="margin-left: 24%;" alt="imagen de sesion"/>
-                        <p style="color: #fc427b;"><?php echo $correo_cliente; ?></p>
+                        <p style="color: #fc427b;"><?= $correo_cliente; ?></p>
                     </div>
                 </article>
             </header>
@@ -111,7 +111,7 @@
                         if($result){
                             foreach($result as $row){
                     ?>
-                        <li><a href="index.php?cat=<?php echo $row['categoriaProd'] ?>"><?php echo $row['categoriaProd'] ?></a></li>
+                        <li><a href="index.php?cat=<?= $row['categoriaProd'] ?>"><?= $row['categoriaProd'] ?></a></li>
                     <?php
                             }
                             conexion::desconectar();

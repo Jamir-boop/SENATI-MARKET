@@ -57,7 +57,7 @@
                     $str_imagenes = explode("+", $result[0]);
                     foreach($str_imagenes as $img){
                 ?>
-                    <img alt="" src="<?php echo $img;?>" id="imagenSec">
+                    <img alt="" src="<?= $img;?>" id="imagenSec">
                 <?php
                     }
                     conexion::desconectar();
@@ -84,7 +84,7 @@
                 <!-- ========================== Bloque MAIN ========================== -->
                 <section class="informacion_extra">
                     <article class="imagen_mostrar">
-                        <img alt="" src="<?php echo $row["imgMainProd"];?>" class="img_mostrada" id="imagenMain"/>
+                        <img alt="" src="<?= $row["imgMainProd"];?>" class="img_mostrada" id="imagenMain"/>
                     </article>
 
 
@@ -92,7 +92,7 @@
                         <h2 class="titulo_descripcion">descripcion</h2>
 
                         <p>
-                            <?php echo $row["descripcionProd"];?>
+                            <?= $row["descripcionProd"];?>
                         </p>
                     </article> 
                 </section>
@@ -222,10 +222,10 @@
 
 
 
-                            if(isset($check_producto)){
-                            if ($check_producto[0] == 1) {
+                            if($check_producto){
+                            if ($check_producto[0] == 1){
                             ?>
-                                <a href="delete.php?codigo1=<?php echo $codigo_producto;?>">Eliminar del carrito</a>
+                                <a href="delete.php?codigo1=<?=$codigo_producto;?>">Eliminar del carrito</a>
                                 <script>
                                     // alert("Ya añadió el producto al carrito");
                                     document.getElementById("btn_agregar").style.display = "none";
