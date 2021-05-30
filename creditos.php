@@ -24,8 +24,8 @@
                 <img class="img-fluid" src="assets/img/jefe_autor.jpg">
               </div>
               <div class="team-content">
-                <h3 class="name">Jeiser Vargas</h3>
-                <h4 class="title">Lider Estudiante ingeniería de software</h4>
+                <h3 class="name">Vargas Jeiser Jamir</h3>
+                <h4 class="title">Estudiante ingeniería de software</h4>
               </div>
               <ul class="social">
                 <li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
@@ -41,7 +41,7 @@
                 <img class="img-fluid" src="assets/img/leo.jpg">
               </div>
               <div class="team-content">
-                <h3 class="name">Leo Hualpa</h3>
+                <h3 class="name">Hualpa Sovero Leo</h3>
                 <h4 class="title">Estudiante ingeniería de software</h4>
               </div>
               <ul class="social">
@@ -58,7 +58,7 @@
                 <img class="img-fluid" src="assets/img/lenin.jpg">
               </div>
               <div class="team-content">
-                <h3 class="name">Lenin </h3>
+                <h3 class="name">Vasques Monrroy Lenin</h3>
                 <h4 class="title">Estudiante ingeniería de software</h4>
               </div>
               <ul class="social">
@@ -75,7 +75,7 @@
                 <img class="img-fluid" src="assets/img/fiorella.jpeg">
               </div>
               <div class="team-content">
-                <h3 class="name">Fiorella</h3>
+                <h3 class="name">Antezana Osorio Fiorella</h3>
                 <h4 class="title">Estudiante ingeniería de software</h4>
               </div>
               <ul class="social">
@@ -89,10 +89,10 @@
               <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="our-team">
               <div class="picture">
-                <img class="img-fluid" src="https://picsum.photos/130/130?image=839">
+                <img class="img-fluid" src="assets/img/kelvin.jpg">
               </div>
               <div class="team-content">
-                <h3 class="name">Kelvin</h3>
+                <h3 class="name">Mejia Briceño Kelvin</h3>
                 <h4 class="title">Estudiante ingeniería de software</h4>
               </div>
               <ul class="social">

@@ -65,7 +65,8 @@ body{
 .our-team {
   padding: 30px 60px 40px 60px;
   margin-bottom: 30px;
-  background-color: #f7f5ec;
+  background-color: #354858;
+  color: #fff;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -138,7 +139,7 @@ body{
 .our-team .title {
   display: block;
   font-size: 15px;
-  color: #4e5052;
+  color: #aaafb0;
   text-transform: capitalize;
 }
 
