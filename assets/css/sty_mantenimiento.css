@@ -4,10 +4,16 @@
 :root{
     --color_botones: #FC427B;
     --color_texto: #2C3A47;
-    --fondo_botones_dark : #354858;
+    --fondo_botones_dark : #96b3ca;
     --blanco: #fff;
 }
+tr:nth-child(even) {
+    background: color_complement;
+  }
 
+  tr:nth-child(odd) {
+    background: #434B5B;
+}
 *{
 	font-family: 'Mukta', sans-serif !important;
 }
@@ -16,27 +22,117 @@ body {
     color: var(--blanco);
 }
 a {
-    color: var(--blanco);
-    font-size: 20px;
     text-decoration: none;
-    background-color: var(--color_botones);
-    padding: 10px;
-    border-radius: 20%;
+    text-transform:uppercase;
+    font-weight: 800;
 }
-.contenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+h1{
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
 }
-.contenedor_botones {
+.contenedor, .img_crud {
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     justify-content: center;
 }
-.crud {
-    background-color: rgb(255, 204, 0);
+.img_crud {
+    filter: invert(100%);
+    display: inline-block;
+    margin-top: 50px;
 }
-/* .img_crud {
-    padding-left: 700px;
-    padding-top: 140px;
-} */
+#btn_index {
+    background: none;
+    display: flex;
+}
+#btn_index:hover {
+    transform: scale(1.15);
+}
+.contenedor a {
+    color: var(--blanco);
+    font-size: 30px;
+    text-decoration: none;
+    background-color: var(--color_botones);
+    border-radius: 40px;
+    margin: 0 0 40px 50px;
+    padding: 10px 40px;
+}
+.boton {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+}
+.boton a:hover {
+    box-shadow: 0 0px 5px 0 rgb(117, 117, 117);
+    color: #fff;
+    background-color: #D3164F;
+    transition: all 500ms ease;
+}
+.tabla_input {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.nombres_crud {
+    text-align: center;
+    background-color: var(--color_texto);
+    border: none;
+}
+.insertar_crud, .btnagregar{
+    border-radius: 9px;
+}
+.insertar_crud {
+    background-color: var(--fondo_botones_dark);
+    margin: 2px 5px 0 5px;
+    border: 2px solid #3b3ddb;
+    outline: none;
+    background-color: transparent;
+    padding: 5px 0 5px 5px;
+    color: rgb(248, 206, 206);
+    transition: .3s;
+}
+.insertar_crud:focus {
+    border-color: rgb(49, 49, 212);
+    box-shadow: 0 0 8px 0 rgb(36, 138, 255);
+}
+.insertar_crud2 {
+    background-color: var(--fondo_botones_dark);
+    margin: 2px 5px 0 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 5px 0 5px 5px;
+    color: rgb(248, 206, 206);
+    transition: .3s;
+    border-radius: 9px;
+}
+.insertar_crud2:focus {
+    border-color: rgb(67, 67, 68);
+    box-shadow: 0 0 8px 0 rgb(36, 138, 255);
+}
+.btnagregar {
+    background-color: var(--color_botones);
+    cursor: pointer;
+    color: var(--blanco);
+    border-radius: 20px;
+    margin-left: 20px;
+    border: none;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.btnagregar:hover {
+    box-shadow: 0 0px 5px 0 rgb(117, 117, 117);
+    color: #fff;
+    background-color: #D3164F;
+    transition: all 500ms ease;
+}
+.mostrar_tabla {
+    margin: 27px 0 0 0;
+    display: grid;
+    justify-items: center;
+    margin-inline-end: 0;
+}
+.editar, .eliminar, .cancelar {
+    color: var(--color_botones);
+    margin: 0 30px;
+}

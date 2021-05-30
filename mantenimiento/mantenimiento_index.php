@@ -12,14 +12,17 @@
     <title>Mantenimiento</title>
 </head>
 <body>
+  <h1>Mantenimiento CRUD</h1>
     <div class="contenedor">
         <div class="contenedor_botones">
+            <div class="img_crud">
+                <a id="btn_index" href="mantenimiento_index.php"><img src="../assets/img/icons8-mantenimiento-50.png" alt=""> </a>
+            </div>
     <?php
-      //REVISAR AVISOS
-      if (isset($_GET['aviso'])) {
-        echo '<script>alert("Agregar más datos a carrito"); </script>';
-      }
-
+    //REVISAR AVISOS
+    if (isset($_GET['aviso'])) {
+      echo '<script>alert("Por favor ingresa datos"); </script>';
+    }
       //MOSTRAR TABLAS
         $sql = 'SHOW TABLES;';
         $conexion = conexion::conectar();
@@ -29,13 +32,11 @@
 
         for($i=0; $i<sizeof($result); $i++) {
             ?>
-            <div class="crud">
-                <a class="<?= $result[$i]['Tables_in_senatimarketdbs']; ?>" href="mantenimiento_index.php?tabla=<?= $result[$i]['Tables_in_senatimarketdbs']; ?>"><?= $result[$i]['Tables_in_senatimarketdbs']; ?></a><br>
+            <div class="boton">
+                <a class="<?= $result[$i]['Tables_in_senatimarketdbs']; ?>" href="mantenimiento_index.php?tabla=<?= $result[$i]['Tables_in_senatimarketdbs']; ?>"><?= $result[$i]['Tables_in_senatimarketdbs']; ?></a>
             </div>
             <?php
-        } ?> <div>
-                <img class="img_crud" src="../assets/css/crudmantenimiento.jpg" alt="">
-        </div>
+        } ?></div>
         </div>
         <?php
         if(isset($_GET['tabla'])) {
@@ -45,13 +46,13 @@
             //echo json_encode($result);
     ?>
     <form action="insertar.php?tabla=<?php echo $tabla; ?>" method="POST">
-        <table>
+        <table class="tabla_input">
             <tr>
             <?php
             //Primera Fila
             for($i=0; $i <sizeof($result_columnas); $i++) {
             ?>
-                <td><?php echo $result_columnas[$i]; ?></td>
+                <td><div class="nombres_crud"><?= $result_columnas[$i]; ?></div></td>
                 <?php
             }
             ?>
@@ -61,13 +62,10 @@
             //Cuadros de Input
             for($i=0; $i <sizeof($result_columnas); $i++) {
             ?>
-                <td><input type="text" name="<?php echo $result_columnas[$i]; ?>"></td>
+                <td><input class="insertar_crud" type="text" name="<?php echo $result_columnas[$i]; ?>"></td>
                 <?php
             }
-            ?>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Agregar"></td>
+            ?><td><input class="btnagregar" type="submit" value="Agregar"></td>
             </tr>
             <?php
             conexion::desconectar();

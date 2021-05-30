@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../assets/css/sty_mantenimiento.css" />
 <?php
     include('../assets/php/conexion.php');
     $id = $_GET['id'];
@@ -24,23 +25,23 @@
             <table>
                 <tr>
                     <td>Código de Boleta</td>
-                    <td><input type="text" name="01" value="<?php echo $clint["codigoBoleta"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="01" value="<?php echo $clint["codigoBoleta"]; ?>"></td>
                     <td><input type="text" name="tabla" value="<?php echo $tabla; ?>" hidden readonly></td>
                 </tr>
                 <tr>
                     <td>Nombre del cliente</td>
-                    <td><input type="text" name="02" value="<?php echo $clint["nombreCliente"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="02" value="<?php echo $clint["nombreCliente"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Total de Pago</td>
-                    <td><input type="text" name="03" value="<?php echo $clint["totalPago"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="03" value="<?php echo $clint["totalPago"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Descripción de Producto</td>
-                    <td><input type="text" name="04" value="<?php echo $clint["descripcionCompra"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="04" value="<?php echo $clint["descripcionCompra"]; ?>"></td>
                 </tr>
                 <tr>
-                    <td><a href='mantenimiento_index.php?tabla=boleta'>Cancelar</a></td>
+                    <td><a class="cancelar" href='mantenimiento_index.php?tabla=boleta'>Cancelar</a></td>
                     <td><input type="submit" value="Editar"></td>
                 </tr>
             </table>
@@ -55,23 +56,23 @@
             <table>
                 <tr>
                     <td>Código de Compra</td>
-                    <td><input type="text" name="01" value="<?php echo $clint["codigoCompra"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="01" value="<?php echo $clint["codigoCompra"]; ?>"></td>
                     <td><input type="text" name="tabla" value="<?php echo $tabla; ?>" hidden readonly></td>
                 </tr>
                 <tr>
                     <td>Código de Cliente</td>
-                    <td><input type="text" name="02" value="<?php echo $clint["codigoCliente"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="02" value="<?php echo $clint["codigoCliente"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Código de Producto</td>
-                    <td><input type="text" name="03" value="<?php echo $clint["codigoProd"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="03" value="<?php echo $clint["codigoProd"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Cantidad de Producto</td>
-                    <td><input type="text" name="04" value="<?php echo $clint["cantidadProd"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="04" value="<?php echo $clint["cantidadProd"]; ?>"></td>
                 </tr>
                 <tr>
-                    <td><a href='mantenimiento_index.php?tabla=carrito'>Canelar</a></td>
+                    <td><a class="cancelar" href='mantenimiento_index.php?tabla=carrito'>Cancelar</a></td>
                     <td><input type="submit" value="Editar"></td>
                 </tr>
             </table>
@@ -86,23 +87,23 @@
             <table>
                 <tr>
                     <td>Código de Cliente</td>
-                    <td><input type="text" name="01" value="<?php echo $clint["codigoCliente"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="01" value="<?php echo $clint["codigoCliente"]; ?>"></td>
                     <td><input type="text" name="tabla" value="<?php echo $tabla; ?>" hidden readonly></td>
                 </tr>
                 <tr>
                     <td>Nombre de Cliente</td>
-                    <td><input type="text" name="02" value="<?php echo $clint["nombreCliente"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="02" value="<?php echo $clint["nombreCliente"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Correo Electrónico</td>
-                    <td><input type="text" name="03" value="<?php echo $clint["correoCliente"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="03" value="<?php echo $clint["correoCliente"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Contraseña </td>
-                    <td><input type="text" name="04" value="<?php echo $clint["claveCliente"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="04" value="<?php echo $clint["claveCliente"]; ?>"></td>
                 </tr>
                 <tr>
-                    <td><a href='mantenimiento_index.php?tabla=cliente'>Canelar</a></td>
+                    <td><a class="cancelar" href='mantenimiento_index.php?tabla=cliente'>Cancelar</a></td>
                     <td><input type="submit" value="Editar"></td>
                 </tr>
             </table>
@@ -117,27 +118,27 @@
             <table>
                 <tr>
                     <td>Código </td>
-                    <td><input type="text" name="01" value="<?php echo $clint["codigoProd"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="01" value="<?php echo $clint["codigoProd"]; ?>"></td>
                     <td><input type="text" name="tabla" value="<?php echo $tabla; ?>" hidden readonly></td>
                 </tr>
                 <tr>
                     <td>Categoría </td>
-                    <td><input type="text" name="02" value="<?php echo $clint["categoriaProd"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="02" value="<?php echo $clint["categoriaProd"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Nombre </td>
-                    <td><input type="text" name="03" value="<?php echo $clint["nombreProd"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="03" value="<?php echo $clint["nombreProd"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Precio </td>
-                    <td><input type="text" name="04" value="<?php echo $clint["precioProd"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="04" value="<?php echo $clint["precioProd"]; ?>"></td>
                 </tr>
                 <tr>
                     <td>Cantidad </td>
-                    <td><input type="text" name="05" value="<?php echo $clint["unidadesProd"]; ?>"></td>
+                    <td><input class="insertar_crud2" type="text" name="05" value="<?php echo $clint["unidadesProd"]; ?>"></td>
                 </tr>
                 <tr>
-                    <td><a href='mantenimiento_index.php?tabla=producto'>Canelar</a></td>
+                    <td><a class="cancelar" href='mantenimiento_index.php?tabla=producto'>Cancelar</a></td>
                     <td><input type="submit" value="Editar"></td>
                 </tr>
             </table>
