@@ -1,3 +1,12 @@
+<?php
+    include('assets/php/conexion.php');
+    include('assets/php/pedir_datos.php');
+
+    //pidiendo el nombre del producto para mostrar en el titulo de pagina
+    $codigo_producto = $_GET["producto"];
+    $nombre_producto = new pedir_datos("producto", $codigo_producto, "nombreProd");
+    $nombre_producto = $nombre_producto->get_datos();
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -7,19 +16,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Document</title>
+        <title><?= $nombre_producto[0][0]?></title>
         
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="stylesheet" href="assets/css/contenido_index.css" />
         <link rel="stylesheet" href="assets/css/producto.css" />
         <link rel="stylesheet" href="assets/css/notificacion.css" />
+        <link rel="stylesheet" href="assets/css/style_footer.css" />
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="assets/js/actualizarProducto.js"></script>
-        <?php require_once('assets/php/conexion.php'); ?>
         <?php require_once('assets/php/generador_pk.php'); ?>
-        <?php require_once('assets/php/pedir_datos.php'); ?>
+
     </head>
     <body>
         <?php include('assets/php/barra_nav.php');
@@ -45,8 +54,6 @@
                 <!-- ============= Tarjeta de imagen secundarias ============= -->
 
                 <?php
-                    $codigo_producto = $_GET["producto"];
-
                     $sql = 'SELECT `imgSecProd` FROM producto WHERE `codigoProd`= :cod;';
 
                     $conexion = conexion::conectar();
@@ -108,7 +115,6 @@
                         <hr>
 
                         <div class="botonera">
-                            <!-- <input value="Unidades:" readonly></input><input type="number" name="unidades" value="1"/> -->
 
 
                             <!--  Widget de stock para todos los productos  -->
@@ -121,7 +127,7 @@
 
                                 .boton_unidades{
                                     display: flex;
-                                    margin: 10px 0px;
+                                    margin: 10px 0;
                                 }
 
                                 .boton_disminuir_cant, 
@@ -139,15 +145,17 @@
                                     cursor:  pointer;
                                     font-weight: 600;
                                 }
-
+                                .boton_aumentar_cant:hover, .boton_disminuir_cant:hover{
+                                    background-color: #D3164F;
+                                    transition: all 600ms ease;
+                                }
                                 .cantidad_cant{
                                     font-size: 20px !important;
                                     width: 20px !important;
-                                    margin: 0px 5px !important;
+                                    margin: 0 5px !important;
                                     padding: 10px !important;
                                     background-color: white !important;
                                     color: black !important;
-                                    padding-left: 10px !important;
                                 
                                     border-radius: 5px !important;
 
@@ -175,45 +183,48 @@
                                 $cantidad_stock_producto = (int) $cantidad_stock_producto[0];
                             ?>
 
+                            <form>
+                                <div class="boton_unidades">
+                                    <div class="boton_disminuir_cant">-</div>
+                                    <input type="text" name="unidades" class="cantidad_cant" value="1">
+                                    <div class="boton_aumentar_cant">+</div>
+                                </div>
 
-                            <div class="boton_unidades">
-                                <div class="boton_disminuir_cant">-</div>
-                                <input type="text" name="unidades" class="cantidad_cant" value="0">
-                                <div class="boton_aumentar_cant">+</div>
-                            </div>
+
+                                <script>
+                                    let cantidad_stock = <?= $cantidad_stock_producto ?>;
+
+                                    const disminuir_btn = document.querySelector('.boton_disminuir_cant');
+                                    const aumentar_btn = document.querySelector('.boton_aumentar_cant');
+                                    let num_cantidad_stock = document.querySelector('.cantidad_cant');
 
 
-                            <script>
-                                let cantidad_stock = <?= $cantidad_stock_producto ?>;
+                                    disminuir_btn.addEventListener('click', () => {
+                                        if(num_cantidad_stock.innerHTML <= 0){
+                                            num_cantidad_stock.value = 0;
+                                        }else{
+                                            num_cantidad_stock.value = parseInt(num_cantidad_stock.value) - 1;
+                                        }
+                                    });
 
-                                const disminuir_btn = document.querySelector('.boton_disminuir_cant');
-                                const aumentar_btn = document.querySelector('.boton_aumentar_cant');
-                                let num_cantidad_stock = document.querySelector('.cantidad_cant');
-                            
-
-                                disminuir_btn.addEventListener('click', () => {
-                                    if(num_cantidad_stock.innerHTML <= 0){
-                                        num_cantidad_stock.value = 0;
-                                    }else{
-                                        num_cantidad_stock.value = parseInt(num_cantidad_stock.value) - 1;
-                                    }
-                                });
-
-                                aumentar_btn.addEventListener('click', () => {
-                                    if(num_cantidad_stock.value >= cantidad_stock){
-                                        num_cantidad_stock.value = cantidad_stock;
-                                    }else{
-                                        num_cantidad_stock.value = parseInt(num_cantidad_stock.value) + 1;
-                                    }
-                                });
-                            </script>
+                                    aumentar_btn.addEventListener('click', () => {
+                                        if(num_cantidad_stock.value >= cantidad_stock){
+                                            num_cantidad_stock.value = cantidad_stock;
+                                        }else{
+                                            num_cantidad_stock.value = parseInt(num_cantidad_stock.value) + 1;
+                                        }
+                                    });
+                                </script>
                             <!--  ........................................  -->
 
-
-                            <a href="producto.php?producto=<?=$codigo_producto;?>&btn_agregar&unidades=1" id="btn_agregar" >Agregar al carrito</a>
+                                <input type="hidden" name="producto" value="<?=$codigo_producto?>"/>
+                                <input type="submit" name="btn_agregar" id="btn_agregar" value="Agregar al carrito"/>
+                            </form>
                             <!-- <a href="#">Comprar</a> -->
                             <?php
-                            $sql = "SELECT estadoCompra FROM carrito WHERE codigoProd='". $codigo_producto."' AND codigoCliente='".$codigo_cliente[0][0]."';";
+                            if(isset($codigo_cliente)) {
+                                $sql = "SELECT estadoCompra FROM carrito WHERE codigoProd='" . $codigo_producto . "' AND codigoCliente='" . $codigo_cliente[0][0] . "';";
+                            }
                             $conexion = conexion::conectar();
                             $query = $conexion->prepare($sql);
                             $query->execute();
@@ -271,12 +282,12 @@
                         }
                     }else{
                         echo "<script>alert('Debe Iniciar Sesion Para Agregar Productos Al Carrito');</script>";
-                        header('Location: producto.php');
                     }
             }
             ?>
 
         <?php include('assets/php/mas_categorias.php'); ?>
+        <?php include('assets/php/footer.php'); ?>
         <script src="assets/js/mas_categorias.js"></script>
         <script src="assets/js/darkmode.js"></script>
     </body>

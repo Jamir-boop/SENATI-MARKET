@@ -177,6 +177,28 @@ body.dark .titulo_producto, body.dark .precio_producto{
     margin-bottom: 0;
 }
 
+#btn_agregar{
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: var(--color_botones);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#btn_agregar:hover{
+    background-color: #D3164F;
+    cursor: pointer;
+}
+
+#btn_agregar:last-child{
+    margin-bottom: 0;
+}
+
 
 
 

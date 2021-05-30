@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>𝙈𝙖𝙧𝙠𝙚𝙩 𝙋𝙖𝙩𝙝 𝙁𝙞𝙣𝙙𝙞𝙣𝙜</title>
+        <title>𝙎𝙀𝙉𝘼𝙏𝙄 𝙈𝘼𝙍𝙆𝙀𝙏</title>
         
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
@@ -116,9 +116,29 @@
                             <a href="producto.php?producto=<?= $roww['codigoProd']; ?>" class="boton_agregar">ver</a>
                         </div>
                     <?php
+                    }
+                    conexion::desconectar();
+                    if(!$result_busqueda){
+                        ?>
+                        <style>
+                            .img_no_resultados{
+                                position: absolute;
+                                top: 500px;
+                                left: 500px;
                             }
-                            conexion::desconectar();
-                        }
+                            .img_no_resultados .no_resultados{
+                                width: 180%;
+                            }
+                            .img_no_resultados h1{
+                                font-size: 80px;
+                            }
+                        </style>
+                        <div class="img_no_resultados">
+                            <img src="assets/img/404.gif" alt="imagen-no-resulados" class="no_resultados"/>
+                        </div>
+                        <?php
+                    }
+                }
                     ?>
                     <!-- ============================================================ -->
                 </div>

@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="assets/css/contenido_index.css" />
         <link rel="stylesheet" href="assets/css/carrito.css" />
         <link rel="stylesheet" href="assets/css/notificacion.css" />
+        <link rel="stylesheet" href="assets/css/style_footer.css" />
 
         <?php require_once('assets/php/conexion.php'); ?>
         <?php require_once('assets/php/generador_pk.php'); ?>
@@ -73,21 +74,21 @@
                 ?>
                 <div class="producto_comprado" style="grid-row-gap: 30px !important;" onclick="document.location = 'producto.php?producto=<?=$row[0]?>';">
                     <div class="ctn_prod_com">
-                        <img alt="" src="<?php echo $row_producto['imgMainProd']?>" />
+                        <img alt="" src="<?= $row_producto['imgMainProd']?>" />
                     </div>
                     <div class="ctn_info">
-                        <h3><?php echo $row_producto['nombreProd']?></h3>
-                        <p>Cantidad: <?php echo $row[1]?></p>
-                        <p>Precio Unidad: s/. <?php echo $row_producto['precioProd']?></p>
-                        <p>Precio Total: s/. <?php echo $total_pedido?></p>
+                        <h3><?= $row_producto['nombreProd']?></h3>
+                        <p>Cantidad: <?=$row[1]?></p>
+                        <p>Precio Unidad: s/. <?=$row_producto['precioProd']?></p>
+                        <p>Precio Total: s/. <?=$total_pedido?></p>
                     </div>
                     <div class="botones_accion_comp">
-                        <a href="delete.php?codigo=<?php echo $row[0];?>">Eliminar</a>
+                        <a href="delete.php?codigo=<?=$row[0];?>">Eliminar</a>
                     
                          <!-- <a href="delete.php?codigo=">Eliminar unidad</a> -->
                     </div>
 
-                </div>
+                </div><br>
                     <?php
                             }
                             conexion::desconectar();
@@ -109,7 +110,7 @@
                                 $unidades_actual = new pedir_datos("producto", $fila_r_pedido[0], "unidadesProd");
                                 $unidades_actual = $unidades_actual->get_datos();
 
-                                if($unidades_actual[0][0] > $fila_r_pedido[1]) {
+                                if($unidades_actual[0][0] > $fila_r_pedido[1]){
                                     $unidades_actual = $unidades_actual[0][0] - $fila_r_pedido[1];
 
                                     //actualizar unidades
@@ -132,16 +133,16 @@
 
                                     ?>
                                     <br><p style="color: #A6E22D;font-size: 15px; font-weight: 700;">
-                                        Pago exitoso <?php echo $nombre_producto[0][0]; ?>
+                                        Pago exitoso <?= $nombre_producto[0][0]; ?>
                                     </p>
                                     <br>
-                                    <a href="#">Imprimir recibo</a>
                                     <?php
                                 }else{
                                     array_push($producto_insuficiente, $fila_r_pedido[0]);
                                 }
 
                             }
+                            ?> <a href="#">Imprimir recibo</a> <?php
                         }
                         //check si hay productos fuera de stock
                         if(!empty($producto_insuficiente)){
@@ -169,11 +170,10 @@
         </div>
 
         <?php include('assets/php/mas_categorias.php'); ?>
-
+        <?php include('assets/php/footer.php'); ?>
 
         <script src="assets/js/mas_categorias.js"></script>
         <script src="assets/js/darkmode.js"></script>
-
         <script>
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
