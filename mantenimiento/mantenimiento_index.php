@@ -62,7 +62,7 @@
             <?php
             //Cuadros de Input
             for($i=0; $i <sizeof($result_columnas); $i++) {
-            ?>
+                ?>
                 <td><input type="text" name="<?php echo $result_columnas[$i]; ?>"></td>
                 <?php
             }

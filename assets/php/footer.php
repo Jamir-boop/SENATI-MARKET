@@ -10,11 +10,10 @@
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Contribute</a></li>
+              <li><a href="creditos.php">About Us</a></li>
+              <li><a href="creditos.php">Contact Us</a></li>
+              <li><a href="creditos.php">Contribute</a></li>
               <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Sitemap</a></li>
             </ul>
           </div>
         </div>

@@ -125,6 +125,11 @@
     width: 70%;
 }
 
+.contenedor_img_prod .img_prod:hover{
+    width: 120%;
+    transition: all 800ms ease;
+}
+
 .boton_agregar{
     display: block;
     background-color: var(--color_botones);

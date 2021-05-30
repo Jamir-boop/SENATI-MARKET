@@ -41,7 +41,7 @@
                 </article>
 
                 <article class="formulario">
-                    <h2>únete a path finding market</h2>
+                    <h2>únete a senati market</h2>
 
                         <form action="register.php" method="POST">
                         <div class="campo">
