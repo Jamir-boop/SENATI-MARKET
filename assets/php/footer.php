@@ -8,11 +8,11 @@
           </div>
 
           <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
+            <h6>Links</h6>
             <ul class="footer-links">
-              <li><a href="creditos.php">About Us</a></li>
-              <li><a href="creditos.php">Contact Us</a></li>
-              <li><a href="creditos.php">Contribute</a></li>
+              <li><a href="creditos.php">Sobre nosotros</a></li>
+              <li><a href="creditos.php">Contactanos</a></li>
+              <li><a href="mantenimiento/mantenimiento_index.php">Mantenimiento</a></li>
               <li><a href="#">Privacy Policy</a></li>
             </ul>
           </div>
