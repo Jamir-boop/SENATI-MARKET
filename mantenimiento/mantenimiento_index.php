@@ -12,7 +12,7 @@
     <title>Mantenimiento</title>
 </head>
 <body>
-  <h1>Mantenimiento CRUD</h1>
+  <h1>Mantenimiento</h1>
     <div class="contenedor">
         <div class="contenedor_botones">
             <div class="img_crud">
@@ -36,17 +36,8 @@
                 <a class="<?= $result[$i]['Tables_in_senatimarketdbs']; ?>" href="mantenimiento_index.php?tabla=<?= $result[$i]['Tables_in_senatimarketdbs']; ?>"><?= $result[$i]['Tables_in_senatimarketdbs']; ?></a>
             </div>
             <?php
-<<<<<<< HEAD
         } ?></div>
         </div>
-=======
-        } ?>
-            <div>
-                <img class="img_crud" src="../assets/css/crudmantenimiento.jpg" alt="">
-            </div>
-        </div>
-    </div>
->>>>>>> 7f33d29eba6e176650a4adfdf6a5a2ea173bd238
         <?php
         if(isset($_GET['tabla'])) {
             $tabla = $_GET['tabla'];
@@ -70,13 +61,8 @@
             <?php
             //Cuadros de Input
             for($i=0; $i <sizeof($result_columnas); $i++) {
-<<<<<<< HEAD
             ?>
                 <td><input class="insertar_crud" type="text" name="<?php echo $result_columnas[$i]; ?>"></td>
-=======
-                ?>
-                <td><input type="text" name="<?php echo $result_columnas[$i]; ?>"></td>
->>>>>>> 7f33d29eba6e176650a4adfdf6a5a2ea173bd238
                 <?php
             }
             ?><td><input class="btnagregar" type="submit" value="Agregar"></td>
