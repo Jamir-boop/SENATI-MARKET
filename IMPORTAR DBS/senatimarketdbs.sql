@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 13, 2021 at 07:52 PM
+-- Generation Time: May 28, 2021 at 03:06 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.3.27
 
@@ -33,8 +33,15 @@ CREATE TABLE `boleta` (
   `nombreCliente` varchar(255) CHARACTER SET utf8 NOT NULL,
   `totalPago` double NOT NULL,
   `descripcionCompra` varchar(2500) CHARACTER SET utf8 NOT NULL,
-  `fechaPago` date NOT NULL
+  `fechaPago` date NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `boleta`
+--
+
+INSERT INTO `boleta` (`codigoBoleta`, `codigoCompra`, `nombreCliente`, `totalPago`, `descripcionCompra`, `fechaPago`) VALUES
+('VEN00001', 'COM00001', 'Jeiser Jamir', 12533.21, '', '2021-05-16');
 
 -- --------------------------------------------------------
 
@@ -44,11 +51,24 @@ CREATE TABLE `boleta` (
 
 CREATE TABLE `carrito` (
   `codigoCompra` char(8) CHARACTER SET utf8 NOT NULL,
-  `estadoCompra` char(1) NOT NULL,
+  `estadoCompra` tinyint(1) NOT NULL DEFAULT 1,
   `codigoCliente` varchar(8) CHARACTER SET utf8 NOT NULL,
   `codigoProd` varchar(8) CHARACTER SET utf8 NOT NULL,
-  `cantidadProd` int(11) NOT NULL DEFAULT 1
+  `cantidadProd` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `carrito`
+--
+
+INSERT INTO `carrito` (`codigoCompra`, `estadoCompra`, `codigoCliente`, `codigoProd`, `cantidadProd`) VALUES
+('COM00001', 0, 'CLI00001', 'PRO00156', 1),
+('COM00002', 0, 'CLI00001', 'PRO00100', 1),
+('COM00003', 0, 'CLI00001', 'PRO00122', 1),
+('COM00004', 0, 'CLI00001', 'PRO00003', 1),
+('COM00005', 0, 'CLI00001', 'PRO00124', 10),
+('COM00006', 0, 'CLI00001', 'PRO00070', 1),
+('COM00007', 0, 'CLI00001', 'PRO00086', 1);
 
 -- --------------------------------------------------------
 
@@ -58,7 +78,7 @@ CREATE TABLE `carrito` (
 
 CREATE TABLE `cliente` (
   `codigoCliente` char(8) CHARACTER SET utf8 NOT NULL,
-  `estadoCliente` char(1) NOT NULL DEFAULT '1',
+  `estadoCliente` tinyint(1) NOT NULL DEFAULT 1,
   `nombreCliente` varchar(255) CHARACTER SET utf8 NOT NULL,
   `correoCliente` varchar(255) CHARACTER SET utf8 NOT NULL,
   `claveCliente` varchar(255) CHARACTER SET utf8 NOT NULL,
@@ -70,27 +90,30 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`codigoCliente`, `estadoCliente`, `nombreCliente`, `correoCliente`, `claveCliente`, `fechaCliente`) VALUES
-('CLI00001', '1', 'Jeiser Jamir', '1305186@senati.pe', 'clavexd', '0000-00-00'),
-('CLI00002', '1', 'Fiorella ', 'jefa@gmail.com', 'clavexd', '0000-00-00'),
-('CLI00003', '1', 'Piero ', 'nuse@outlook.es', 'alv', '0000-00-00'),
-('CLI00004', '1', 'Leo ', 'newcorreo@gmail.com', 'asds2323d', '0000-00-00'),
-('CLI00005', '1', 'Axrl', 'sdfjkl@busneess.axl', 'saddsasd', '0000-00-00'),
-('CLI00006', '1', 'Alejandro', 'gaga@gmail.fan', 'yexd', '0000-00-00'),
-('CLI00007', '1', 'Nuevo usuario xd', 'nuevoalvcorreo@gmail.com', 'jeuessder', '0000-00-00'),
-('CLI00008', '1', 'Piero GyuNyu', 'gyunyu@microsftñ.xd', 'sdfsdfsd', '0000-00-00'),
-('CLI00009', '1', 'senatino xdd|', 'correonovedoso@gmail.com', 'jajxd', '0000-00-00'),
-('CLI00010', '1', 'Yanose meocurre alv', 'jefassss@gmail.com', 'asdasdasda', '0000-00-00'),
-('CLI00011', '1', 'Yanomas', 'correonovedoso@gmail.com', 'testalv', '0000-00-00'),
-('CLI00012', '1', 'elonceavousuario', 'correodeprueba', 'suerte', '0000-00-00'),
-('CLI00013', '1', 'Javier Nose Pelaez', 'Pela0904@gmail.com', 'clave', '0000-00-00'),
-('CLI00014', '1', 'nuevapc alv', 'correocreativoc@gmail.com', 'clavenueva', '0000-00-00'),
-('CLI00015', '1', 'Luis Fabiano', 'fabianob@gmail.com', 'clavedefab', '0000-00-00'),
-('CLI00016', '1', 'Juan Përes', 'juantbh@gmail.com', 'lksdjj23hk', '0000-00-00'),
-('CLI00017', '1', 'Alfredoxd', 'Alfredoxd@senati.pe', 'alskdjlaks', '0000-00-00'),
-('CLI00018', '1', 'nuevoUSU', 'lkasjdl@gmail.com', 'zJDXieHFA3', '0000-00-00'),
-('CLI00019', '1', 'usutest', 'sakdjaslkdasd', 'zJDXieHFA3', '0000-00-00'),
-('CLI00020', '1', 'Fiorella', '3798@gmail.com', 'clavexd', '0000-00-00'),
-('CLI00021', '1', 'Fiorella Lorena', 'nose@gmail.com', 'clavexd', '0000-00-00');
+('CLI00001', 1, 'Jeiser Jamir', '1305186@senati.pe', 'clavexd', '2021-05-16'),
+('CLI00002', 1, 'Fiorella ', 'jefa@gmail.com', 'clavexd', '2021-05-16'),
+('CLI00003', 1, 'Piero ', 'nuse@outlook.es', 'alv', '2021-05-16'),
+('CLI00004', 1, 'Leo ', 'newcorreo@gmail.com', 'asds2323d', '2021-05-16'),
+('CLI00005', 1, 'Axrl', 'sdfjkl@busneess.axl', 'saddsasd', '2021-05-16'),
+('CLI00006', 1, 'Alejandro', 'gaga@gmail.fan', 'yexd', '2021-05-16'),
+('CLI00007', 1, 'Nuevo usuario xd', 'nuevoalvcorreo@gmail.com', 'jeuessder', '2021-05-16'),
+('CLI00008', 1, 'Piero GyuNyu', 'gyunyu@microsftñ.xd', 'sdfsdfsd', '2021-05-16'),
+('CLI00009', 1, 'senatino xdd|', 'correonovedoso@gmail.com', 'jajxd', '2021-05-16'),
+('CLI00010', 1, 'Yanose meocurre alv', 'jefassss@gmail.com', 'asdasdasda', '2021-05-16'),
+('CLI00011', 1, 'Yanomas', 'correonovedoso@gmail.com', 'testalv', '2021-05-16'),
+('CLI00012', 1, 'elonceavousuario', 'correodeprueba', 'suerte', '2021-05-16'),
+('CLI00013', 1, 'Javier Nose Pelaez', 'Pela0904@gmail.com', 'clave', '2021-05-16'),
+('CLI00014', 1, 'nuevapc alv', 'correocreativoc@gmail.com', 'clavenueva', '2021-05-16'),
+('CLI00015', 1, 'Luis Fabiano', 'fabianob@gmail.com', 'clavedefab', '2021-05-16'),
+('CLI00016', 1, 'Juan Përes', 'juantbh@gmail.com', 'lksdjj23hk', '2021-05-16'),
+('CLI00017', 1, 'Alfredoxd', 'Alfredoxd@senati.pe', 'alskdjlaks', '2021-05-16'),
+('CLI00018', 1, 'nuevoUSU', 'lkasjdl@gmail.com', 'zJDXieHFA3', '2021-05-16'),
+('CLI00019', 1, 'usutest', 'sakdjaslkdasd', 'zJDXieHFA3', '2021-05-16'),
+('CLI00020', 1, 'Fiorella', '3798@gmail.com', 'clavexd', '2021-05-16'),
+('CLI00021', 1, 'Fiorella Lorena', 'nose@gmail.com', 'clavexd', '2021-05-16'),
+('CLI00022', 1, 'Le shamir', '1305186@senati,ope', 'Jej46gkzzrxWQ8h', '2021-05-16'),
+('CLI00023', 1, 'sadas', 'asdasd', 'Jej46gkzzrxWQ8h', '2021-05-16'),
+('CLI00024', 1, 'lenin', '123121@senati.pe', 'clave', '2021-05-21');
 
 -- --------------------------------------------------------
 
@@ -165,11 +188,11 @@ INSERT INTO `producto` (`codigoProd`, `categoriaProd`, `nombreProd`, `precioProd
 ('PRO00049', 'Hogar', 'Kit Gamers Led Poseidon Ha-850c teclado,audifono,mouse,pad mouse\n', 170, 'TECLADO\nMultimedia / Internet/ Gamers\nColor: Negro, conector USB con detalles rojos\nTeclado retroiluminado (3 colores), Teclas antiborrado\nLongitud de cable 1.5m\nAURICULAR PRO\nConectores: 3.5mm + USB\nBanda Ajustable\nMicrófono incorporado en brazo giratorio\nControl de Volumen\nProtectores tipo cuero\nLuz led rojo\nLongitud de cable 2m\nMOUSE + PAD MOUSE\nMouse Óptico USB; Negro / detalles rojos-plata\nBotones gaming profesionales y una rueda scroll\nConector USB 2.0. Funciona en cualquier superficie (No reflectiva)\nAlta Sensibilidad de 1200, 1600, 2400, 3200 DPI (cambio de resolución en el juego)\nPlug and play, Cable de 1.80 metros, Presentación en Empaque\nMedidas: 136x72x42mm\nIncluye pad Mouse; Almohadilla para mouse, diseño en Halion\nMedidas pad mouse 300x230x3mm\nAlta densidad de confección para un mejor control de mouse\nSuperficie resistente a caída de líquidos, alta durabilidad.\n', 'assets/img/producto144-m.png\n', '+assets/img/producto144-1.png\n', 30),
 ('PRO00050', 'Hogar', 'Combo Gamer Teclado, Ratón, Auriculares, Mousepad 4 en 1 T-Dagger T-Tgs002\n', 350, 'Ratón: 1000/1600/2400/3200 DPI\nVelocidad de sondeo de 125Hz 12G ACC \nRetroiluminación de 7 colores \nTeclado de juego de membrana 104 ~ 107 \nteclas Retroiluminación RGB 19 teclas \nAlfombrilla de ratón: \nGoma Auriculares: \nTrompeta Diámetro: f40mm \nImpedancia: 32O \nSPL: 108dB ± 3dB SPLat 1KHz \nPotencia nominal: 20mW \nCapacidad nominal : 30mW \nRespuesta de frecuencia: 20Hz-20,000Hz \nLongitud del cable: 2m ± 0.15 Plug-in Spec./:3.5MM \nmicrófono: 6050 -58dB ± 3dB full way \nTamaño: L 200MM * W 175MM * H 87MM \nGW: 260g\n', 'assets/img/producto145-m.png\n', '+assets/img/producto145-1.png\n', 30),
 ('PRO00051', 'Hogar', 'Kit Gamer 4 en 1 Teclado+Audífono+Mouse+Pad\n', 190, 'Kit Gamer: Incluye teclado + mouse + audífonos + mouse pad. \nCaracterísticas del teclado: Iluminación hasta en 7 colores predeterminados en modo cycling. Hasta 19 teclas con función anti-ghosting que te permitirá realizar varias jugadas de forma simultánea. \nCaracterísticas del Mouse: 7 efectos de Iluminación Multicolor. 6 botones. Con recubrimiento de goma anti-deslizante para mayor agarre y de tamaño completo, para mayor comodidad. \nCaracterísticas del Audífono: Acolchadas, cubren toda la oreja. USB + 2 x 3.5 mm. \ncaracterísticas del Mouse Pad: Medidas 287 x 244 x 3 mm.\n', 'assets/img/producto146-m.png\n', '+assets/img/producto146-1.png', 30),
-('PRO00052', 'Tablets', 'Galaxy Tab S7 Plus 12.4 128 GB Negro\n', 3699, 'Sistema Operativo: Android\nCámara Frontal: 8MP\nMemoria RAM: 6GB\nModelo: Tab S7 PLUS\nProcesador: Octa Core 3.09GHz,2.4GHz,1.8GHz\nTipo de pantalla: Super AMOLED 2800 x 1752 (WQXGA+)\nBatería:10090 mAh\nColor: Negro\n', 'assets/img/producto156-m.png\n', '+assets/img/producto156-1.png\n+assets/img/producto156-2.png\n', 0),
-('PRO00053', 'Tablets', 'Tab M10 Plus FHD 2da Gen\n', 1299, 'Procesador: MTK P22T Tab Processor ( 2.30GHz )\nSistema Operativo: Android 9.0\nPantalla: 10,3\"IPS 1920x1200\nMemoria: 4.0GB -- LPDDR4X Soldado \nAlmacenamiento: 64GB\nBluetooth: Bluetooth versión 5.0\nCámara: Cámara posterior con enfoque automático de 8,0 MP + Cámara frontal con enfoque fijo de 5,0 MP\n', 'assets/img/producto157-m.png\n', '+assets/img/producto157-1.png\n+assets/img/producto157-2.png\n', 0),
-('PRO00054', 'Tablets', 'Tablet 10 1 2Gb 32Gb Fhd Negra\n', 399, 'Procesador MTK8167A\nSistema operativo ANDROID 10\nTamaño de la pantalla 10.1\"\nMemoria ram 2GB\nDisco duro 32GB\nVelocidad del procesador 1.5 GHz\nVelocidad máxima del procesador -\nNúcleos del procesador 4 núcleos\nPantalla touch Si\nCamara web Integrada\nPuertos externos 01 MICRO USB\nBatería 5000 mah\n', 'assets/img/producto158-m.png\n', '+assets/img/producto158-1.png\n', 0),
-('PRO00055', 'Tablets', 'TABLET HUAWEI T5 10 32GB 3GB\n', 699, 'Marca: huawei\nFormato: TABLET\nProcesador: Kirin 659\nSistema operativo: EMUI 8\nTamano de la pantalla: 10,1 pulgadas\nMemoria ram: 3GB\nDisco duro: 32GB\nVelocidad del procesador: 2.36GHz + 1.7GHz\nNucleos del procesador: Octacore\nPantalla touch: SÍ\nCamara web: 2MP+5MP\nUnidad optica: NO\nBateria: 5100 mAh\nSonido: 2 Speaker\nConectividad: WIFI / Bluetooth\nMedidas del producto: 24.3 cm x 16.4 cm x 0.78 cm\nModelo del producto: T5 10 + FLIP COVER\nTipo de producto: Tablet\nWifi: SÍ\nBluetooth: Sí\nGps: Sí\nMemoria interna: 32 GB\nMemoria expandible: 256 GB\nResolucion de pantalla: IPS 10.1\" 1920x1200\nCamara frontal: 2MP\nCamara posterior: 5MP\nPuerto usb: 1\nAlto: 24.3\nLargo: 16.4\nAncho: 0.78 cm\nColor: Negro\nMemoria rom: 32 GB\n', 'assets/img/producto159-m.png\n', '+assets/img/producto159-1.png\n', 0),
-('PRO00056', 'Tablets', 'Tablet Ipad Apple 8TH Generación\n', 1489, 'Procesador: Chip A12 Bionic con arquitectura de 64 bits | Neural Engine\nTamaño de la pantalla	10 pulgadas\nMemoria RAM	3GB\nMemoria expandible	NO\nMemoria externa incluida	NO\nMemoria interna	32GB\nCámara frontal	1.2MP\nCámara posterior	8MP\nConectividad	WiFi\nConexión Bluetooth	Sí\nEntradas HDMI	No incluye\nEntradas USB	Lightning\nSistema operativo	IOS\nTipo de pantalla	LED\nAlto	25.6cm\nAncho	17.4cm\nProfundidad	0.75cm\nMarca	Apple\nTipo	Tablets\n', 'assets/img/producto160-m.png\n', '+assets/img/producto160-1.png\n', 0),
+('PRO00052', 'Tablets', 'Galaxy Tab S7 Plus 12.4 128 GB Negro\n', 3699, 'Sistema Operativo: Android\nCámara Frontal: 8MP\nMemoria RAM: 6GB\nModelo: Tab S7 PLUS\nProcesador: Octa Core 3.09GHz,2.4GHz,1.8GHz\nTipo de pantalla: Super AMOLED 2800 x 1752 (WQXGA+)\nBatería:10090 mAh\nColor: Negro\n', 'assets/img/producto156-m.png\n', '+assets/img/producto156-1.png\n+assets/img/producto156-2.png\n', 15),
+('PRO00053', 'Tablets', 'Tab M10 Plus FHD 2da Gen\n', 1299, 'Procesador: MTK P22T Tab Processor ( 2.30GHz )\nSistema Operativo: Android 9.0\nPantalla: 10,3\"IPS 1920x1200\nMemoria: 4.0GB -- LPDDR4X Soldado \nAlmacenamiento: 64GB\nBluetooth: Bluetooth versión 5.0\nCámara: Cámara posterior con enfoque automático de 8,0 MP + Cámara frontal con enfoque fijo de 5,0 MP\n', 'assets/img/producto157-m.png\n', '+assets/img/producto157-1.png\n+assets/img/producto157-2.png\n', 15),
+('PRO00054', 'Tablets', 'Tablet 10 1 2Gb 32Gb Fhd Negra\n', 399, 'Procesador MTK8167A\nSistema operativo ANDROID 10\nTamaño de la pantalla 10.1\"\nMemoria ram 2GB\nDisco duro 32GB\nVelocidad del procesador 1.5 GHz\nVelocidad máxima del procesador -\nNúcleos del procesador 4 núcleos\nPantalla touch Si\nCamara web Integrada\nPuertos externos 01 MICRO USB\nBatería 5000 mah\n', 'assets/img/producto158-m.png\n', '+assets/img/producto158-1.png\n', 15),
+('PRO00055', 'Tablets', 'TABLET HUAWEI T5 10 32GB 3GB\n', 699, 'Marca: huawei\nFormato: TABLET\nProcesador: Kirin 659\nSistema operativo: EMUI 8\nTamano de la pantalla: 10,1 pulgadas\nMemoria ram: 3GB\nDisco duro: 32GB\nVelocidad del procesador: 2.36GHz + 1.7GHz\nNucleos del procesador: Octacore\nPantalla touch: SÍ\nCamara web: 2MP+5MP\nUnidad optica: NO\nBateria: 5100 mAh\nSonido: 2 Speaker\nConectividad: WIFI / Bluetooth\nMedidas del producto: 24.3 cm x 16.4 cm x 0.78 cm\nModelo del producto: T5 10 + FLIP COVER\nTipo de producto: Tablet\nWifi: SÍ\nBluetooth: Sí\nGps: Sí\nMemoria interna: 32 GB\nMemoria expandible: 256 GB\nResolucion de pantalla: IPS 10.1\" 1920x1200\nCamara frontal: 2MP\nCamara posterior: 5MP\nPuerto usb: 1\nAlto: 24.3\nLargo: 16.4\nAncho: 0.78 cm\nColor: Negro\nMemoria rom: 32 GB\n', 'assets/img/producto159-m.png\n', '+assets/img/producto159-1.png\n', 15),
+('PRO00056', 'Tablets', 'Tablet Ipad Apple 8TH Generación\n', 1489, 'Procesador: Chip A12 Bionic con arquitectura de 64 bits | Neural Engine\nTamaño de la pantalla	10 pulgadas\nMemoria RAM	3GB\nMemoria expandible	NO\nMemoria externa incluida	NO\nMemoria interna	32GB\nCámara frontal	1.2MP\nCámara posterior	8MP\nConectividad	WiFi\nConexión Bluetooth	Sí\nEntradas HDMI	No incluye\nEntradas USB	Lightning\nSistema operativo	IOS\nTipo de pantalla	LED\nAlto	25.6cm\nAncho	17.4cm\nProfundidad	0.75cm\nMarca	Apple\nTipo	Tablets\n', 'assets/img/producto160-m.png\n', '+assets/img/producto160-1.png\n', 15),
 ('PRO00057', 'Audifonos', 'Audifonos Gamer Phoinikas H-100 Pro Gaming Ps4 Xbox One Rgb\n', 120, 'Tamaño del altavoz: 50mm\nAudifono con Luces Led RGB\nImpedancia: 32 ± 15% O\nSensibilidad: 95 ± 3Db\nFrecuencia: 20HZ-20KHZ\nMicrófono: 6.0X2.7MM\nSensibilidad de micrófono: -38 ± 3Db\nImpedancia de micrófono: 2.2KO\nDirectividad de micrófonos: toda directividad\nCable trenzado de nailon\nLongitud del cable: 2.1 M. ± 0.15M\nTensión de trabajo LED: DC5V ± 5%\nCorriente de trabajo: =500mA\nCancelación de ruido activa: Sí\nControl de Volumen y Mute de Microfono en Orejera Derecha.\nEl Microfono Se puede ajustar para adaptarse a tu posición\n1 Conector USB para encendido de Luces Led.\n1 Conector para auriculares y micrófono : Jack 3.5mm 4pines\nCompatible. PS4 Pro/slim, Xbox One, Xbox One S/X, Nintendo Switch/3DS.\nIncluye 1 Adaptador Jack 3.5mm 3pines Para PC\n', 'assets/img/producto147-m.png\n', '\n', 10);
 INSERT INTO `producto` (`codigoProd`, `categoriaProd`, `nombreProd`, `precioProd`, `descripcionProd`, `imgMainProd`, `imgSecProd`, `unidadesProd`) VALUES
 ('PRO00058', 'Audifonos', 'Audífonos Gamer RGB Phantom IO ESPORTS multiplataforma PS4 PC\n', 102, 'Audio 2.1 Stereo.\nIncluye adaptador Jack\nCompatible con PC, laptop, PS4, celular \nIluminación RGB.\nCalidad de sonido superior con las bocinas de 50 mm.\nMicrófono flexible.\nAlmohadillas súper suaves y grandes con buen aislamiento del ruido externo.\nSolo se entrega boleta\n', 'assets/img/producto148-m.png\n', '\n', 10),
