@@ -1,2 +1,2 @@
 # SENATI-MARKET
-Proyecto final a cargo de alumnos brillantes de senati.
+Project made with vanilla php and mysql.
