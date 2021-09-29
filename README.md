@@ -1,2 +1,5 @@
 # SENATI-MARKET
-Project made with vanilla php and mysql.
+
+- PHP vanilla
+- MariaDB
+- XAMPP
