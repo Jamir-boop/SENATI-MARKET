@@ -1,6 +1,6 @@
 <!-- LOGO -->
 <div align="center" id="top">
-<img src="https://i.ibb.co/MDrLXtH/demo.gif" alt="demo" border="0">
+<img src="https://i.ibb.co/FBK6DPb/image.png" alt="image" border="0">
   <h1 align="center">SENATI-MARKET ⚡</h1>
   <p align="center">
     Ecommerse website empleando el lenguaje PHP. Y las tecnologías de Apache Server y el motor de base de datos MariaDB | XAMPP.
