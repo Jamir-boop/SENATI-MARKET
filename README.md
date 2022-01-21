@@ -28,7 +28,7 @@
 <hr>
 
 ## Sobre el proyecto
-Este proyecto es el resultado de mi primer contacto agudo e íntimo con el desarrollo web haciendo uso del lenguaje PHP, el asombro y el disfrute de investigar e implementar soluciones al sinfín de problemas que encontramos dentro su desarrollo.
+Este proyecto es el resultado de mi primer contacto agudo e íntimo con el desarrollo web haciendo uso del lenguaje PHP, el asombro y el disfrute de investigar e implementar soluciones al sinfín de problemas que enfrentamos durante su desarrollo.
 
 Como resultado tenemos una tienda <a href="https://en.wikipedia.org/wiki/E-commerce">ecommerce</a> con dos temas, un sistema de roles (usuarios/administradores) y un carrito que hace uso de cookies, con diversos CRUDS para las distintas tablas del la base de datos. Todo esto con el driver <a href="https://www.php.net/manual/en/book.pdo.php">PDO</a> y el motor de bases de datos del paquete de tecnologías <a href="https://www.apachefriends.org/index.html">XAMPP</a> MariaDB.
 <hr>
