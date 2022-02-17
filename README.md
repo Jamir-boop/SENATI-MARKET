@@ -35,7 +35,7 @@ Como resultado tenemos una tienda <a href="https://en.wikipedia.org/wiki/E-comme
 
 ## Ejecutar localmente
 **Se requiere tener instalado [XAMPP](https://www.apachefriends.org/index.html)**
-1. Abrir terminal dentro de la carpeta htdocs que se encuentra en la ubicación donde de la instalación de XAMPP ejempo: `C:\xampp\htdocs`
+1. Abrir terminal dentro de la carpeta htdocs que se encuentra en la ubicación donde se hizo la instalación de XAMPP ejempo: `C:\xampp\htdocs`
 2. Clonar el repositorio e ingresar a la carpeta
 ```
     git clone https://github.com/Jamir-boop/SENATI-MARKET.git
