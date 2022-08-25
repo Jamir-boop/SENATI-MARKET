@@ -47,7 +47,7 @@ Como resultado tenemos una tienda <a href="https://en.wikipedia.org/wiki/E-comme
 5. Crear una nueva base de datos con el nombre `senatimarketdbs`
 6. Dentro de la base de datos `senatimarketdbs` importar la base de datos del archivo [senatimarketdbs.sql](https://github.com/Jamir-boop/SENATI-MARKET/blob/93aa26f59f433cf100e21a40343945c143e28c41/IMPORTAR%20DBS/senatimarketdbs.sql)
 7. En XAMPP iniciar el servidor apache.
-8. Ingresar a https://localhost:80
+8. Ingresar a https://localhost
 <p align="right">(<a href="#top">ir al inicio</a>)</p>
 <hr>
 
